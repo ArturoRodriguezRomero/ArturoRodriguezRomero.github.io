@@ -1,257 +1,152 @@
 <!DOCTYPE html>
-<html>	
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
 	<head>
-		<title>Practica Segunda Evaluación</title>
-		<meta charset="UTF-8"/>
-		
-		<link rel="stylesheet" type="text/css" href="estilos.css">
-		<style>
-			/*________________________________________________*/
-			.menu ul{
-				padding-left:475px;
-				margin: 0 auto;
-			}
-			.menu li{
-				float:left;
-				text-decoration:none;
-				list-style:none;
-				background-color:#AEB6BF;
-				margin-right:10px;
-				padding:10px;
-				border-radius: 30px;
-				
-				transition: all .5s linear 0;
-			}
-			.menu li a{
-				color:white;
-			}
-			.menu li:hover{
-				background-color:#566573;
-			}
-		</style>
-		<link rel="icon" href="recursos/acuarela2.jpg">
+		<meta charset="utf-8">
+		<title>CV - Arturo Rodríguez</title>
+		<meta name="description" content="Una páginilla" />
+		<meta name="author" content="Arturo Rodríguez Romero" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!-- CSS -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Muli:300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/skeleton.css" />
+		<link rel="stylesheet" href="css/layout.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="shortcut icon" href="images/icon.png">
 	</head>
 	<body>
-		<div class="contenedor">
-			<header class ="cabecera">
-				<img src="recursos/cabecera.png"/>
-			</header>
-			<nav class="menu">
-				<div class="texto">
-					<ul>
-						<li>
-							<a href="#">TIENDA</a>
-						</li>
-						<li>
-							<a href="#">INICIO</a>
-						</li>
-						<li>
-							<a href="#">PERFIL</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-			<div class="izquierda">
-				<div class="noticias">
-					<div class="texto" >
-						<p class="centrar">NOTICIAS</p>
-						<p>
-							<a href="#">Se descubre una forma de que CSS no se vuelva loco</a>
-						</p>
-						<p>
-							<a href="#">Una oveja que habla, pero que solo sabe decir "homoplato"</a>
-						</p>
-						<p>
-							<a href="#">Páginas web empiezan a abusar de la propiedad :hover</a>
-						</p>
-						<p>
-							<a href="#">Se confirma que la noticia sobre CSS era una bula</a>
-						</p>
-					</div>
-				</div>
-				<div class="publicidad">
-					<div class="texto" >
-						<p class="centrar">PUBLICIDAD</p>
-						<p>
-							<a href="#">Compro oro</a>
-						</p>
-						<p>
-							<a href="#">Los mejores productos, en castañasasadas.com</a>
-						</p>
-						<p>
-							<a href="#">Doy clases de java, ojo que son caras</a>
-						</p>
-						<p>
-							<a href="#">Compra tus entradas para Titanic 2, la venganza, en Ticketmaster.com</a>
-						</p>
-						<p>
-							<a href="#">Vendo oro</a>
-						</p>
-					</div>
-				</div>
+	<div class="container"> <!-- Bloque principal de la pagina -->
+		<div class="row"> <!--  Cabecera -->
+			<div class="two-thirds column myname">
+				<h1 class="remove-bottom">Arturo Rodríguez Romero</h1>
+				<div class="subheader"><span class="nowrap">Junior programmer & designer</span></div>
 			</div>
-			<div class="contenido">
-				<div class="centro">
-					<div class="texto" >
-						<article class="articulo">
-							<h1>Pintar con acuarelas</h1>
-							<img src="recursos/acuarela1.jpg"></img>
-							<p class="indent">
-								La acuarela (palabra que proviene del italiano acquarella) es una pintura sobre papel
-								o cartulina con colores diluidos en agua. También es el nombre de la técnica empleada
-								en este tipo de pintura, y de los colores con los que se realiza.
-							</p>
-							<p>
-								Los colores utilizados son transparentes (según la cantidad de agua en la mezcla) y a
-								veces dejan ver el fondo del papel (blanco), que actúa como otro verdadero tono. 
-								Se compone de pigmentos aglutinados con goma arábiga o miel. En sus procedimientos se 
-								emplea la pintura por capas transparentes, a fin de lograr mayor brillo y soltura en la 
-								composición que se está realizando. En Japón, la acuarela ejecutada con tinta es denominada
-								Sumi. En la pintura china, coreana y japonesa ha sido un medio pictórico dominante,
-								realizado frecuentemente en tonalidades monocromáticas negras, sepia...
-							</p>
-							<p><a href="#">Seguir leyendo...</a></p>
-						</article>
-						
-						<article class="articulo">
-							<h1>Pintar con cubos</h1>
-							<img src="recursos/cubo1.jpg"></img>
-							<p  class="indent">
-								El cubismo fue un movimiento artístico desarrollado entre 1907 y 1914, nacido en Francia y encabezado 
-								por Pablo Picasso, Georges Braque, Jean Metzinger, Albert Gleizes, Robert Delaunay y Juan Gris.
-								Es una tendencia esencial, pues da pie al resto de las vanguardias europeas del siglo XX. 
-								No se trata de un ismo más, sino de la ruptura definitiva con la pintura tradicional.
-							</p>
-							<p>
-								El término cubismo fue acuñado por el crítico francés Louis Vauxcelles, el mismo que había bautizado 
-								a los fauvistas motejándolos de fauves (fieras); en el caso de Braque y sus pinturas de L'Estaque, 
-								Vauxcelles dijo, despectivamente, que era una pintura compuesta por «pequeños cubos». Se originó así 
-								el concepto de «cubismo». El cubismo literario es otra rama que se expresa con poesías cuya estructura 
-								forma figuras o imágenes que ejemplifican el tema, la rima es opcional y ni tienen una métrica específica
-								ni se organizan en versos.
-							</p>
-							<p><a href="#">Seguir leyendo...</a></p>
-						</article>
-						<article class="articulo">
-							<h1>Encuesta</h1>
-							<p>Elige la obra que te guste más, ¿Eres un cubo o una acuarela?</p>
-							<div class="encuesta1">
-								<a href="#"><img src="recursos/acua1.jpg"></img></a>
-								<a href="#"><img src="recursos/cub1.jpg"></img></a>
-							</div>
-							<div class="encuesta1">
-								<a href="#"><img src="recursos/cub2.jpg"></img></a>
-								<a href="#"><img src="recursos/acua2.jpg"></img></a>
-							</div>
-							<div class="encuesta1">
-								<a href="#"><img src="recursos/acua3.jpg"></img></a>
-								<a href="#"><img src="recursos/cub3.jpg"></img></a>
-							</div>
-						</article>
-						<article class="articulo">
-							<h1>Clasificaciones y obras</h1>
-							<p  class="indent">
-								El arte es entendido generalmente como cualquier actividad o 
-								producto realizado por el ser humano con una finalidad estética 
-								y también comunicativa, mediante la cual se expresan ideas, emociones 
-								o, en general, una visión del mundo, a través de diversos recursos, 
-								como los plásticos, lingüísticos, sonoros, corporales y mixtos.
-							</p>
-							
-							<table>
-								<tr>
-									<td>
-										Acuarelistas
-									</td>
-									<td>
-										Obra
-									</td>
-									<td>
-										Cubistas
-									</td>
-									<td>
-										Obra
-									</td>
-								</tr>
-								<tr>
-									<td>
-										JOHN BLOCKLEY
-									</td>
-									<td>
-										La Granja
-									</td>
-									<td>
-										PABLO RUÍZ PICASSO
-									</td>
-									<td>
-										Las señoritas de Avignon 
-									</td>
-								</tr>
-								<tr>
-									<td>
-										PHILIP JAMISON
-									</td>
-									<td>
-										Niebla sobre la isla de Lanes
-									</td>
-									<td>
-										JUAN GRIS
-									</td>
-									<td>
-										The Sunblind 
-									</td>
-								</tr>
-								<tr>
-									<td>
-										RICHARD BOLTON
-									</td>
-									<td>
-										Puerta oxidada
-									</td>
-									<td>
-										GEORGES BRAQUE
-									</td>
-									<td>
-										Man with a guitar 
-									</td>
-								</tr>
-								<tr>
-									<td>
-										DAVID MILLARD
-									</td>
-									<td>
-										Flores
-									</td>
-									<td>
-										FRENAND LEGER
-									</td>
-									<td>
-										Desnudos en el bosque
-									</td>
-								</tr>
-							</table>
-							<p>
-								El arte es un componente de la cultura, reflejando en su concepción 
-								los sustratos económicos y sociales, y la transmisión de ideas y valores,
-								inherentes a cualquier cultura humana a lo largo del espacio y el tiempo. 
-								Se suele considerar que con la aparición del Homo sapiens el arte tuvo en
-								principio una función ritual, mágica o religiosa ,
-								pero esa función cambió con la evolución del ser humano, adquiriendo 
-								un componente estético y una función social, pedagógica, mercantil o simplemente ornamental.
-							</p>
-						</article>
-					</div>
-				</div>
-				<div class="derecha">
-					<img src="recursos/derecha.png"></img>
-				</div>
+			<div class="one-third column infos">
+				<!--p>&nbsp;</p-->
+				<p>&nbsp;</p>
+				<p><a href="mailto:myemaildecontacto@emal.com">myemaildecontacto@emal.com</a></p>
+				<span class="nowrap">⇢ </span><a href="http://arturorodriguezromero.github.io/"><span class="scheme">http://</span>arturorodriguezromero.github.io/</a>
+				<span class="noprint">
+				| <span class="nowrap"><a class="pdf" href="download/cv_ar.pdf">PDF Version</a></span>
+				</span>
 			</div>
-			
-			<footer class="pie">
-				<div class="texto">
-					<p class="centrar">www.blogCSS.com Todos los derechos reservados</p>
-				</div>
-			</footer>
 		</div>
+		<hr>
+
+		<div class="row" style="page-break-before: always"> <!--HABILIDADES-->
+			<div class="one-third column">
+				<h2>Habilidades <a id="skills" href="#skills">¶</a></h2>
+			</div>
+			<div class="two-thirds column" section="skills">
+				<h3>Lenguajes de programación</h3>
+				<p class="taglist2">
+					<span class="tag">JAVA</span>-
+					<span class="tag">Tecnologías .NET</span>-
+					<span class="tag">Android</span>
+				</p>
+				<div class="endtag"></div>
+				<h3>Web y servidores</h3>
+				<p class="taglist2">
+					<span class="tag">HTML5</span>-
+					<span class="tag">Javascript</span>-
+					<span class="tag">CSS3</span>-
+					<span class="tag">MySQL</span>-
+					<span class="tag">SQLite</span>
+					<span class="tag">SQL y PLSQL</span>
+				</p>
+				<div class="endtag"></div>
+				<h3>Otros</h3>
+				<p class="taglist2">
+					<span class="tag">XML</span>-
+					<span class="tag">Software Ideas Modeler</span>
+					<span class="tag">White Star UML</span>
+				</p>
+				<div class="endtag"></div>
+				<p class="taglist2">
+					<span class="tag">Visual Studio</span>-
+					<span class="tag">NetBeans</span>-
+					<span class="tag">Notepad++</span>-
+					<span class="tag">Consola de Unix</span>-
+					<span class="tag">Arduino</span>
+				</p>
+				<div class="endtag"></div>
+				<p class="taglist2">
+					<span class="tag">Unity 5</span>-
+					<span class="tag">Unreal Engine 4</span>
+				</p>
+				<div class="endtag"></div>
+
+			</div>
+		</div>
+		<hr>
+		
+		<div class="row"><!--ESTUDIOS-->
+			<div class="one-third column">
+				<h2>Estudios <a id="education" href="#education">¶</a></h2>
+			</div>
+			<div class="two-thirds column">
+				<h3><span class="date"><span>2017 </span></span> Título de Grado Superior</h3>
+				<p>
+					Título de Grado Superior en Desarrollo de Aplicaciones Multiplataforma
+					<br/>
+					Centro de Formación Profesional Juan XXIII. Alcorcón, Madrid.
+				</p>
+				<p>
+					Web de CFP Juan XXIII : <a href="http://www.juanxxiii.net/" target="_blank">http://www.juanxxiii.net/</a>
+				</p>
+				<h3><span class="date"><span>2015 </span></span> Título de Bachillerato</h3>
+				<p>
+					Título de Bachillerato en Ciencias Sociales y Humanidades
+					<br/>
+					Colegio Nuestra Señora de la Providencia. Pinto, Madrid
+				</p>
+				<p>
+					Web de Colegio Nstra Sra de la Providencia : <a href="http://cc.nsdelaprovidencia.pinto.educa.madrid.org/" target="_blank">http://cc.nsdelaprovidencia.pinto.educa.madrid.org/</a>
+				</p>
+				<hr>
+				<h3>Idiomas</h3>
+				<p>
+					<span class="square"></span> Español nivel nativo
+					<br>
+					<span class="square"></span> Inglés nivel alto
+				</p>
+			</div>
+		</div>
+		<hr>
+		
+		<div class="summary">
+			<p>
+				Arturo
+				<br/>
+				Rodriguez
+				<br/>
+				Romero
+			</p>
+			<div class="toc">
+				<a href="#skills">Habilidades</a>
+				<a href="#education">Estudios</a>
+				<hr>
+				<a href="#">Sobre mí</a>
+			</div>			
+		</div>
+
+		<div class="container footer noprint">
+			<div class="row">
+				<div class="one-third column">
+				&nbsp;
+				</div>
+				<div class="two-thirds column">
+				Última actualización: 22 Mayo 2016
+				</div>
+			</div>
+		</div>
+	</div>
 	</body>
 </html>
