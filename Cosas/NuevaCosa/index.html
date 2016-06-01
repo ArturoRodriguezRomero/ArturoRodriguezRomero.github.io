@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="author" content="Arturo Rodriguez Romero"/>
+		<meta name="description" content="http://arturorodriguezromero.github.io/"/>
+		<title>NuevaCosa</title>
+		<style>
+		</style>
+		<script type="text/javascript">
+		
+		var fondoMar;
+		var fondoCielo;
+		var fondoIsla;
+		var fondoNube;
+		
+		var posNube;
+		var posIsla;
+		
+		var velIsla;
+		
+		var posMar;
+		var direccionMar;
+		
+		var destino;
+		var ctx;
+		
+		var musica;
+		
+		function inicializar(){
+			destino = document.getElementById("elcanvas");
+			ctx = destino.getContext("2d");
+			fondoMar = new Image();
+			fondoCielo = new Image();
+			fondoIsla = new Image();
+			fondoNube = new Image();
+			
+			musica = new Audio("./Recursos/Antiflux OST   Complete Soundtrack.mp3");
+			
+			fondoMar.src = "./Recursos/sea.png"
+			fondoCielo.src = "./Recursos/sky.png"
+			fondoNube.src = "./Recursos/clouds.png"
+			fondoIsla.src = "./Recursos/far-grounds.png"
+			
+			musica.play();
+			
+			velIsla = 200;
+			posNube = 20;
+			posIsla = 400;
+			posMar = 300;
+			
+			setInterval(function(){
+				inicio();
+			},200);
+			
+			setInterval(function(){
+				posNube++;
+			},400);
+			
+			setInterval(function(){
+				/*if(posIsla>280){
+					velIsla += 1000;
+				}*/
+				if(posIsla>240){
+					posIsla--;
+				}
+			},velIsla);
+			
+			setInterval(function(){
+				if(posMar>=300){
+					direccionMar = -1;
+				} else if(posMar<=290){
+					direccionMar = 1;
+				}
+				posMar = posMar + direccionMar;
+			},500);
+			
+		}
+		
+		function inicio(){
+			ctx.clearRect(0, 0, destino.width, destino.height);
+			for(var i = 0; i<1000; i = i + 112){
+				ctx.drawImage(fondoCielo, i, 0);
+			}
+			ctx.drawImage(fondoNube, posNube - 800, 150);
+			ctx.drawImage(fondoNube, posNube - 600, 150);
+			ctx.drawImage(fondoNube, posNube - 400, 150);
+			ctx.drawImage(fondoNube, posNube - 200, 150);
+			ctx.drawImage(fondoNube, posNube + 200, 150);
+			ctx.drawImage(fondoIsla, 100, posIsla);
+			for(var i = 0; i<1000; i = i + 112){
+				ctx.drawImage(fondoMar, i, posMar);
+			}
+		}
+		</script>
+	</head>
+	<body onload="inicializar();">
+		<canvas id="elcanvas" width="750px" height="380px">
+			
+		</canvas>
+	</body>
+</html>
