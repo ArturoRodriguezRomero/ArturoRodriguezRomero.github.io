@@ -26,6 +26,8 @@
 		var ctx;
 		
 		var musica;
+		var olas;
+		var terremoto;
 		
 		function inicializar(){
 			destino = document.getElementById("elcanvas");
@@ -36,44 +38,58 @@
 			fondoNube = new Image();
 			
 			musica = new Audio("./Recursos/Antiflux OST   Complete Soundtrack.mp3");
+			olas = new Audio("./Recursos/Sea Waves-SoundBible.com-946156036.wav");
+			terremoto = new Audio("./Recursos/Earthquake-SoundBible.com-768042906.wav");
 			
 			fondoMar.src = "./Recursos/sea.png"
 			fondoCielo.src = "./Recursos/sky.png"
 			fondoNube.src = "./Recursos/clouds.png"
 			fondoIsla.src = "./Recursos/far-grounds.png"
 			
-			musica.play();
+			musica.volume = 0.5;
+			olas.volume = 0.5;
+			terremoto.volume = 0.8;
 			
-			velIsla = 200;
+			musica.play();
+			olas.addEventListener('ended', function() {
+				this.currentTime = 0;
+				this.play();
+			}, false);
+			olas.play();
+			
+			velIsla = 230;
 			posNube = 20;
 			posIsla = 400;
 			posMar = 300;
 			
 			setInterval(function(){
 				inicio();
-			},200);
+			},15);
 			
 			setInterval(function(){
 				posNube++;
-			},400);
+			},100);
 			
 			setInterval(function(){
 				/*if(posIsla>280){
 					velIsla += 1000;
 				}*/
+				if(posIsla<320 && posIsla>240){
+					terremoto.play();
+				}
 				if(posIsla>240){
 					posIsla--;
 				}
 			},velIsla);
 			
 			setInterval(function(){
-				if(posMar>=300){
+				if(posMar>=310){
 					direccionMar = -1;
-				} else if(posMar<=290){
+				} else if(posMar<=300){
 					direccionMar = 1;
 				}
 				posMar = posMar + direccionMar;
-			},500);
+			},200);
 			
 		}
 		
@@ -101,7 +117,9 @@
 			Assets from <a href="https://ansimuz.itch.io/magic-cliffs-environment">https://ansimuz.itch.io/magic-cliffs-environment</a>
 		</p>
 		<p>
-			Music from <a href="https://uaa-software.itch.io/antiflux-ost-soundtrack">https://uaa-software.itch.io/antiflux-ost-soundtrack</a>
+			Sound from:<br/>
+			<a href="https://uaa-software.itch.io/antiflux-ost-soundtrack">https://uaa-software.itch.io/antiflux-ost-soundtrack</a><br/>
+			<a href="http://soundbible.com/885-Sea-Waves.html#Sea Waves Sound">http://soundbible.com/885-Sea-Waves.html#Sea Waves Sound</a>
 		</p>
 	</body>
 </html>
