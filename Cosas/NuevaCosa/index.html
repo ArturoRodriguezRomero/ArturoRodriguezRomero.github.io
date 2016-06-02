@@ -17,9 +17,11 @@
 		var posNube;
 		var posIsla;
 		
+		
 		var velIsla;
 		
 		var posMar;
+		var posMar2;
 		var direccionMar;
 		
 		var destino;
@@ -61,6 +63,7 @@
 			posNube = 20;
 			posIsla = 400;
 			posMar = 300;
+			posMar2 = -800;	
 			
 			setInterval(function(){
 				inicio();
@@ -68,6 +71,10 @@
 			
 			setInterval(function(){
 				posNube++;
+			},100);
+			
+			setInterval(function(){
+				posMar2++;
 			},100);
 			
 			setInterval(function(){
@@ -83,13 +90,13 @@
 			},velIsla);
 			
 			setInterval(function(){
-				if(posMar>=310){
+				if(posMar>=305){
 					direccionMar = -1;
 				} else if(posMar<=300){
 					direccionMar = 1;
 				}
 				posMar = posMar + direccionMar;
-			},200);
+			},250);
 			
 		}
 		
@@ -104,8 +111,8 @@
 			ctx.drawImage(fondoNube, posNube - 200, 150);
 			ctx.drawImage(fondoNube, posNube + 200, 150);
 			ctx.drawImage(fondoIsla, 100, posIsla);
-			for(var i = 0; i<1000; i = i + 112){
-				ctx.drawImage(fondoMar, i, posMar);
+			for(var i = 0; i<5000; i = i + 112){
+				ctx.drawImage(fondoMar, i + posMar2, posMar);
 			}
 		}
 		</script>
