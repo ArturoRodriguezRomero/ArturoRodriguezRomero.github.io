@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="author" content="Arturo Rodriguez Romero"/>
+		<meta name="description" content="http://arturorodriguezromero.github.io/"/>
+		<title>jsgame?</title>
+		<style>
+		</style>
+		<script type="text/javascript">
+
+		function objeto (_posX, _posY, _color, _width, _height) {
+			this.posX = _posX;
+			this.posY = _posY;
+			this.color = _color;
+			this.width = _width;
+			this.height = _height;
+		}
+		
+		var myObjeto;
+		
+		function inicio(){
+			destino = document.getElementById("elcanvas");
+			ctx = destino.getContext("2d");
+			
+			myObjeto = new objeto(0, 0, "red", 200, 500);
+			
+			ctx.fillStyle = myObjeto.color;
+			
+			setInterval(function(){
+				gameloop();
+			},15);
+		}
+		
+		function gameloop(){
+			ctx.clearRect(0, 0, destino.width, destino.height);//limpia el canvas
+			ctx.fillRect(myObjeto.posX, myObjeto.posY , myObjeto.width, myObjeto.height);
+		}
+		
+		
+		function mouse_position()
+		{
+			var e = window.event;
+
+			var posX = e.clientX;
+			var posY = e.clientY;
+
+			document.Form1.posx.value = posX;
+			document.Form1.posy.value = posY;
+
+			var t = setTimeout(mouse_position,100);
+
+		}
+		window.onkeydown = function(e) {
+		   var key = e.keyCode ? e.keyCode : e.which;
+
+			if (key == 39) {
+				myObjeto.posX+=10;
+			}
+			if (key == 37) {
+				myObjeto.posX-=10;
+			}
+			if(key == 38){
+				myObjeto.posY-=10;
+			}
+			if (key == 40){
+				myObjeto.posY+=10;
+			}
+		}
+
+		</script>
+	</head>
+	<body onload="inicio();">
+		<canvas id="elcanvas" width="1000px" height="1000px"></canvas>
+	</body>
+</html>
