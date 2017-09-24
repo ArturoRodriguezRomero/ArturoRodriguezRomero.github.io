@@ -10,7 +10,7 @@ body{
 }
 
 .main{
-    
+    min-width: 500px;
 }
 
 .wrapper{
@@ -21,8 +21,17 @@ body{
     flex-direction: column;
 }
 
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
 .row{
     flex-direction: row;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 .header{
@@ -41,6 +50,7 @@ body{
 .top-bg-picture{
     background-image: url('https://image.ibb.co/icbLMF/ep_naturalblack.png');
     background-attachment: fixed;
+    margin-bottom: var(--big-margin);
 }
 
 .name-card{
@@ -63,6 +73,45 @@ body{
     border-radius: 1px;
 }
 
-.secondary-font{
-    font-family: var(--secondary-font);
+.me{
+    justify-content: center;
+    align-items: stretch;
+    margin-left: var(--margin);
+    margin-right: var(--margin);
+    flex-wrap: wrap;
+    margin-top: var(--margin);
+}
+
+.me-pic{
+    background-image: url('https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    transition: .2s ease-in-out;
+    filter: hue-rotate(90deg);
+}
+
+.me-pic:hover{
+    transform: scale(1.1) rotate(360deg);
+    filter: hue-rotate(0deg);
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,.5));
+}
+
+.me-description{
+    height: 250px;
+    width: 700px;
+    font-size: var(--large-font-size);
+    line-height: var(--huge-line-height);
+    min-width: 200px;
+    margin: var(--small-margin);
+    text-align: justify;
+}
+
+.me-believe{
+    font-size: var(--large-font-size);
+    line-height: var(--huge-line-height);
+    min-width: 200px;
 }

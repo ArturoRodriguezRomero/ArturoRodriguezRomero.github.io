@@ -7,6 +7,8 @@
 
    --main-font-size: 16px;
    --main-line-height: 32px;
+   
+   --large-font-size: 2em;
 
    --big-font-size: 4em;
    --big-line-height: 1em;
@@ -19,4 +21,8 @@ html{
     font-family: var(--main-font);
     font-size: var(--main-font-size);
     line-height: var(--main-line-height);
+}
+
+.secondary-font{
+    font-family: var(--secondary-font);
 }

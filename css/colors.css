@@ -27,3 +27,23 @@
     color:#922B21;
     font-family: var(--secondary-font);
 }
+
+.red{
+    color: #EC7063;
+}
+
+.purple{
+    color: #A569BD;
+}
+
+.blue{
+    color: #85C1E9;
+}
+
+.green{
+    color: #73C6B6;
+}
+
+.yellow{
+    color: #F8C471;
+}
