@@ -1,0 +1,40 @@
+.text-flip{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    overflow: hidden;
+}
+
+.text-flip > span{
+    padding: 5px 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.text-flip > span > span {
+    height: 100px;
+}
+
+.text-flip > span:first-child {
+    animation: flip 12s linear infinite;
+}
+
+@keyframes flip { /*12s; 2s stay = 16.6%; .4s move = 3.3%*/
+    0% {margin-top: -500px;}
+
+    3.3% {margin-top: -400px;}
+    20% {margin-top: -400px;}
+
+    23.3% {margin-top: -300px;}
+    40% {margin-top: -300px;}
+
+    43.3% {margin-top: -200px;}
+    60% {margin-top: -200px;}
+
+    63.3% {margin-top: -100px;}
+    80% {margin-top: -100px;}
+
+    83.3% {margin-top: 0px;}
+    100% {margin-top: 0px;}
+}
+

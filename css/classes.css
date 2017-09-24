@@ -55,8 +55,12 @@ body{
 .name{
     font-size: var(--huge-font-size);
     line-height: var(--big-line-height);
-    margin-bottom: var(--small-margin);
+    margin-bottom: var(--smaller-margin);
     text-align: center;
+}
+
+.text-flip-item {
+    border-radius: 1px;
 }
 
 .secondary-font{
