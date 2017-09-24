@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+    height: 200em;
+}
+
+.main{
+    
+}
+
+.wrapper{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.header{
+    justify-content: space-between;
+    margin: var(--margin);
+}
+
+.start-button{
+    justify-content: flex-start;
+}
+
+.nav-buttons{
+    justify-content: flex-end;
+}
+
+.top-bg-picture{
+    background-image: url('https://image.ibb.co/icbLMF/ep_naturalblack.png');
+    background-attachment: fixed;
+}
+
+.name-card{
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--huge-margin);
+    margin-bottom: var(--huge-margin);
+    font-size: var(--big-font-size);
+    line-height: var(--big-line-height);
+}
+
+.name{
+    font-size: var(--huge-font-size);
+    line-height: var(--big-line-height);
+    margin-bottom: var(--small-margin);
+    text-align: center;
+}
+
+.secondary-font{
+    font-family: var(--secondary-font);
+}

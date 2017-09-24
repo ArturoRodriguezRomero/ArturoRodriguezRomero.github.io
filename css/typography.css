@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+:root{
+   --main-font: 'Roboto', sans-serif;
+   --secondary-font: 'Gloria Hallelujah', cursive;
+
+   --main-font-size: 16px;
+   --main-line-height: 32px;
+
+   --big-font-size: 4em;
+   --big-line-height: 1em;
+
+   --huge-font-size: 1.5em;
+   --huge-line-height: 2em;
+}
+
+html{
+    font-family: var(--main-font);
+    font-size: var(--main-font-size);
+    line-height: var(--main-line-height);
+}
