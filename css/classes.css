@@ -50,7 +50,6 @@ body{
 .top-bg-picture{
     background-image: url('../img/naturalblack.png');
     background-attachment: fixed;
-    margin-bottom: var(--big-margin);
 }
 
 .name-card{
@@ -123,13 +122,20 @@ body{
     background: linear-gradient(141deg, #48ded4 0%, #a026bf 51%, #e82c75 75%);
 }
 
+.colorful-background-separator-inverted{
+    width:100%;
+    height: 10px;
+    background: linear-gradient(282deg, #48ded4 0%, #a026bf 51%, #e82c75 75%);
+}
+
 .section-margin-separator{
     width:100%;
     margin-top: 150px;
 }
 
 .abilities{
-    background: linear-gradient(to top, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to top, #E5E5BE, #003973);
+    background-attachment: fixed;
     justify-content: flex-start;
     padding: var(--margin);
 }
@@ -174,5 +180,67 @@ body{
 }
 
 .proyects{
-    height: 1000px;
+    justify-content: flex-start;
+    height: 20000px;
+}
+
+.proyects-title{
+    margin: 100px;
+    padding: 10px;
+    position: relative;
+}
+
+.proyects-title::after{
+    content: '';
+    position: absolute;
+    height: 200px;
+    width: 800px;
+
+    background-color: #fbe6d3;
+    transform: rotate(2deg);
+    z-index: 0;
+    border-radius: 2px;
+    box-shadow: 0 10px 6px -6px rgba(0, 0, 0, .4);
+}
+
+.proyects-items-container{
+    width: 900px;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.proyects-item{
+    width: 400px;
+    height: 400px;
+    background-color: #f3576c;
+    margin: 10px;
+    border-radius: 2px;
+    box-shadow: 0 10px 6px -6px rgba(0, 0, 0, .4);
+}
+
+.proyects-item-image{
+
+}
+
+.proyects-item-description{
+
+}
+
+.proyects-item-type{
+
+}
+
+.proyects-view-all-button{
+    padding: 10px 50px;
+    background-color: #f3576c;
+    color: #fbe6d3;
+    font-size: var(--large-font-size);
+    transition: .1s ease;
+    box-shadow: 0 10px 6px -6px rgba(0, 0, 0, .4);
+}
+
+.proyects-view-all-button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 20px 6px -6px rgba(0, 0, 0, .4);
 }

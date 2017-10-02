@@ -1,0 +1,23 @@
+.title-text {
+    color: #fbe6d3;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: -1px -1px 0 #3e2e6a, 1px -1px 0 #3e2e6a, -1px 1px 0 #3e2e6a, 1px 1px 0 #3e2e6a;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5em;
+    line-height: 1em;
+    z-index: 4;
+    
+}
+.title-text::after {
+    content: attr(data-heading);
+    position: absolute;
+    left: 0px;
+    z-index: 4;
+    color: #f3576c;
+    transform: translate(0.2vw, 0.15vh);
+    mix-blend-mode: darken;
+    text-align: center;
+    width: 100%;
+    text-shadow: 1px 0px 0px #3e2e6a, 0px 1px 0px #130b52, 2px 1px 0px #3e2e6a, 1px 2px 0px #130b52, 3px 2px 0px #3e2e6a, 2px 3px 0px #130b52, 4px 3px 0px #3e2e6a, 3px 4px 0px #130b52, 5px 4px 0px #3e2e6a, 4px 5px 0px #130b52, 6px 5px 0px #3e2e6a, 5px 6px 0px #130b52, 7px 6px 0px #3e2e6a;
+}
