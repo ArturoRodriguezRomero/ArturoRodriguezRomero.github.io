@@ -286,3 +286,25 @@ body{
     cursor: pointer;
     box-shadow: 0 20px 6px -6px rgba(0, 0, 0, .4);
 }
+
+.contact-me-floating{
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    width: 200px;
+    height: 75px;
+    margin: 50px;
+    border-radius: 1px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    z-index: 10;
+    box-shadow: 0 10px 6px -6px rgba(0, 0, 0, .4);
+    transition: .1s ease;
+}
+
+.contact-me-floating:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 20px 6px -6px rgba(0, 0, 0, .4);
+}
