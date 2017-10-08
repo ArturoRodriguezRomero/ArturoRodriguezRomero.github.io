@@ -14,6 +14,10 @@
     top: 0;
     left: 0;
   }
+
+  .spot:hover{
+    cursor: pointer;
+  }
   /*
       This is the outer svg wrapper that the SVG itself will 
       fill. Multiple svg-wrapper classes can be put side by side.
