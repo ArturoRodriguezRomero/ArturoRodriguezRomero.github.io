@@ -1,0 +1,38 @@
+# Site settings
+email: 
+baseurl: ""
+paginate: 5
+paginate_path: "/blog/page-:num"
+google_analytics: 
+
+# SEO settings
+title: Arturo Rodríguez Romero
+description: Technology Internet Blog
+url: "https://github.com/ArturoRodriguezRomero"
+twitter_username: 
+default_img: 
+
+# Profile settings
+name: Arturo Rodríguez Romero
+profile_img: /assets/images/kevin.png
+profile: I'm a 20 year old Internet dude fascinated by a lot of things. Sometimes I like to write about things. I hope you like it. Attached image is accurate.
+social:
+  github: https://github.com/ArturoRodriguezRomero
+
+# Syntax Highlighting
+# highlighter: rouge
+syntax-highlighting:
+  enabled : true
+  css: native.css
+
+# Build settings
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Sass
+sass:
+  style: compressed
+
+# Gems
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
