@@ -3,10 +3,10 @@
   <channel>
     <title>Arturo Rodríguez Romero</title>
     <description>Technology Internet Blog</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Apr 2018 13:31:05 +0200</pubDate>
-    <lastBuildDate>Sun, 22 Apr 2018 13:31:05 +0200</lastBuildDate>
+    <link>https://github.com/ArturoRodriguezRomero/</link>
+    <atom:link href="https://github.com/ArturoRodriguezRomero/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 23 Apr 2018 20:11:35 +0200</pubDate>
+    <lastBuildDate>Mon, 23 Apr 2018 20:11:35 +0200</lastBuildDate>
     <generator>Jekyll v3.8.0</generator>
     
       <item>
@@ -23,35 +23,108 @@
 
 &lt;h3 id=&quot;why-people-get-bored&quot;&gt;Why People get Bored?&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;“I already know it!!”&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;That’s how some gifted children feel in their traditional schools, or how a senior university student feel the last months of class before graduation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;“There’s nothing new you can teach me!!”&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;And they are right.&lt;/p&gt;
-
-&lt;p&gt;Let’s take at look a classic children games:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A game like &lt;em&gt;Catch&lt;/em&gt; teaches us &lt;strong&gt;Physical Coordination&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;A game like &lt;em&gt;Rock, Paper, Scissors&lt;/em&gt; teaches us &lt;strong&gt;Chance&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;A game like &lt;em&gt;Chess&lt;/em&gt; teaches us &lt;strong&gt;Strategy&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;A game like &lt;em&gt;Tic, Tac, Toe&lt;/em&gt; teaches us &lt;strong&gt;Pattern Recognition&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is obvious for adults. But when you are a kid, these games are helping youe brain develop all sorts of skills without you even knowing.&lt;/p&gt;
-
-&lt;p&gt;The last game &lt;em&gt;Tic, Tac, Toe&lt;/em&gt; has a very interesting characteristic. It’s considered a &lt;a href=&quot;https://en.wikipedia.org/wiki/Futile_game&quot;&gt;&lt;strong&gt;futile game&lt;/strong&gt;&lt;/a&gt;. This means that if both players take the most optimal move, the game will always end in a tie.&lt;/p&gt;
+&lt;p&gt;Boredom is defined as a psychological state experienced when a person doesn’t have anything to do, is not interested in things in their surrounding or feels that time is dull or tedious.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img class=&quot;full-width&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/d/db/Tic-tac-toe-game-2.png&quot; alt=&quot;A futile game of Tic, Tac, Toe&quot; /&gt;
-  &lt;figcaption&gt;A futile game of Tic, Tac, Toe&lt;/figcaption&gt;
+  &lt;img src=&quot;http://wp.production.patheos.com/blogs/betweentheshadows/files/2014/11/boring.jpg&quot; alt=&quot;A cheap stock photo of a bored kid.&quot; /&gt;
+  &lt;figcaption&gt;A cheap stock photo of a bored kid.&lt;/figcaption&gt;
 &lt;/figure&gt;
+
+&lt;p&gt;This can also happen in games, but how can something so ludic, &lt;em&gt;something designed to make you not be bored&lt;/em&gt;, be boring?&lt;/p&gt;
+
+&lt;p&gt;Boredom is a &lt;strong&gt;conflict between the game and the player&lt;/strong&gt;, thus it varies between individuals and games. This conflict can result in the player having a number of feelings like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;“The game is TOO EASY.”&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This occurs when the &lt;strong&gt;player’s skill is above the game’s challenge&lt;/strong&gt;.
+This is why &lt;em&gt;children games&lt;/em&gt; (a poor term in my opinion) rarely appeal to adults. They surpass the skills needed to beat the game. They don’t have anything new to learn. On the contrary, children haven’t developed the needed skills, they will have a great time playing.&lt;/p&gt;
+
+&lt;p&gt;This is &lt;strong&gt;not necessarily bad&lt;/strong&gt;, but you should make sure your players are still learning something valuable. It could be with a great story, great art style…&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;“The game is TOO IN-DEPTH.”&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This happens then the &lt;strong&gt;game’s systems are either too large or too obscure to understand&lt;/strong&gt; in a reasonable period of time.&lt;/p&gt;
+
+&lt;p&gt;This isn’t the game’s fault. A large amount of in-depth systems provide the player with tons of stuff to learn. The problem comes from the player. Our brains love to learn, but at a reasonable pace.
+You wouldn’t give someone who doesn’t know anything about math a calculus book. You should start from the base up. First you teach them to add and substract, then multiply and divide, then fractions and algebra, and so on.&lt;/p&gt;
+
+&lt;p&gt;This means that you should &lt;strong&gt;introduce complexity over time&lt;/strong&gt;, leaving the player time to learn new skills properly.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.mobygames.com/images/shots/l/762577-warframe-windows-screenshot-the-modding-menu-you-can-transmute.png&quot; alt=&quot;Warframe modding menu.&quot; /&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;https://www.warframe.com&quot;&gt;Warframe&lt;/a&gt;’s modding tree throws offs many new players, even though its one of the games stronger points.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;“The game is TOO HARD.”&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This occurs when the &lt;strong&gt;player’s skill is bellow the game’s challenge&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Love for difficulty comes with age and skill. It teaches pacience and discipline, and rewards you for keep playing failure after failure. It’s a very valuable thing to teach. But there is a fine line between difficulty by design and difficulty for the sake of difficulty.&lt;/p&gt;
+
+&lt;p&gt;If your game is hard, &lt;strong&gt;all the game’s systems should support that difficulty&lt;/strong&gt;. You shouldn’t just add a times 2 multiplier to the enemy damage. That’s cheap and players will notice.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;“The game is going TOO SLOW.”&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is a sign of &lt;strong&gt;our brain wanting to learn more&lt;/strong&gt;.
+Repetition leads to excelence. If a player has been doing the same thing for some time, they’re going to get pretty good a it. And once they have that skill completely developed, you shoudn’t keep asking them to do it.&lt;/p&gt;
+
+&lt;p&gt;You should keep a &lt;strong&gt;constant stream of interesting things&lt;/strong&gt; for the player to learn and develop skills for.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;“The game is going TOO FAST.”&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Giving the player too many new skills to develop will lead to them being &lt;strong&gt;overwhelmed by all the new opportunities&lt;/strong&gt;.
+This doesn’t mean that you should remove things from your game. It means that you should maintain a healthy pace when you introduce them.&lt;/p&gt;
+
+&lt;p&gt;Leave &lt;strong&gt;breathing time between learning new skills&lt;/strong&gt; for the player to completely internalize one skill before starting to introduce another. Don’t throw everything you have to offer at the same time.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;https://i.ytimg.com/vi/U8cB8B_jCX8/maxresdefault.jpg&quot; alt=&quot;S.T.A.L.K.E.R.: Call of Pripyat&quot; /&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;http://store.steampowered.com/app/41700/STALKER_Call_of_Pripyat/&quot;&gt;S.T.A.L.K.E.R.: Call of Pripyat&lt;/a&gt; throws you into a huge world with little to no explanation of the game's systems.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;“I KNOW IT ALL”&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is the last phase for a game. The player &lt;strong&gt;has adquired all the skills necessary to play the game&lt;/strong&gt;, and the game has nothing else to offer to the player. The player should feel satisfied with the learning experience.&lt;/p&gt;
+
+&lt;p&gt;This finishes the &lt;strong&gt;natural cycle for ALL games&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The player is presented with a challenge.&lt;/li&gt;
+  &lt;li&gt;The player understands the challenge.&lt;/li&gt;
+  &lt;li&gt;The player’s skills grow to meet the challenge.&lt;/li&gt;
+  &lt;li&gt;The player’s skills surpass the challenge.&lt;/li&gt;
+  &lt;li&gt;The player discards the challenge as trivial. Nothing can be learned from it anymore.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;All games are destined to become boring and tedious, this means the player has learned from the game. And that’s a good thing.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
-        <pubDate>Sun, 22 Apr 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2018/04/22/why-people-get-bored/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/04/22/why-people-get-bored/</guid>
+        <pubDate>Mon, 23 Apr 2018 00:00:00 +0200</pubDate>
+        <link>https://github.com/ArturoRodriguezRomero/2018/04/23/why-people-get-bored/</link>
+        <guid isPermaLink="true">https://github.com/ArturoRodriguezRomero/2018/04/23/why-people-get-bored/</guid>
         
         
         <category>Game-Design</category>
@@ -111,11 +184,67 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;In the &lt;a href=&quot;/2018/04/22/why-people-get-bored/&quot;&gt;next post&lt;/a&gt; I’ll be covering the subject of &lt;strong&gt;Boredom on Games&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Games have a few recognizable characteristics:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Games represent real things, usually in a simple, abstract way&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It would be imposible to represent real life in a game, that’s why games are full of simple objects with simple abilities that follow simple rules. It’s easier for the player to know what to do and what’s happening.&lt;/p&gt;
+
+&lt;p&gt;Lately, I’ve been playing &lt;a href=&quot;http://store.steampowered.com/app/248610/Door_Kickers&quot;&gt;Doorkickers (2014)&lt;/a&gt;, and I find very interesting the feeling that such a simple looking game can give you. You really feel like a S.W.A.T squad storming into a house full of terrorists. Very similar to what I’d feel playing &lt;a href=&quot;http://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/&quot;&gt;Rainbow Six Siege&lt;/a&gt;, but in a very different kind of game.&lt;/p&gt;
+
+&lt;p&gt;The main difference between these games is the &lt;strong&gt;level of abstraction&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;https://www.pcgamesn.com/sites/default/files/door%20kickers%20alpha%208%20alsdn.png&quot; alt=&quot;Doorkickers (2014) by [KillHouse Games](http://inthekillhouse.com/)&quot; /&gt;
+  &lt;figcaption&gt;Doorkickers (2014) by KillHouse Games.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;https://www.instant-gaming.com/images/products/406/screenshot/406-4.jpg&quot; alt=&quot;Rainbow Six Siege (2015) by [Ubisoft Montreal](http://montreal.ubisoft.com)&quot; /&gt;
+  &lt;figcaption&gt;Rainbow Six Siege (2015) by Ubisoft Montreal.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Games turn real objects into groups of discrete values&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Objects in games are &lt;strong&gt;simplified and quantified&lt;/strong&gt;. This means that if you are fighting an enemy, you are not really fighting a soldier or a demon, you are fighting a set of attributes and abilities.
+You are trying to lower their health in the most efficient way posible, you are trying not to get hit by their weapon because you know the damage it deals and you are careful to not be in range of their special ability.&lt;/p&gt;
+
+&lt;p&gt;A simple set of attributes and abilities are easier to learn and remember than a fully fleshed out character.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Games teach us through the unconcious&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Learning through a game is quite different from studying for an exam. You don’t realize the skills you are developing while you practice them. And you may not even know that you have them, but in the proccess of playing, the unconcious part of your brain is developing a set of useful skills.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Games tend to teach simple things&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most games teach through a very practical &lt;em&gt;action-reaction&lt;/em&gt; way. This is usually limited to simple choices.
+You shoot an enemy, it dies. You throw the ball, it may go in or it may not. You hit the brakes, you go slower.&lt;/p&gt;
+
+&lt;p&gt;There is rarely a long term meaning to your actions.&lt;/p&gt;
+
+&lt;p&gt;An exception to this would be a game like &lt;a href=&quot;https://civilization.com/&quot;&gt;Civilization&lt;/a&gt;. In a typical game of Civilization you make a ton of choices every turn that will define the later parts of the game.&lt;/p&gt;
+
+&lt;p&gt;You may invade a civilization’s city in the beginning of the game, and 300 turns later the civilization may attack you in retaliation from your past deeds.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;https://cdn.gamer-network.net/2015/articles/1/8/6/3/5/5/3/civilization-6-strategies-early-mid-late-game-phases-4879-1476986313718.jpg/EG11/thumbnail/1200x630/format/jpg/1864787.jpg&quot; alt=&quot;Civilization asks you to make decisions that will have repercutions hours after the decision is taken.&quot; /&gt;
+  &lt;figcaption&gt;Civilization asks you to make decisions that will have repercutions hours after the decision is taken.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;In the &lt;a href=&quot;/2018/04/23/why-people-get-bored/&quot;&gt;next post&lt;/a&gt; I’ll be covering the subject of &lt;strong&gt;Boredom on Games&lt;/strong&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sun, 22 Apr 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2018/04/22/what-is-a-game/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/04/22/what-is-a-game/</guid>
+        <link>https://github.com/ArturoRodriguezRomero/2018/04/22/what-is-a-game/</link>
+        <guid isPermaLink="true">https://github.com/ArturoRodriguezRomero/2018/04/22/what-is-a-game/</guid>
         
         
         <category>Game-Design</category>
@@ -311,8 +440,8 @@ Let’s take a look a the previous code block and add a few comments.&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 21 Apr 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2018/04/21/jekyll-blog-tutorial/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/04/21/jekyll-blog-tutorial/</guid>
+        <link>https://github.com/ArturoRodriguezRomero/2018/04/21/jekyll-blog-tutorial/</link>
+        <guid isPermaLink="true">https://github.com/ArturoRodriguezRomero/2018/04/21/jekyll-blog-tutorial/</guid>
         
         
         <category>Web-Design</category>
@@ -339,8 +468,8 @@ Let’s take a look a the previous code block and add a few comments.&lt;/p&gt;
 &lt;/figure&gt;
 </description>
         <pubDate>Fri, 20 Apr 2018 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2018/04/20/hello-world/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/04/20/hello-world/</guid>
+        <link>https://github.com/ArturoRodriguezRomero/2018/04/20/hello-world/</link>
+        <guid isPermaLink="true">https://github.com/ArturoRodriguezRomero/2018/04/20/hello-world/</guid>
         
         
         <category>Personal</category>
