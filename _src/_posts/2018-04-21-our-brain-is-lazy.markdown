@@ -36,7 +36,7 @@ We uncunsciously abstract things to make them more easily recognizable. We don't
 
 This is a picture of a street I've walked a thousand times. I think I know it pretty well. But if you asked me what color is a particular building, I couldn't tell you, my brain has tagged that information as not useful. But if it changed overnight, I would notice, or more like, my uncunscious would notice.
 
-<img src="{{site.baseUrl}}/assets/images/street.PNG" alt="A town street."/>
+<img src="{{site.baseUrl}}/assets/images/street.png" alt="A town street."/>
 
 This is how my uncunscious sees this street.
 
