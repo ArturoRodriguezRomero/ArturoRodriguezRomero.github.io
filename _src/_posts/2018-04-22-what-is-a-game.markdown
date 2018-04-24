@@ -9,14 +9,6 @@ image: http://i43.tinypic.com/znsydh.jpg
 image-sm: http://i43.tinypic.com/znsydh.jpg
 ---
 
-The other day I finished **A Theory of Fun for Game Design** by [Raph Koster](https://twitter.com/raphkoster) and I found it very interesting. It articulates what most player feel when we've been playing games for a long time.
-
-I liked it so much that I'm going to give you my thoughts on it. Not a review nor a critique, but something on the lines of a school appointment in which you have to read *One Hundred Years of Solitude* and later take a test on it, and you follow the general structure and share the points that stuck to you the most.
-
-I will try to be broad and talk about general game design, but this series will be centered in **videogame design**.
-
-Before we start, you can get the book on [Amazon](https://www.amazon.com/Theory-Game-Design-Raph-Koster/dp/1449316034).
-
 ## What is a Game?
 
 > Games are real life.
@@ -52,11 +44,7 @@ Let's go back to the "Games are real life" quote and let's be a little more accu
 
 > Games are real life with lower stakes.
 
----
-
-Games have a few recognizable characteristics:
-
-* **Games represent real things, usually in a simple, abstract way**
+#### Games represent real things, usually in a simple, abstract way.
 
 It would be imposible to represent real life in a game, that's why games are full of simple objects with simple abilities that follow simple rules. It's easier for the player to know what to do and what's happening.
 
@@ -75,23 +63,23 @@ The main difference between these games is the **level of abstraction**.
   <figcaption>Rainbow Six Siege (2015) by Ubisoft Montreal.</figcaption>
 </figure>
 
-* **Games turn real objects into groups of discrete values**
+#### Games turn real objects into groups of discrete values.
 
 Objects in games are **simplified and quantified**. This means that if you are fighting an enemy, you are not really fighting a soldier or a demon, you are fighting a set of attributes and abilities.
 You are trying to lower their health in the most efficient way posible, you are trying not to get hit by their weapon because you know the damage it deals and you are careful to not be in range of their special ability.
 
 A simple set of attributes and abilities are easier to learn and remember than a fully fleshed out character.
 
-* **Games teach us through the unconcious**
+#### Games teach us through the unconcious.
 
 Learning through a game is quite different from studying for an exam. You don't realize the skills you are developing while you practice them. And you may not even know that you have them, but in the proccess of playing, the unconcious part of your brain is developing a set of useful skills.
 
-* **Games tend to teach simple things**
+#### Games tend to teach simple things.
 
 Most games teach through a very practical *action-reaction* way. This is usually limited to simple choices.
 You shoot an enemy, it dies. You throw the ball, it may go in or it may not. You hit the brakes, you go slower.
 
-There is rarely a long term meaning to your actions.
+**There is rarely a long term meaning to your actions.**
 
 An exception to this would be a game like [Civilization](https://civilization.com/). In a typical game of Civilization you make a ton of choices every turn that will define the later parts of the game.
 

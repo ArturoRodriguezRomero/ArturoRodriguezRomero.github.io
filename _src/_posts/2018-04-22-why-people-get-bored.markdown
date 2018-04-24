@@ -11,13 +11,13 @@ image-sm: https://s3.amazonaws.com/wbstaticfiles/users/555/357236_blue-grey-city
 
 Learning is **awesome**. It gives you a hit of **endorphins**, it gives you **goosebumps** all over your body, it makes your brain go **wild**.
 
-> The problem with learning is, once you've learnt something, **that's it**.
+> The problem with learning is that once you've learnt something, **that's it**.
 
 You can't unlearn something. Sure, you can forget it, but you can only get that hit of endorphins the first time around.
 
 That's why we are always learning new stuff. We get bored of what we already know, so we look for something new. We are voracious learners. We get a subject, we learn everything we want to learn about it, and then we dispose of it.
 
-### Why People get Bored?
+## Why People get Bored?
 
 Boredom is defined as a psychological state experienced when a person doesn't have anything to do, is not interested in things in their surrounding or feels that time is dull or tedious.
 
@@ -30,7 +30,7 @@ This can also happen in games, but how can something so ludic, *something design
 
 Boredom is a **conflict between the game and the player**, thus it varies between individuals and games. This conflict can result in the player having a number of feelings like:
 
-* **"The game is TOO EASY."**
+#### "The game is TOO EASY."
 
 This occurs when the **player's skill is above the game's challenge**.
 This is why *children games* (a poor term in my opinion) rarely appeal to adults. They surpass the skills needed to beat the game. They don't have anything new to learn. On the contrary, children haven't developed the needed skills, they will have a great time playing.
@@ -39,7 +39,7 @@ This is **not necessarily bad**, but you should make sure your players are still
 
 <br>
 
-* **"The game is TOO IN-DEPTH."**
+#### "The game is TOO IN-DEPTH."
 
 This happens then the **game's systems are either too large or too obscure to understand** in a reasonable period of time.
 
@@ -55,7 +55,7 @@ This means that you should **introduce complexity over time**, leaving the playe
 
 <br>
 
-* **"The game is TOO HARD."**
+#### "The game is TOO HARD."
 
 This occurs when the **player's skill is bellow the game's challenge**.
 
@@ -65,7 +65,7 @@ If your game is hard, **all the game's systems should support that difficulty**.
 
 <br>
 
-* **"The game is going TOO SLOW."**
+#### "The game is going TOO SLOW."
 
 This is a sign of **our brain wanting to learn more**.
 Repetition leads to excelence. If a player has been doing the same thing for some time, they're going to get pretty good a it. And once they have that skill completely developed, you shoudn't keep asking them to do it.
@@ -74,7 +74,7 @@ You should keep a **constant stream of interesting things** for the player to le
 
 <br>
 
-* **"The game is going TOO FAST."**
+#### "The game is going TOO FAST."
 
 Giving the player too many new skills to develop will lead to them being **overwhelmed by all the new opportunities**.
 This doesn't mean that you should remove things from your game. It means that you should maintain a healthy pace when you introduce them.
@@ -86,11 +86,7 @@ Leave **breathing time between learning new skills** for the player to completel
   <figcaption><a href="http://store.steampowered.com/app/41700/STALKER_Call_of_Pripyat/">S.T.A.L.K.E.R.: Call of Pripyat</a> throws you into a huge world with little to no explanation of the game's systems.</figcaption>
 </figure>
 
-
-
-<br>
-
-* **"I KNOW IT ALL"**
+#### "I KNOW IT ALL."
 
 This is the last phase for a game. The player **has adquired all the skills necessary to play the game**, and the game has nothing else to offer to the player. The player should feel satisfied with the learning experience.
 
@@ -101,5 +97,7 @@ This finishes the **natural cycle for ALL games**:
 3. The player's skills grow to meet the challenge.
 4. The player's skills surpass the challenge.
 5. The player discards the challenge as trivial. Nothing can be learned from it anymore.
+
+These phases can be shorter or longer, depending on the person and the game.
 
 > All games are destined to become boring and tedious, this means the player has learned from the game. And that's a good thing.

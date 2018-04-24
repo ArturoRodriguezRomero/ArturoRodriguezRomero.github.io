@@ -1,30 +1,628 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Arturo Rodríguez Romero</title>
+    <description>Technology Internet Blog</description>
+    <link>https://github.com/ArturoRodriguezRomero/</link>
+    <atom:link href="https://github.com/ArturoRodriguezRomero/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 24 Apr 2018 20:41:22 +0200</pubDate>
+    <lastBuildDate>Tue, 24 Apr 2018 20:41:22 +0200</lastBuildDate>
+    <generator>Jekyll v3.8.0</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Game Design [4]: Making a Great Game.</title>
+        <description>&lt;p&gt;Here’s a list of things that you game should have if you want it to be &lt;em&gt;pretty good&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;making-a-great-game&quot;&gt;Making a Great Game.&lt;/h2&gt;
+
+&lt;h4 id=&quot;preparation&quot;&gt;Preparation.&lt;/h4&gt;
+
+&lt;p&gt;Before the player is thrown into the challenge, they should be allowed to prepare for it. Give them time to assess the situation and make &lt;strong&gt;valuable choices&lt;/strong&gt;. Their choice could be positive or negative, but having choice is always good for your game and rewarding for the player.&lt;/p&gt;
+
+&lt;p&gt;Think about games that give players choices before they try to overcome the challenge. Games like &lt;em&gt;Far Cry&lt;/em&gt; allow the player to scout a base, mark the enemies and prepare their attack. If the player makes good choices they will be succesful. But it’s important that if a player makes a bad decision, they should be punished in some way, or at the very least not rewarded at all.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;https://faduworld.files.wordpress.com/2013/03/14_55449_640screen.jpg&quot; alt=&quot;A scary looking tree, looks like it has a face on it.&quot; /&gt;
+  &lt;figcaption&gt;Far Cry 3's camera allows the player to plan their attack.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Choice is only good if it has real repercussions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;a-sense-of-space&quot;&gt;A sense of space.&lt;/h4&gt;
+
+&lt;p&gt;Player should be inmersed in the game’s world. This doesn’t mean the world should be as realistic as possible, it means that the player should feel like &lt;strong&gt;everything belongs there&lt;/strong&gt;. The level should be an interesting place for the player to play in.&lt;/p&gt;
+
+&lt;p&gt;If you remove all the gameplay elements from your game, allowing the player only to walk around, and the level is interesting enough for the player not to be bored, your are doing it right.&lt;/p&gt;
+
+&lt;h4 id=&quot;a-solid-core&quot;&gt;A solid core.&lt;/h4&gt;
+
+&lt;p&gt;The game should be &lt;strong&gt;inherently fun&lt;/strong&gt; to play. It should have a set of interesting rules and a serious of problems to solve. There’s usually a trade off between number of features and quality of features. A game could have:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lots of small game’s mechanics.&lt;/li&gt;
+  &lt;li&gt;A few very good game’s mechanics.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This really is a matter of time and resources. You could fill a huge game with tons of very good mechanics, but it will take an enormous amount of time.&lt;/p&gt;
+
+&lt;h4 id=&quot;a-range-of-challenges&quot;&gt;A range of challenges.&lt;/h4&gt;
+
+&lt;p&gt;The game should have enough content so the player can use all the game’s mechanics. This means having different levels, weapons, vehicles, and so on.&lt;/p&gt;
+
+&lt;p&gt;There is a fine line between having too little and too much content in your game. You should find a &lt;strong&gt;balance between quantity, diversity and quality&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;a-range-of-abilities-required-to-solve-the-encounter&quot;&gt;A range of abilities required to solve the encounter.&lt;/h4&gt;
+
+&lt;p&gt;The player should have to use a set of different abilities to overcome a problem. Difficulty comes from the &lt;strong&gt;conflict between different abilities&lt;/strong&gt; needed to overcome the challenge.&lt;/p&gt;
+
+&lt;p&gt;Imagine there’s a game in which you can jump, and there’s another game where you can shoot. Neither game is too hard or very interesting on its own. Now imagine a game in which you can jump and shoot at the same time. Imagine all the small rules you could introduce between these two abilities. You may have to jump to reload your gun or maybe if you shoot while in the air you go further.&lt;/p&gt;
+
+&lt;p&gt;This sounds much more difficult and much more fun.&lt;/p&gt;
+
+&lt;h4 id=&quot;skill-required-in-using-the-abilities&quot;&gt;Skill required in using the abilities.&lt;/h4&gt;
+
+&lt;p&gt;The game’s challenges should require the player to use their skills to overcome them. If the player fails to overcome the challenge, they should be punished or, at least, not rewarded. If the player succeses to overcome the problem, they should be given a &lt;strong&gt;valuable reward&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Players are really smart about optimizing, if you don’t give them a reward, a reason to do something, they will just consider it irrelevant.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Apr 2018 00:00:00 +0200</pubDate>
+        <link>https://github.com/ArturoRodriguezRomero/2018/04/24/making-a-great-game/</link>
+        <guid isPermaLink="true">https://github.com/ArturoRodriguezRomero/2018/04/24/making-a-great-game/</guid>
+        
+        
+        <category>Game-Design</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Game Design [3]: Why People Play Games?</title>
+        <description>&lt;h2 id=&quot;why-people-play-games&quot;&gt;Why people play games.&lt;/h2&gt;
+
+&lt;p&gt;There are many reason why people may play games, here are a few of them:&lt;/p&gt;
+
+&lt;h4 id=&quot;to-have-fun&quot;&gt;To have Fun.&lt;/h4&gt;
+
+&lt;p&gt;This is the main reason why people play games. It’s also the main reason why people start playing games.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Games are inherently fun&lt;/strong&gt;, if well design.&lt;/p&gt;
+
+&lt;p&gt;They can make you feel all sorts of real life emotions that affect us in real life ways. They can give you a real sense of satisfaction for your actions and can even get you into a &lt;strong&gt;state of flow&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;In a state of flow you are using all your skills and knowledge to fulfill an objective. This happens in many creative activities, like painting, writing, woodworking, programming, etc. Times flies when you are &lt;strong&gt;in the zone&lt;/strong&gt;, you feel like the best in the world at that activity. This state is where the best games can help you get.&lt;/p&gt;
+
+&lt;h4 id=&quot;to-be-the-best&quot;&gt;To be the Best.&lt;/h4&gt;
+
+&lt;p&gt;People usually start playing to be the best, or to win, when they have arrived a the &lt;strong&gt;last phase&lt;/strong&gt; of a games learning lifecycle. They know everything the game has to offer and they have all the skills necessary to beat it. But they still want to keep playing, Whether to beat a high score or to get to a certain skill rank.&lt;/p&gt;
+
+&lt;p&gt;This usually results in a &lt;strong&gt;grind&lt;/strong&gt;. It’s very hard work to keep playing a game for hours with very to none real skill development, but using all your abilities and knowledge to beat a tough competitor is very rewarding.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Becoming the best can be a game of its own.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;to-experience-a-story&quot;&gt;To experience a Story.&lt;/h4&gt;
+
+&lt;p&gt;This is a bit of a weird one. Because games can have two very different types of stories:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Stories crafted by the developers. Think &lt;a href=&quot;http://store.steampowered.com/app/7670/BioShock/&quot;&gt;&lt;em&gt;Bioshock&lt;/em&gt;&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Stories created by the players with opportunities given by the developers. Think &lt;a href=&quot;https://minecraft.net&quot;&gt;&lt;em&gt;Minecraft&lt;/em&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The typical &lt;em&gt;story game&lt;/em&gt; comes with a &lt;strong&gt;perfectly crafted story&lt;/strong&gt; by the developers, which will hopefully make the player feel a certain way. &lt;em&gt;Bioshock&lt;/em&gt; wants you to experience Rapture’s story and its characters through the eyes of your avatar. It’s very manufactured, and it works very well.&lt;/p&gt;
+
+&lt;p&gt;The more nuance way of telling a story is to allow the player to &lt;strong&gt;create their own narratives&lt;/strong&gt; with their actions. In &lt;em&gt;Minecraft&lt;/em&gt;, and similar very open world sandbox games, you make your own story, your decisions and actions will determine what kind of story you get and what you take with you when you are “finished”.&lt;/p&gt;
+
+&lt;p&gt;Some games have both types of stories. They have a narrative set by the developers and the gameplay also allows for a gret deal of improvisation and variation, and give the player a meaninful part and choice in the story.&lt;/p&gt;
+
+&lt;h4 id=&quot;to-relax&quot;&gt;To Relax.&lt;/h4&gt;
+
+&lt;p&gt;After they have completely beaten a game, and have adquired all the necessary skills needed to play it, some people still enjoy going back to it.&lt;/p&gt;
+
+&lt;p&gt;For some people it’s relaxing to play a game they have fully mastered and have a deep understanding of. They enjoy seeing their progresion after a long period of playing, it’s rewarding to see &lt;strong&gt;how far you’ve come&lt;/strong&gt; in a game.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;https://hegemonia.files.wordpress.com/2006/11/wow.jpg&quot; alt=&quot;A scary looking tree, looks like it has a face on it.&quot; /&gt;
+  &lt;figcaption&gt;People enjoy playing &lt;a href=&quot;https://worldofwarcraft.com&quot;&gt;World of Warcraft&lt;/a&gt; even after having spent thousands of hours on it.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;There is no “right” way to play a game. Games should be able to have a story, be competitive or be infinitely replayable. But a game should always prioritize &lt;strong&gt;fun&lt;/strong&gt; over everything else. Or have the story, the competitive aspect and the replayability support the systems that make the game fun.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Apr 2018 00:00:00 +0200</pubDate>
+        <link>https://github.com/ArturoRodriguezRomero/2018/04/23/why-people-play-games/</link>
+        <guid isPermaLink="true">https://github.com/ArturoRodriguezRomero/2018/04/23/why-people-play-games/</guid>
+        
+        
+        <category>Game-Design</category>
+        
+      </item>
+    
+      <item>
+        <title>Game Design [2]: Why People get Bored?</title>
+        <description>&lt;p&gt;Learning is &lt;strong&gt;awesome&lt;/strong&gt;. It gives you a hit of &lt;strong&gt;endorphins&lt;/strong&gt;, it gives you &lt;strong&gt;goosebumps&lt;/strong&gt; all over your body, it makes your brain go &lt;strong&gt;wild&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The problem with learning is that once you’ve learnt something, &lt;strong&gt;that’s it&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can’t unlearn something. Sure, you can forget it, but you can only get that hit of endorphins the first time around.&lt;/p&gt;
+
+&lt;p&gt;That’s why we are always learning new stuff. We get bored of what we already know, so we look for something new. We are voracious learners. We get a subject, we learn everything we want to learn about it, and then we dispose of it.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-people-get-bored&quot;&gt;Why People get Bored?&lt;/h2&gt;
+
+&lt;p&gt;Boredom is defined as a psychological state experienced when a person doesn’t have anything to do, is not interested in things in their surrounding or feels that time is dull or tedious.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://wp.production.patheos.com/blogs/betweentheshadows/files/2014/11/boring.jpg&quot; alt=&quot;A cheap stock photo of a bored kid.&quot; /&gt;
+  &lt;figcaption&gt;A cheap stock photo of a bored kid.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This can also happen in games, but how can something so ludic, &lt;em&gt;something designed to make you not be bored&lt;/em&gt;, be boring?&lt;/p&gt;
+
+&lt;p&gt;Boredom is a &lt;strong&gt;conflict between the game and the player&lt;/strong&gt;, thus it varies between individuals and games. This conflict can result in the player having a number of feelings like:&lt;/p&gt;
+
+&lt;h4 id=&quot;the-game-is-too-easy&quot;&gt;“The game is TOO EASY.”&lt;/h4&gt;
+
+&lt;p&gt;This occurs when the &lt;strong&gt;player’s skill is above the game’s challenge&lt;/strong&gt;.
+This is why &lt;em&gt;children games&lt;/em&gt; (a poor term in my opinion) rarely appeal to adults. They surpass the skills needed to beat the game. They don’t have anything new to learn. On the contrary, children haven’t developed the needed skills, they will have a great time playing.&lt;/p&gt;
+
+&lt;p&gt;This is &lt;strong&gt;not necessarily bad&lt;/strong&gt;, but you should make sure your players are still learning something valuable. It could be with a great story, great art style…&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;the-game-is-too-in-depth&quot;&gt;“The game is TOO IN-DEPTH.”&lt;/h4&gt;
+
+&lt;p&gt;This happens then the &lt;strong&gt;game’s systems are either too large or too obscure to understand&lt;/strong&gt; in a reasonable period of time.&lt;/p&gt;
+
+&lt;p&gt;This isn’t the game’s fault. A large amount of in-depth systems provide the player with tons of stuff to learn. The problem comes from the player. Our brains love to learn, but at a reasonable pace.
+You wouldn’t give someone who doesn’t know anything about math a calculus book. You should start from the base up. First you teach them to add and substract, then multiply and divide, then fractions and algebra, and so on.&lt;/p&gt;
+
+&lt;p&gt;This means that you should &lt;strong&gt;introduce complexity over time&lt;/strong&gt;, leaving the player time to learn new skills properly.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://www.mobygames.com/images/shots/l/762577-warframe-windows-screenshot-the-modding-menu-you-can-transmute.png&quot; alt=&quot;Warframe modding menu.&quot; /&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;https://www.warframe.com&quot;&gt;Warframe&lt;/a&gt;’s modding tree throws offs many new players, even though its one of the games stronger points.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;the-game-is-too-hard&quot;&gt;“The game is TOO HARD.”&lt;/h4&gt;
+
+&lt;p&gt;This occurs when the &lt;strong&gt;player’s skill is bellow the game’s challenge&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Love for difficulty comes with age and skill. It teaches pacience and discipline, and rewards you for keep playing failure after failure. It’s a very valuable thing to teach. But there is a fine line between difficulty by design and difficulty for the sake of difficulty.&lt;/p&gt;
+
+&lt;p&gt;If your game is hard, &lt;strong&gt;all the game’s systems should support that difficulty&lt;/strong&gt;. You shouldn’t just add a times 2 multiplier to the enemy damage. That’s cheap and players will notice.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;the-game-is-going-too-slow&quot;&gt;“The game is going TOO SLOW.”&lt;/h4&gt;
+
+&lt;p&gt;This is a sign of &lt;strong&gt;our brain wanting to learn more&lt;/strong&gt;.
+Repetition leads to excelence. If a player has been doing the same thing for some time, they’re going to get pretty good a it. And once they have that skill completely developed, you shoudn’t keep asking them to do it.&lt;/p&gt;
+
+&lt;p&gt;You should keep a &lt;strong&gt;constant stream of interesting things&lt;/strong&gt; for the player to learn and develop skills for.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;the-game-is-going-too-fast&quot;&gt;“The game is going TOO FAST.”&lt;/h4&gt;
+
+&lt;p&gt;Giving the player too many new skills to develop will lead to them being &lt;strong&gt;overwhelmed by all the new opportunities&lt;/strong&gt;.
+This doesn’t mean that you should remove things from your game. It means that you should maintain a healthy pace when you introduce them.&lt;/p&gt;
+
+&lt;p&gt;Leave &lt;strong&gt;breathing time between learning new skills&lt;/strong&gt; for the player to completely internalize one skill before starting to introduce another. Don’t throw everything you have to offer at the same time.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;https://i.ytimg.com/vi/U8cB8B_jCX8/maxresdefault.jpg&quot; alt=&quot;S.T.A.L.K.E.R.: Call of Pripyat&quot; /&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;http://store.steampowered.com/app/41700/STALKER_Call_of_Pripyat/&quot;&gt;S.T.A.L.K.E.R.: Call of Pripyat&lt;/a&gt; throws you into a huge world with little to no explanation of the game's systems.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;i-know-it-all&quot;&gt;“I KNOW IT ALL.”&lt;/h4&gt;
+
+&lt;p&gt;This is the last phase for a game. The player &lt;strong&gt;has adquired all the skills necessary to play the game&lt;/strong&gt;, and the game has nothing else to offer to the player. The player should feel satisfied with the learning experience.&lt;/p&gt;
+
+&lt;p&gt;This finishes the &lt;strong&gt;natural cycle for ALL games&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The player is presented with a challenge.&lt;/li&gt;
+  &lt;li&gt;The player understands the challenge.&lt;/li&gt;
+  &lt;li&gt;The player’s skills grow to meet the challenge.&lt;/li&gt;
+  &lt;li&gt;The player’s skills surpass the challenge.&lt;/li&gt;
+  &lt;li&gt;The player discards the challenge as trivial. Nothing can be learned from it anymore.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These phases can be shorter or longer, depending on the person and the game.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;All games are destined to become boring and tedious, this means the player has learned from the game. And that’s a good thing.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 23 Apr 2018 00:00:00 +0200</pubDate>
+        <link>https://github.com/ArturoRodriguezRomero/2018/04/23/why-people-get-bored/</link>
+        <guid isPermaLink="true">https://github.com/ArturoRodriguezRomero/2018/04/23/why-people-get-bored/</guid>
+        
+        
+        <category>Game-Design</category>
+        
+      </item>
+    
+      <item>
+        <title>Game Design [1]: What is a Game?</title>
+        <description>&lt;h2 id=&quot;what-is-a-game&quot;&gt;What is a Game?&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Games are real life.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sounds like a pretty cheap explanation, but don’t panic, it will make sense at some point.&lt;/p&gt;
+
+&lt;p&gt;Try and remember the first game you played as a child. The very first one you can remember playing as a little kid.&lt;/p&gt;
+
+&lt;p&gt;Good, in my case it’s probably &lt;em&gt;hide and seek&lt;/em&gt;. I remember playing it at my nursery school with other kids when I was around 2~3.&lt;/p&gt;
+
+&lt;p&gt;Now, let’s look for an explanation for this. &lt;strong&gt;Why do children play to hide from each other?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Hiding_in_the_Haycocks_%281881%29_by_William_Bliss_Baker.jpg/800px-Hiding_in_the_Haycocks_%281881%29_by_William_Bliss_Baker.jpg&quot; alt=&quot;Hiding in the Haycocks (1881) by William Bliss Baker&quot; /&gt;
+  &lt;figcaption&gt;Hiding in the Haycocks (1881) by William Bliss Baker.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Let’s go way back in time to when the human kind lived in caves and hunted for a living. Kids probably played &lt;em&gt;hide and seek&lt;/em&gt; as much as kids do now, because it’s training a basic instinct for humans. &lt;strong&gt;Survival&lt;/strong&gt;. Whether they are hiding from a wolf or a human from another tribe.&lt;/p&gt;
+
+&lt;p&gt;Games like &lt;em&gt;hide and seek&lt;/em&gt; train us for very &lt;strong&gt;real life situations&lt;/strong&gt; and teach us very &lt;strong&gt;real life skills&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Running.&lt;/li&gt;
+  &lt;li&gt;Tracking.&lt;/li&gt;
+  &lt;li&gt;Hiding.&lt;/li&gt;
+  &lt;li&gt;Observation.&lt;/li&gt;
+  &lt;li&gt;Ability to stay silent.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are all useful skills. May it be 20.000 years ago or in 2018.&lt;/p&gt;
+
+&lt;p&gt;Games have the intrinsic value of teaching us skills in a controlled environment. &lt;strong&gt;Games are practice&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let’s go back to the “Games are real life” quote and let’s be a little more accurate.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Games are real life with lower stakes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;games-represent-real-things-usually-in-a-simple-abstract-way&quot;&gt;Games represent real things, usually in a simple, abstract way.&lt;/h4&gt;
+
+&lt;p&gt;It would be imposible to represent real life in a game, that’s why games are full of simple objects with simple abilities that follow simple rules. It’s easier for the player to know what to do and what’s happening.&lt;/p&gt;
+
+&lt;p&gt;Lately, I’ve been playing &lt;a href=&quot;http://store.steampowered.com/app/248610/Door_Kickers&quot;&gt;Doorkickers (2014)&lt;/a&gt;, and I find very interesting the feeling that such a simple looking game can give you. You really feel like a S.W.A.T squad storming into a house full of terrorists. Very similar to what I’d feel playing &lt;a href=&quot;http://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/&quot;&gt;Rainbow Six Siege&lt;/a&gt;, but in a very different kind of game.&lt;/p&gt;
+
+&lt;p&gt;The main difference between these games is the &lt;strong&gt;level of abstraction&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;https://www.pcgamesn.com/sites/default/files/door%20kickers%20alpha%208%20alsdn.png&quot; alt=&quot;Doorkickers (2014) by [KillHouse Games](http://inthekillhouse.com/)&quot; /&gt;
+  &lt;figcaption&gt;Doorkickers (2014) by KillHouse Games.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;https://www.instant-gaming.com/images/products/406/screenshot/406-4.jpg&quot; alt=&quot;Rainbow Six Siege (2015) by [Ubisoft Montreal](http://montreal.ubisoft.com)&quot; /&gt;
+  &lt;figcaption&gt;Rainbow Six Siege (2015) by Ubisoft Montreal.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;games-turn-real-objects-into-groups-of-discrete-values&quot;&gt;Games turn real objects into groups of discrete values.&lt;/h4&gt;
+
+&lt;p&gt;Objects in games are &lt;strong&gt;simplified and quantified&lt;/strong&gt;. This means that if you are fighting an enemy, you are not really fighting a soldier or a demon, you are fighting a set of attributes and abilities.
+You are trying to lower their health in the most efficient way posible, you are trying not to get hit by their weapon because you know the damage it deals and you are careful to not be in range of their special ability.&lt;/p&gt;
+
+&lt;p&gt;A simple set of attributes and abilities are easier to learn and remember than a fully fleshed out character.&lt;/p&gt;
+
+&lt;h4 id=&quot;games-teach-us-through-the-unconcious&quot;&gt;Games teach us through the unconcious.&lt;/h4&gt;
+
+&lt;p&gt;Learning through a game is quite different from studying for an exam. You don’t realize the skills you are developing while you practice them. And you may not even know that you have them, but in the proccess of playing, the unconcious part of your brain is developing a set of useful skills.&lt;/p&gt;
+
+&lt;h4 id=&quot;games-tend-to-teach-simple-things&quot;&gt;Games tend to teach simple things.&lt;/h4&gt;
+
+&lt;p&gt;Most games teach through a very practical &lt;em&gt;action-reaction&lt;/em&gt; way. This is usually limited to simple choices.
+You shoot an enemy, it dies. You throw the ball, it may go in or it may not. You hit the brakes, you go slower.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;There is rarely a long term meaning to your actions.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;An exception to this would be a game like &lt;a href=&quot;https://civilization.com/&quot;&gt;Civilization&lt;/a&gt;. In a typical game of Civilization you make a ton of choices every turn that will define the later parts of the game.&lt;/p&gt;
+
+&lt;p&gt;You may invade a civilization’s city in the beginning of the game, and 300 turns later the civilization may attack you in retaliation from your past deeds.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;https://cdn.gamer-network.net/2015/articles/1/8/6/3/5/5/3/civilization-6-strategies-early-mid-late-game-phases-4879-1476986313718.jpg/EG11/thumbnail/1200x630/format/jpg/1864787.jpg&quot; alt=&quot;Civilization asks you to make decisions that will have repercutions hours after the decision is taken.&quot; /&gt;
+  &lt;figcaption&gt;Civilization asks you to make decisions that will have repercutions hours after the decision is taken.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;In the &lt;a href=&quot;/2018/04/23/why-people-get-bored/&quot;&gt;next post&lt;/a&gt; I’ll be covering the subject of &lt;strong&gt;Boredom on Games&lt;/strong&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Apr 2018 00:00:00 +0200</pubDate>
+        <link>https://github.com/ArturoRodriguezRomero/2018/04/22/what-is-a-game/</link>
+        <guid isPermaLink="true">https://github.com/ArturoRodriguezRomero/2018/04/22/what-is-a-game/</guid>
+        
+        
+        <category>Game-Design</category>
+        
+      </item>
+    
+      <item>
+        <title>Game Design [0]: Why Is our Brain Lazy?</title>
+        <description>&lt;p&gt;The other day I finished &lt;strong&gt;A Theory of Fun for Game Design&lt;/strong&gt; by &lt;a href=&quot;https://twitter.com/raphkoster&quot;&gt;Raph Koster&lt;/a&gt; and I found it very interesting. It articulates what most player feel when we’ve been playing games for a long time.&lt;/p&gt;
+
+&lt;p&gt;I liked it so much that I’m going to give you my thoughts on it. Not a review nor a critique, but I’ll be giving you my take on it while sharing my point of view.&lt;/p&gt;
+
+&lt;p&gt;I will try to be broad and talk about general game design, but this series will be centered in &lt;strong&gt;videogame design&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Before we start, you can get the book on &lt;a href=&quot;https://www.amazon.com/Theory-Game-Design-Raph-Koster/dp/1449316034&quot;&gt;Amazon&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-is-our-brain-lazy&quot;&gt;Why Is our Brain Lazy?&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Our brain is &lt;strong&gt;lazy&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But why? Well it’s pretty simple, our brain doesn’t want to spend processing time in things we already know or in things that are not important to us.&lt;/p&gt;
+
+&lt;p&gt;Our brain &lt;strong&gt;assumes&lt;/strong&gt; tons of things every day. It assumes how the pavement on the street you walk every day going to work is. It assumes where the trees are in your favorite park. Even though you don’t really know. This is your brain being &lt;strong&gt;energy efficient&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;We apply &lt;strong&gt;patterns&lt;/strong&gt; we already know to things we see for the first time. And if we don’t know any pattern to apply in the situation, we create it for future use. You don’t have to learn something new if you already know a similar pattern.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;https://mangroveexplorer.files.wordpress.com/2013/02/scary-tree-face.jpg&quot; alt=&quot;A scary looking tree, looks like it has a face on it.&quot; /&gt;
+  &lt;figcaption&gt;We see scary faces where there are none.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We uncunsciously abstract things to make them more easily recognizable. We don’t need to store a realistic memory of most things, we just keep a &lt;strong&gt;symbolic idea&lt;/strong&gt; of it. You could thing of it as if our brain lowers the resolution of things we already know or that we don’t see as important.&lt;/p&gt;
+
+&lt;p&gt;This is a picture of a street I’ve walked a thousand times. I think I know it pretty well. But if you asked me what color is a particular building, I couldn’t tell you, my brain has tagged that information as not useful. But if it changed overnight, I would notice, or more like, my uncunscious would notice.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/street.PNG&quot; alt=&quot;A scary looking tree, looks like it has a face on it.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is how my uncunscious sees this street.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blur-street.PNG&quot; alt=&quot;A scary looking tree, looks like it has a face on it.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This also applies to games. We sometimes call it &lt;strong&gt;muscle memory&lt;/strong&gt;, even though muscles don’t have memory (that we know of). This really is your brain having internalized a movement, a reaction to an action. This is a very long term kind of memory.&lt;/p&gt;
+
+&lt;p&gt;Let’s say you played &lt;a href=&quot;http://store.steampowered.com/app/730/CounterStrike_Global_Offensive/&quot;&gt;&lt;em&gt;Counter Strike&lt;/em&gt;&lt;/a&gt; many years ago and you were pretty good but you stopped playing a long time ago, it would be faster for you to become a good player again than if you had never played before.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Apr 2018 00:00:00 +0200</pubDate>
+        <link>https://github.com/ArturoRodriguezRomero/2018/04/22/our-brain-is-lazy/</link>
+        <guid isPermaLink="true">https://github.com/ArturoRodriguezRomero/2018/04/22/our-brain-is-lazy/</guid>
+        
+        
+        <category>Game-Design</category>
+        
+      </item>
+    
+      <item>
+        <title>Jekyll Blog Tutorial</title>
+        <description>&lt;h2 id=&quot;simple-jekyll-blog-with-github-pages&quot;&gt;Simple Jekyll Blog with Github Pages.&lt;/h2&gt;
+
+&lt;p&gt;If you want to create a simple, static personal blog, &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt; are one of the best solutions.&lt;/p&gt;
+
+&lt;p&gt;But first, what is Jekyll?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Jekyll is a simple, blog-aware, static site generator.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This means that you write your posts with simple &lt;a href=&quot;https://en.wikipedia.org/wiki/Markdown&quot;&gt;Markdown&lt;/a&gt; text and Jekyll converts it to rich and formatted HTML code.
+Jekyll will stitch your post’s contents with all the templates and components, and generate a static website, which you can upload to Github Pages (For free!).&lt;/p&gt;
+
+&lt;p&gt;Jekyll is a &lt;a href=&quot;https://rubygems.org/&quot;&gt;Ruby Gem&lt;/a&gt;. A library programmed in &lt;a href=&quot;https://www.ruby-lang.org&quot;&gt;Ruby&lt;/a&gt;, so you are going to need to install a Ruby environment if you don’t already have it.&lt;/p&gt;
+
+&lt;h3 id=&quot;installation&quot;&gt;Installation&lt;/h3&gt;
+
+&lt;p&gt;I’m using &lt;strong&gt;Windows&lt;/strong&gt;, which makes the installation a little harder than on Linux/MacOS. If you are using one of those, here’s a &lt;a href=&quot;https://jekyllrb.com/docs/installation&quot;&gt;link&lt;/a&gt; to the official documentation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1- Download and install &lt;a href=&quot;https://rubyinstaller.org/downloads/&quot;&gt;RubyInstaller&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2- Open a command prompt and type:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-shell_session highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;gem install jekyll bundler
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This should take a little while. Click &lt;a href=&quot;http://bundler.io/&quot;&gt;here&lt;/a&gt; to learn a little bit more about Bundler.&lt;/p&gt;
+
+&lt;p&gt;Type this to check if Jekyll has installed properly:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell_session highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;jekyll -v
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;3- Create a new Jekyll website:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-shell_session highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;// Creates a new Jekyll project
+jekyll new jekyll-test
+
+// Go to the new directory
+cd jekyll-test
+
+// Serves the new Jekyll project on http://localhost:4000
+jekyll serve
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;using-a-theme&quot;&gt;Using a Theme&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Cool&lt;/strong&gt;. You have a Jekyll project running. But let’s go a little further. You could build the entire website on your own (and, if you have the time, DO IT!), but there are a ton of Jekyll themes made by the good people of Github.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://themes.jekyllrc.org/&quot;&gt;themes.jekyllrc.org&lt;/a&gt; has a great number of themes from Github, find one you like and fork it or download it.&lt;/p&gt;
+
+&lt;p&gt;I’ve chosen &lt;a href=&quot;https://github.com/SalGnt/Travelogue&quot;&gt;Travelogue&lt;/a&gt; for this demonstration, but feel free to use the one you like the most.&lt;/p&gt;
+
+&lt;p&gt;If the theme you are using has &lt;strong&gt;dependencies&lt;/strong&gt;, you may need to install them:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell_session highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;bundle install
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can &lt;strong&gt;update&lt;/strong&gt; your dependencies if you want with:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell_session highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;bundle update
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;project-structure&quot;&gt;Project Structure&lt;/h3&gt;
+
+&lt;p&gt;Now, let’s take a look a the project’s folder structure&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa fa-file-code-o&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; &lt;strong&gt;_config.yml&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Holds most of the page’s configuration data and global variables.&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa fa-folder&quot;&gt;&lt;/i&gt; &lt;strong&gt;_includes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Contains small, reusable pieces of code. Think web components. (Head, footer, profile card, etc.)&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa fa-folder&quot;&gt;&lt;/i&gt; &lt;strong&gt;_layouts&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;These are page templates that can contain the different pages, normally separated by page type. (Post, category, contact page)&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa fa-folder&quot;&gt;&lt;/i&gt; &lt;strong&gt;_posts&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Is the folder where you will write your posts. These files must be named YEAR-MONTH-DAY-TITLE.markup/markdown.&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa fa-folder&quot;&gt;&lt;/i&gt; &lt;strong&gt;_data&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A static database that all your pages have access to. You can put .yml, .json and .csv files here!&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa fa-folder&quot;&gt;&lt;/i&gt; &lt;strong&gt;_sass&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Can hold multiple .scss files that will be processed into a single minified .css file.&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa fa-folder&quot;&gt;&lt;/i&gt; &lt;strong&gt;_assets&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Folders and files here will be passed without change when the site is processed. Think .js libraries and images.&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa fa-folder&quot;&gt;&lt;/i&gt; &lt;strong&gt;_site&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is where the fully built, static page will be output once you build it with:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell_session highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;jekyll build
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;liquid-attributes&quot;&gt;Liquid Attributes&lt;/h3&gt;
+
+&lt;p&gt;If you go and take a look at any file in the &lt;strong&gt;_layouts&lt;/strong&gt; folder you will see code similar to this:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  
+  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% if &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;reading_time&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}
+    &amp;lt;p class=&quot;post-reading-time&quot;&amp;gt;&amp;amp;#126;
+        {% capture words %}&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;content&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number_of_words&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;minus: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;180&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% endcapture &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% unless &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;words&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contains&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;-&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;plus: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;180&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;divided_by: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;180&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;append: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot; min&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% endunless &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/p&amp;gt;
+  {% endif %}
+  
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;So what’s with all these &lt;strong&gt;curly brackets&lt;/strong&gt;??&lt;/p&gt;
+
+&lt;p&gt;These are attributes used by the &lt;a href=&quot;http://shopify.github.io/liquid/&quot;&gt;Liquid Template Engine&lt;/a&gt;, an open source template language written in (you guessed it) Ruby.&lt;/p&gt;
+
+&lt;p&gt;This engine allows you to reference configuration, variables and data from anywhere on the website. And even add &lt;strong&gt;logic&lt;/strong&gt; to your code.
+Let’s take a look a the previous code block and add a few comments.&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  
+  &lt;span class=&quot;c1&quot;&gt;# 'page' references the global file _config.yml&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# If the global variable reading_time is set to 'true'&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% if &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;reading_time&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}
+    &amp;lt;p class=&quot;post-reading-time&quot;&amp;gt;
+      {% capture words %}&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# Capture is a Liquid's function...&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# It will store the result of the block in a variable..&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# Without rendering it.&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# You can use pipes '|' in Liquid&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# Just like you can do on Linux&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# content: the post's content&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# number_of_words: Liquid's function...&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# Returns the number of words of the parameter.&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# minus: substracts value from the parameter&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;content&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number_of_words&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;minus: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;180&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# Translated to non-Ruby, this would look:&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# number_of_words(content) - 180;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% endcapture &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;# Ruby has really cool grammar!&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;# Unless 'words' contains a minus symbol.&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% unless &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;words&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contains&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;-&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# We will add 180 (what we substracted) and divide by 180&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# Probably the number of words/minute the author found appropiate.&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;# And we will append ' min' to 'words'.&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;plus: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;180&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;divided_by: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;180&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;append: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot; min&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% endunless &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/p&amp;gt;
+  {% endif %}
+  
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Just by context, we learn that this block of code shows, on every post, the aproximate time in minutes it will take the reader to finish it.&lt;/p&gt;
+
+&lt;h3 id=&quot;deploying-on-github&quot;&gt;Deploying on Github&lt;/h3&gt;
+
+&lt;p&gt;Deploying on Github is very easy. You are really just pushing a repository, Github does the rest.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Build the proyect with:
+    &lt;div class=&quot;language-shell_session highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;jekyll build
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Create a repository on Github named &lt;strong&gt;‘your-user-name-here.github.io’&lt;/strong&gt;. This will be your website’s URL.&lt;/li&gt;
+  &lt;li&gt;Push the contents of &lt;strong&gt;_site&lt;/strong&gt; to the repository.&lt;/li&gt;
+  &lt;li&gt;Go for a &lt;strong&gt;coffee&lt;/strong&gt; while Github’s servers do their thing.&lt;/li&gt;
+  &lt;li&gt;You’re &lt;strong&gt;done&lt;/strong&gt;!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;a-few-tips&quot;&gt;A Few Tips&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Markdown can be hard to remember when starting your Blog. &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;Here&lt;/a&gt;’s a great cheet sheet to remember the basics while you write your posts.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you don’t like the github.io domain on your blog’s URL, you can purchase and use a custom domain. &lt;a href=&quot;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&quot;&gt;Here&lt;/a&gt;’s how to do it.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 21 Apr 2018 00:00:00 +0200</pubDate>
+        <link>https://github.com/ArturoRodriguezRomero/2018/04/21/jekyll-blog-tutorial/</link>
+        <guid isPermaLink="true">https://github.com/ArturoRodriguezRomero/2018/04/21/jekyll-blog-tutorial/</guid>
+        
+        
+        <category>Web-Design</category>
+        
+      </item>
+    
+      <item>
+        <title>Hello World!!!!</title>
+        <description>&lt;h3 id=&quot;welcome-to-the-first-ever-internet-blog&quot;&gt;Welcome to the first ever Internet Blog™.&lt;/h3&gt;
+
+&lt;p&gt;My name is Arturo and I’m a 20 year old dude from Madrid! That’s the one in Spain, not the one in Kentucky, mind you.&lt;/p&gt;
+
+&lt;p&gt;I’ve been thinking about writting lately, so I’ve set up this blog with the help of &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;.It was a pretty cool process, so I’m definitely going to write a post about it (EDIT: &lt;a href=&quot;/2018/04/21/jekyll-blog-tutorial/&quot;&gt;here&lt;/a&gt;’s the post 😊)&lt;/p&gt;
+
+&lt;p&gt;I’ll be writting about Web Development, Game Design, Programming and all the other good things in life.&lt;/p&gt;
+
+&lt;p&gt;Hopefully you will like it as much as I enjoy writting it.&lt;/p&gt;
+
+&lt;p&gt;Here’s a picture of my cousin’s cat:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/assets/images/granizo.jpg&quot; alt=&quot;This is my cousin's cat.&quot; /&gt;
+  &lt;figcaption&gt;This is my cousin's cat.&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+        <pubDate>Fri, 20 Apr 2018 00:00:00 +0200</pubDate>
+        <link>https://github.com/ArturoRodriguezRomero/2018/04/20/hello-world/</link>
+        <guid isPermaLink="true">https://github.com/ArturoRodriguezRomero/2018/04/20/hello-world/</guid>
+        
+        
+        <category>Personal</category>
+        
+      </item>
+    
   </channel>
 </rss>
