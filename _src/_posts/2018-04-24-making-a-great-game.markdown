@@ -20,7 +20,7 @@ Before the player is thrown into the challenge, they should be allowed to prepar
 Think about games that give players choices before they try to overcome the challenge. Games like *Far Cry* allow the player to scout a base, mark the enemies and prepare their attack. If the player makes good choices they will be succesful. But it's important that if a player makes a bad decision, they should be punished in some way, or at the very least not rewarded at all.
 
 <figure>
-  <img src="https://faduworld.files.wordpress.com/2013/03/14_55449_640screen.jpg" alt="A scary looking tree, looks like it has a face on it."/>
+  <img src="https://faduworld.files.wordpress.com/2013/03/14_55449_640screen.jpg" alt="Far Cry 3's camera."/>
   <figcaption>Far Cry 3's camera allows the player to plan their attack.</figcaption>
 </figure>
 
