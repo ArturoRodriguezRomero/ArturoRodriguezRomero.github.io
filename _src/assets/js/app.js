@@ -83,8 +83,8 @@ var Preview = (function() {
             currentIdx = idx;
 
             if (prevIdx !== currentIdx) {
-              s.img[prevIdx].style.display = 'none';
-              s.img[currentIdx].style.display = 'block';
+              //s.img[prevIdx].style.display = 'none';
+              //s.img[currentIdx].style.display = 'block';
             }
           });
         });

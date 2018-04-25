@@ -5,9 +5,42 @@
     <description>Technology Internet Blog</description>
     <link>https://github.com/ArturoRodriguezRomero/</link>
     <atom:link href="https://github.com/ArturoRodriguezRomero/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Apr 2018 21:06:05 +0200</pubDate>
-    <lastBuildDate>Tue, 24 Apr 2018 21:06:05 +0200</lastBuildDate>
+    <pubDate>Wed, 25 Apr 2018 20:00:07 +0200</pubDate>
+    <lastBuildDate>Wed, 25 Apr 2018 20:00:07 +0200</lastBuildDate>
     <generator>Jekyll v3.8.0</generator>
+    
+      <item>
+        <title>Game Design [5]: 3 Things Your Game Needs.</title>
+        <description>&lt;p&gt;All games are about learning. You objective a as developer should be the same as the that of a teacher, &lt;strong&gt;help people learn new things and develop new skills&lt;/strong&gt;. There are a few things that can help to increase your &lt;em&gt;student&lt;/em&gt;’s learning and overall interest in your &lt;em&gt;subject&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-things-a-game-must-have&quot;&gt;3 Things a Game Must Have&lt;/h2&gt;
+
+&lt;h4 id=&quot;a-variable-feedback-system&quot;&gt;A Variable Feedback System.&lt;/h4&gt;
+
+&lt;p&gt;A challenge shouldn’t have a predictable outcome. The player’s &lt;strong&gt;rewards should be directly dependent of their performance&lt;/strong&gt; tackling the problem. Build the systems in your game with enough range of rewards depending of the skill of the player.&lt;/p&gt;
+
+&lt;p&gt;This is easy if the game has a valuable currency, you could give them money proportional to their skill, or if you can give them many different rewards or mutable ones, give them better loot if their score was high enough in the last challenge.&lt;/p&gt;
+
+&lt;h4 id=&quot;a-balanced-reward-system&quot;&gt;A Balanced Reward System.&lt;/h4&gt;
+
+&lt;p&gt;A Variable Feedback System, the thing we just talk about before, is a good thing for your game, it rewards player for being skillful and encourages them to play more and become a better player.&lt;/p&gt;
+
+&lt;p&gt;But you also must have in mind less skillful player. You should find a balance in which experienced players don’t get huge rewards by doing something they find trivial and, at the same time, give inexperience players an &lt;strong&gt;adequate challenge&lt;/strong&gt; with an &lt;strong&gt;adequate reward&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;a-real-cost-for-failure&quot;&gt;A Real Cost for Failure.&lt;/h4&gt;
+
+&lt;p&gt;If failure is irrelevant, then the reward will be worthless. Giving failure a valuable cost encourages your players to become better. I will also highten the &lt;strong&gt;feeling of accomplishment&lt;/strong&gt; they will get when they finally succeed in the challenge.&lt;/p&gt;
+
+&lt;p&gt;It will also induce players to try new things. If thing A doesn’t work, they may try thing B. The feeling of beating a problem with something (&lt;em&gt;you think&lt;/em&gt;) you came up on your own, is very valuable, and players love it.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Apr 2018 00:00:00 +0200</pubDate>
+        <link>https://github.com/ArturoRodriguezRomero/2018/04/25/3-thing-your-game-needs/</link>
+        <guid isPermaLink="true">https://github.com/ArturoRodriguezRomero/2018/04/25/3-thing-your-game-needs/</guid>
+        
+        
+        <category>Game-Design</category>
+        
+      </item>
     
       <item>
         <title>Game Design [4]: Making a Great Game.</title>
@@ -38,7 +71,7 @@
 
 &lt;h4 id=&quot;a-solid-core&quot;&gt;A solid core.&lt;/h4&gt;
 
-&lt;p&gt;The game should be &lt;strong&gt;inherently fun&lt;/strong&gt; to play. It should have a set of interesting rules and a serious of problems to solve. There’s usually a trade off between number of features and quality of features. A game could have:&lt;/p&gt;
+&lt;p&gt;The game should be &lt;strong&gt;inherently fun&lt;/strong&gt; to play. It should have a set of interesting rules and a series of problems to solve. There’s usually a trade off between number of features and quality of features. A game could have:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Lots of small game’s mechanics.&lt;/li&gt;
@@ -317,9 +350,9 @@ You are trying to lower their health in the most efficient way posible, you are 
 
 &lt;p&gt;A simple set of attributes and abilities are easier to learn and remember than a fully fleshed out character.&lt;/p&gt;
 
-&lt;h4 id=&quot;games-teach-us-through-the-unconcious&quot;&gt;Games teach us through the unconcious.&lt;/h4&gt;
+&lt;h4 id=&quot;games-teach-us-through-the-subconscious&quot;&gt;Games teach us through the subconscious.&lt;/h4&gt;
 
-&lt;p&gt;Learning through a game is quite different from studying for an exam. You don’t realize the skills you are developing while you practice them. And you may not even know that you have them, but in the proccess of playing, the unconcious part of your brain is developing a set of useful skills.&lt;/p&gt;
+&lt;p&gt;Learning through a game is quite different from studying for an exam. You don’t realize the skills you are developing while you practice them. And you may not even know that you have them, but in the proccess of playing, the subconscious part of your brain is developing a set of useful skills.&lt;/p&gt;
 
 &lt;h4 id=&quot;games-tend-to-teach-simple-things&quot;&gt;Games tend to teach simple things.&lt;/h4&gt;
 
@@ -378,13 +411,13 @@ You shoot an enemy, it dies. You throw the ball, it may go in or it may not. You
 
 &lt;p&gt;We uncunsciously abstract things to make them more easily recognizable. We don’t need to store a realistic memory of most things, we just keep a &lt;strong&gt;symbolic idea&lt;/strong&gt; of it. You could thing of it as if our brain lowers the resolution of things we already know or that we don’t see as important.&lt;/p&gt;
 
-&lt;p&gt;This is a picture of a street I’ve walked a thousand times. I think I know it pretty well. But if you asked me what color is a particular building, I couldn’t tell you, my brain has tagged that information as not useful. But if it changed overnight, I would notice, or more like, my uncunscious would notice.&lt;/p&gt;
+&lt;p&gt;This is a picture of a street I’ve walked a thousand times. I think I know it pretty well. But if you asked me what color is a particular building, I couldn’t tell you, my brain has tagged that information as not useful. But if it changed overnight, I would notice, or more like, my subconscious would notice.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/street.png&quot; alt=&quot;A town street.&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This is how my uncunscious sees this street.&lt;/p&gt;
+&lt;p&gt;This is how my subconscious sees this street.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/blur-street.png&quot; alt=&quot;A town street, seen by the uncunscious. Blurry.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blur-street.png&quot; alt=&quot;A town street, seen by the subconscious. Blurry.&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This also applies to games. We sometimes call it &lt;strong&gt;muscle memory&lt;/strong&gt;, even though muscles don’t have memory (that we know of). This really is your brain having internalized a movement, a reaction to an action. This is a very long term kind of memory.&lt;/p&gt;
 

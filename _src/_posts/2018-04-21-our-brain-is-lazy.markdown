@@ -34,13 +34,13 @@ We apply **patterns** we already know to things we see for the first time. And i
 
 We uncunsciously abstract things to make them more easily recognizable. We don't need to store a realistic memory of most things, we just keep a **symbolic idea** of it. You could thing of it as if our brain lowers the resolution of things we already know or that we don't see as important.
 
-This is a picture of a street I've walked a thousand times. I think I know it pretty well. But if you asked me what color is a particular building, I couldn't tell you, my brain has tagged that information as not useful. But if it changed overnight, I would notice, or more like, my uncunscious would notice.
+This is a picture of a street I've walked a thousand times. I think I know it pretty well. But if you asked me what color is a particular building, I couldn't tell you, my brain has tagged that information as not useful. But if it changed overnight, I would notice, or more like, my subconscious would notice.
 
 <img src="{{site.baseUrl}}/assets/images/street.png" alt="A town street."/>
 
-This is how my uncunscious sees this street.
+This is how my subconscious sees this street.
 
-<img src="{{site.baseUrl}}/assets/images/blur-street.png" alt="A town street, seen by the uncunscious. Blurry."/>
+<img src="{{site.baseUrl}}/assets/images/blur-street.png" alt="A town street, seen by the subconscious. Blurry."/>
 
 This also applies to games. We sometimes call it **muscle memory**, even though muscles don't have memory (that we know of). This really is your brain having internalized a movement, a reaction to an action. This is a very long term kind of memory.
 

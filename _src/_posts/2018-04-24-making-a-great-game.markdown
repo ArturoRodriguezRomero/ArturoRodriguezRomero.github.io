@@ -34,7 +34,7 @@ If you remove all the gameplay elements from your game, allowing the player only
 
 #### A solid core.
 
-The game should be **inherently fun** to play. It should have a set of interesting rules and a serious of problems to solve. There's usually a trade off between number of features and quality of features. A game could have:
+The game should be **inherently fun** to play. It should have a set of interesting rules and a series of problems to solve. There's usually a trade off between number of features and quality of features. A game could have:
 
 * Lots of small game's mechanics.
 * A few very good game's mechanics.

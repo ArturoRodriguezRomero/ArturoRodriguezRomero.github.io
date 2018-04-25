@@ -70,9 +70,9 @@ You are trying to lower their health in the most efficient way posible, you are 
 
 A simple set of attributes and abilities are easier to learn and remember than a fully fleshed out character.
 
-#### Games teach us through the unconcious.
+#### Games teach us through the subconscious.
 
-Learning through a game is quite different from studying for an exam. You don't realize the skills you are developing while you practice them. And you may not even know that you have them, but in the proccess of playing, the unconcious part of your brain is developing a set of useful skills.
+Learning through a game is quite different from studying for an exam. You don't realize the skills you are developing while you practice them. And you may not even know that you have them, but in the proccess of playing, the subconscious part of your brain is developing a set of useful skills.
 
 #### Games tend to teach simple things.
 
