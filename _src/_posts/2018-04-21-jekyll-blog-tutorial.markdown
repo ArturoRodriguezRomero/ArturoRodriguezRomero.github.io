@@ -190,8 +190,9 @@ jekyll build
 4. Go for a **coffee** while Github's servers do their thing.
 5. You're **done**!
 
+
 ### A Few Tips
 
-* Markdown can be hard to remember when starting your Blog. [Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)'s a great cheet sheet to remember the basics while you write your posts.
+* Markdown can be hard to remember when starting your Blog. [Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)'s a great **cheatsheet** to remember the basics while you write your posts.
 
-* If you don't like the github.io domain on your blog's URL, you can purchase and use a custom domain. [Here](https://help.github.com/articles/using-a-custom-domain-with-github-pages/)'s how to do it.
+* If you don't like the github.io domain on your blog's URL, you can purchase and use a **custom domain**. [Here](https://help.github.com/articles/using-a-custom-domain-with-github-pages/)'s how to do it.

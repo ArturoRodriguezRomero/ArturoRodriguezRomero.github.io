@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Game Design [0]: Why Is our Brain Lazy?"
+title: "Why Is our Brain Lazy?"
 date: 2018-04-22
 categories:
   - Game-Design

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Game Design [3]: Why People Play Games?"
+title: "Why People Play Games?"
 date: 2018-04-23
 categories:
   - Game-Design

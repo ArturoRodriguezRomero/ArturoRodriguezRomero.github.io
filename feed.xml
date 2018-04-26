@@ -5,12 +5,46 @@
     <description>Technology Internet Blog</description>
     <link>https://github.com/ArturoRodriguezRomero/</link>
     <atom:link href="https://github.com/ArturoRodriguezRomero/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Apr 2018 20:00:07 +0200</pubDate>
-    <lastBuildDate>Wed, 25 Apr 2018 20:00:07 +0200</lastBuildDate>
+    <pubDate>Thu, 26 Apr 2018 20:04:58 +0200</pubDate>
+    <lastBuildDate>Thu, 26 Apr 2018 20:04:58 +0200</lastBuildDate>
     <generator>Jekyll v3.8.0</generator>
     
       <item>
-        <title>Game Design [5]: 3 Things Your Game Needs.</title>
+        <title>Dressing your Game.</title>
+        <description>&lt;p&gt;Dressing is all the things in your game that aren’t the &lt;em&gt;game itself&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;For example, dressing is the look of the level, the lore of the world, the voice of the characters, the sound of the weapons, etc. A game without dressing looks like a bunch of primitive shapes and collision volumes.&lt;/p&gt;
+
+&lt;h2 id=&quot;dressing-your-game&quot;&gt;Dressing Your Game.&lt;/h2&gt;
+
+&lt;p&gt;Dressing is very important for players. It adds an interesting angle and hightens the game’s immersion. It can even be a reason why someone starts playing your game.&lt;/p&gt;
+
+&lt;p&gt;But for what your &lt;em&gt;game&lt;/em&gt; is concerned, dressing is irrelevant. &lt;strong&gt;Dressing isn’t what the game is about&lt;/strong&gt;. Your game will live or die on it’s own, depending on how good the &lt;em&gt;game&lt;/em&gt; is.&lt;/p&gt;
+
+&lt;p&gt;You shouldn’t let the dressing be the designer of the game. Dressing should always adapt to the gameplay, not the other way around, and it shouldn’t change how the game feels to play.&lt;/p&gt;
+
+&lt;p&gt;Your game pitch shouldn’t be:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“A cartoony looking 2D platformer in which you play as a humanized mouse who explores abandonded catacumbs all over a 1950’s steampunk world invaded by an alien species”&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Don’t get me wrong, &lt;strong&gt;that sounds awesome&lt;/strong&gt;, but you can’t support a great dressing with a poorly, or even a not at all, designed game.&lt;/p&gt;
+
+&lt;p&gt;Start with the game’s core, then find a dressing that fits the game and adds even more value to it. Don’t let your game be limited by your artstyle, your story or how realistic a level should look. &lt;strong&gt;Mold everything to support the gameplay&lt;/strong&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 26 Apr 2018 00:00:00 +0200</pubDate>
+        <link>https://github.com/ArturoRodriguezRomero/2018/04/26/dressing-your-game/</link>
+        <guid isPermaLink="true">https://github.com/ArturoRodriguezRomero/2018/04/26/dressing-your-game/</guid>
+        
+        
+        <category>Personal</category>
+        
+      </item>
+    
+      <item>
+        <title>3 Things Your Game Needs.</title>
         <description>&lt;p&gt;All games are about learning. You objective a as developer should be the same as the that of a teacher, &lt;strong&gt;help people learn new things and develop new skills&lt;/strong&gt;. There are a few things that can help to increase your &lt;em&gt;student&lt;/em&gt;’s learning and overall interest in your &lt;em&gt;subject&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;3-things-a-game-must-have&quot;&gt;3 Things a Game Must Have&lt;/h2&gt;
@@ -43,7 +77,7 @@
       </item>
     
       <item>
-        <title>Game Design [4]: Making a Great Game.</title>
+        <title>Making a Great Game.</title>
         <description>&lt;p&gt;Here’s a list of things that you game should have if you want it to be &lt;em&gt;pretty good&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;making-a-great-game&quot;&gt;Making a Great Game.&lt;/h2&gt;
@@ -110,7 +144,7 @@
       </item>
     
       <item>
-        <title>Game Design [3]: Why People Play Games?</title>
+        <title>Why People Play Games?</title>
         <description>&lt;h2 id=&quot;why-people-play-games&quot;&gt;Why people play games.&lt;/h2&gt;
 
 &lt;p&gt;There are many reason why people may play games, here are a few of them:&lt;/p&gt;
@@ -173,7 +207,7 @@
       </item>
     
       <item>
-        <title>Game Design [2]: Why People get Bored?</title>
+        <title>Why People get Bored?</title>
         <description>&lt;p&gt;Learning is &lt;strong&gt;awesome&lt;/strong&gt;. It gives you a hit of &lt;strong&gt;endorphins&lt;/strong&gt;, it gives you &lt;strong&gt;goosebumps&lt;/strong&gt; all over your body, it makes your brain go &lt;strong&gt;wild&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -283,7 +317,7 @@ This doesn’t mean that you should remove things from your game. It means that 
       </item>
     
       <item>
-        <title>Game Design [1]: What is a Game?</title>
+        <title>What is a Game?</title>
         <description>&lt;h2 id=&quot;what-is-a-game&quot;&gt;What is a Game?&lt;/h2&gt;
 
 &lt;blockquote&gt;
@@ -383,7 +417,7 @@ You shoot an enemy, it dies. You throw the ball, it may go in or it may not. You
       </item>
     
       <item>
-        <title>Game Design [0]: Why Is our Brain Lazy?</title>
+        <title>Why Is our Brain Lazy?</title>
         <description>&lt;p&gt;The other day I finished &lt;strong&gt;A Theory of Fun for Game Design&lt;/strong&gt; by &lt;a href=&quot;https://twitter.com/raphkoster&quot;&gt;Raph Koster&lt;/a&gt; and I found it very interesting. It articulates what most player feel when we’ve been playing games for a long time.&lt;/p&gt;
 
 &lt;p&gt;I liked it so much that I’m going to give you my thoughts on it. Not a review nor a critique, but I’ll be giving you my take on it while sharing my point of view.&lt;/p&gt;
@@ -613,10 +647,10 @@ Let’s take a look a the previous code block and add a few comments.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Markdown can be hard to remember when starting your Blog. &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;Here&lt;/a&gt;’s a great cheet sheet to remember the basics while you write your posts.&lt;/p&gt;
+    &lt;p&gt;Markdown can be hard to remember when starting your Blog. &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;Here&lt;/a&gt;’s a great &lt;strong&gt;cheatsheet&lt;/strong&gt; to remember the basics while you write your posts.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;If you don’t like the github.io domain on your blog’s URL, you can purchase and use a custom domain. &lt;a href=&quot;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&quot;&gt;Here&lt;/a&gt;’s how to do it.&lt;/p&gt;
+    &lt;p&gt;If you don’t like the github.io domain on your blog’s URL, you can purchase and use a &lt;strong&gt;custom domain&lt;/strong&gt;. &lt;a href=&quot;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&quot;&gt;Here&lt;/a&gt;’s how to do it.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Game Design [4]: Making a Great Game."
+title: "Making a Great Game."
 date: 2018-04-24
 categories:
   - Game-Design

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Game Design [1]: What is a Game?"
+title: "What is a Game?"
 date: 2018-04-22
 categories:
   - Game-Design

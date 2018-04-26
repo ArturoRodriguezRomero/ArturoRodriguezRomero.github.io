@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Game Design [5]: 3 Things Your Game Needs."
+title: "3 Things Your Game Needs."
 date: 2018-04-25
 categories:
   - Game-Design

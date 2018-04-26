@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Game Design [2]: Why People get Bored?"
+title: "Why People get Bored?"
 date: 2018-04-23
 categories:
   - Game-Design
