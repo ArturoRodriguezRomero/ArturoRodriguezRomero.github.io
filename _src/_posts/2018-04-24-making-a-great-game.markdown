@@ -36,8 +36,8 @@ If you remove all the gameplay elements from your game, allowing the player only
 
 The game should be **inherently fun** to play. It should have a set of interesting rules and a series of problems to solve. There's usually a trade off between number of features and quality of features. A game could have:
 
-* Lots of small game's mechanics.
-* A few very good game's mechanics.
+* Lots of small game mechanics.
+* A few very good game mechanics.
 
 This really is a matter of time and resources. You could fill a huge game with tons of very good mechanics, but it will take an enormous amount of time.
 
@@ -60,3 +60,12 @@ This sounds much more difficult and much more fun.
 The game's challenges should require the player to use their skills to overcome them. If the player fails to overcome the challenge, they should be punished or, at least, not rewarded. If the player succeses to overcome the problem, they should be given a **valuable reward**.
 
 Players are really smart about optimizing, if you don't give them a reward, a reason to do something, they will just consider it irrelevant.
+
+<figure>
+  <img src="http://reliveandplay.com/wp-content/uploads/Dragon.jpg" alt="Dark Souls"/>
+  <figcaption><a href="https://store.steampowered.com/app/211420/DARK_SOULS_Prepare_To_Die_Edition/" target="_blank">Dark Souls</a> difficulty is part of the game's core.</figcaption>
+</figure>
+
+I made a little printable document to help you find flaws in your game's design. Check it out!
+
+<a href="{{site.baseUrl}}/assets/images/game-checklist.pdf" target="_blank"><img src="{{site.baseUrl}}/assets/images/game-checklist.PNG" alt="Game design checklist"/></a>

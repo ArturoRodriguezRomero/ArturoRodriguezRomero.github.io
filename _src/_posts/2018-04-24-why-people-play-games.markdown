@@ -35,8 +35,8 @@ This usually results in a **grind**. It's very hard work to keep playing a game 
 
 This is a bit of a weird one. Because games can have two very different types of stories:
 
-* Stories crafted by the developers. Think [*Bioshock*](http://store.steampowered.com/app/7670/BioShock/).
-* Stories created by the players with opportunities given by the developers. Think [*Minecraft*](https://minecraft.net).
+* Stories crafted by the developers. Think [*Bioshock*](http://store.steampowered.com/app/7670/BioShock/){:target="_blank"}.
+* Stories created by the players with opportunities given by the developers. Think [*Minecraft*](https://minecraft.net){:target="_blank"}.
 
 The typical *story game* comes with a **perfectly crafted story** by the developers, which will hopefully make the player feel a certain way. *Bioshock* wants you to experience Rapture's story and its characters through the eyes of your avatar. It's very manufactured, and it works very well.
 
@@ -52,7 +52,7 @@ For some people it's relaxing to play a game they have fully mastered and have a
 
 <figure>
   <img src="https://hegemonia.files.wordpress.com/2006/11/wow.jpg" alt="World of Warcraft."/>
-  <figcaption>People enjoy playing <a href="https://worldofwarcraft.com">World of Warcraft</a> even after having spent thousands of hours on it.</figcaption>
+  <figcaption>People enjoy playing <a href="https://worldofwarcraft.com" target="_blank">World of Warcraft</a> even after having spent thousands of hours on it.</figcaption>
 </figure>
 
 There is no "right" way to play a game. Games should be able to have a story, be competitive or be infinitely replayable. But a game should always prioritize **fun** over everything else. Or have the story, the competitive aspect and the replayability support the systems that make the game fun.

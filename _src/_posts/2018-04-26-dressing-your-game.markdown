@@ -3,10 +3,10 @@ layout: post
 title: "Dressing your Game."
 date: 2018-04-26
 categories:
-  - Personal
+  - Game-Design
 description: Dressing your Game
-image: /assets/images/world.jpg
-image-sm: /assets/images/world.jpg
+image: https://ak5.picdn.net/shutterstock/videos/22616425/thumb/1.jpg
+image-sm: https://ak5.picdn.net/shutterstock/videos/22616425/thumb/1.jpg
 ---
 
 Dressing is all the things in your game that aren't the *game itself*.

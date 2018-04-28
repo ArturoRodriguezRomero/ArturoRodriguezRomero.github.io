@@ -50,7 +50,7 @@ This means that you should **introduce complexity over time**, leaving the playe
 
 <figure>
   <img src="http://www.mobygames.com/images/shots/l/762577-warframe-windows-screenshot-the-modding-menu-you-can-transmute.png" alt="Warframe modding menu."/>
-  <figcaption><a href="https://www.warframe.com">Warframe</a>’s modding tree throws offs many new players, even though its one of the games stronger points.</figcaption>
+  <figcaption><a href="https://www.warframe.com" target="_blank">Warframe</a>’s modding tree throws offs many new players, even though its one of the games stronger points.</figcaption>
 </figure>
 
 <br>
@@ -83,7 +83,7 @@ Leave **breathing time between learning new skills** for the player to completel
 
 <figure>
   <img src="https://i.ytimg.com/vi/U8cB8B_jCX8/maxresdefault.jpg" alt="S.T.A.L.K.E.R.: Call of Pripyat"/>
-  <figcaption><a href="http://store.steampowered.com/app/41700/STALKER_Call_of_Pripyat/">S.T.A.L.K.E.R.: Call of Pripyat</a> throws you into a huge world with little to no explanation of the game's systems.</figcaption>
+  <figcaption><a href="http://store.steampowered.com/app/41700/STALKER_Call_of_Pripyat/" target="_blank">S.T.A.L.K.E.R.: Call of Pripyat</a> throws you into a huge world with little to no explanation of the game's systems.</figcaption>
 </figure>
 
 #### "I KNOW IT ALL."

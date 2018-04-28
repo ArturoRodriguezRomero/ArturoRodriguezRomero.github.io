@@ -11,22 +11,22 @@ image-sm: http://www.dq995.com/data/out/39/916258.png
 ## Simple Jekyll Blog with Github Pages.
 
 
-If you want to create a simple, static personal blog, [Jekyll](https://jekyllrb.com/) and [Github Pages](https://pages.github.com/) are one of the best solutions.
+If you want to create a simple, static personal blog, [Jekyll](https://jekyllrb.com/){:target="_blank"} and [Github Pages](https://pages.github.com/){:target="_blank"} are one of the best solutions.
 
 But first, what is Jekyll?
 > Jekyll is a simple, blog-aware, static site generator.
 
-This means that you write your posts with simple [Markdown](https://en.wikipedia.org/wiki/Markdown) text and Jekyll converts it to rich and formatted HTML code.
+This means that you write your posts with simple [Markdown](https://en.wikipedia.org/wiki/Markdown){:target="_blank"} text and Jekyll converts it to rich and formatted HTML code.
 Jekyll will stitch your post's contents with all the templates and components, and generate a static website, which you can upload to Github Pages (For free!).
 
-Jekyll is a [Ruby Gem](https://rubygems.org/). A library programmed in [Ruby](https://www.ruby-lang.org), so you are going to need to install a Ruby environment if you don't already have it.
+Jekyll is a [Ruby Gem](https://rubygems.org/){:target="_blank"}. A library programmed in [Ruby](https://www.ruby-lang.org){:target="_blank"}, so you are going to need to install a Ruby environment if you don't already have it.
 
 ### Installation
 
 I'm using **Windows**, which makes the installation a little harder than on Linux/MacOS. If you are using one of those, here's a [link](https://jekyllrb.com/docs/installation) to the official documentation.
 
 
-**1- Download and install [RubyInstaller](https://rubyinstaller.org/downloads/).**
+**1- Download and install [RubyInstaller](https://rubyinstaller.org/downloads/){:target="_blank"}.**
 
 **2- Open a command prompt and type:**
 
@@ -34,7 +34,7 @@ I'm using **Windows**, which makes the installation a little harder than on Linu
 gem install jekyll bundler
 ```
 
-This should take a little while. Click [here](http://bundler.io/) to learn a little bit more about Bundler.
+This should take a little while. Click [here](http://bundler.io/){:target="_blank"} to learn a little bit more about Bundler.
 
 Type this to check if Jekyll has installed properly:
 
@@ -59,9 +59,9 @@ jekyll serve
 
 **Cool**. You have a Jekyll project running. But let's go a little further. You could build the entire website on your own (and, if you have the time, DO IT!), but there are a ton of Jekyll themes made by the good people of Github.
 
-[themes.jekyllrc.org](http://themes.jekyllrc.org/) has a great number of themes from Github, find one you like and fork it or download it.
+[themes.jekyllrc.org](http://themes.jekyllrc.org/){:target="_blank"} has a great number of themes from Github, find one you like and fork it or download it.
 
-I've chosen [Travelogue](https://github.com/SalGnt/Travelogue) for this demonstration, but feel free to use the one you like the most.
+I've chosen [Travelogue](https://github.com/SalGnt/Travelogue){:target="_blank"} for this demonstration, but feel free to use the one you like the most.
 
 If the theme you are using has **dependencies**, you may need to install them:
 
@@ -137,7 +137,7 @@ If you go and take a look at any file in the **_layouts** folder you will see co
 
 So what's with all these **curly brackets**??
 
-These are attributes used by the [Liquid Template Engine](http://shopify.github.io/liquid/), an open source template language written in (you guessed it) Ruby.
+These are attributes used by the [Liquid Template Engine](http://shopify.github.io/liquid/){:target="_blank"}, an open source template language written in (you guessed it) Ruby.
 
 This engine allows you to reference configuration, variables and data from anywhere on the website. And even add **logic** to your code.
 Let's take a look a the previous code block and add a few comments.
@@ -193,6 +193,6 @@ jekyll build
 
 ### A Few Tips
 
-* Markdown can be hard to remember when starting your Blog. [Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)'s a great **cheatsheet** to remember the basics while you write your posts.
+* Markdown can be hard to remember when starting your Blog. [Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet){:target="_blank"}'s a great **cheatsheet** to remember the basics while you write your posts.
 
-* If you don't like the github.io domain on your blog's URL, you can purchase and use a **custom domain**. [Here](https://help.github.com/articles/using-a-custom-domain-with-github-pages/)'s how to do it.
+* If you don't like the github.io domain on your blog's URL, you can purchase and use a **custom domain**. [Here](https://help.github.com/articles/using-a-custom-domain-with-github-pages/){:target="_blank"}'s how to do it.

@@ -48,7 +48,7 @@ Let's go back to the "Games are real life" quote and let's be a little more accu
 
 It would be imposible to represent real life in a game, that's why games are full of simple objects with simple abilities that follow simple rules. It's easier for the player to know what to do and what's happening.
 
-Lately, I've been playing [Doorkickers (2014)](http://store.steampowered.com/app/248610/Door_Kickers), and I find very interesting the feeling that such a simple looking game can give you. You really feel like a S.W.A.T squad storming into a house full of terrorists. Very similar to what I'd feel playing [Rainbow Six Siege](http://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/), but in a very different kind of game.
+Lately, I've been playing [Doorkickers (2014)](http://store.steampowered.com/app/248610/Door_Kickers){:target="_blank"}, and I find very interesting the feeling that such a simple looking game can give you. You really feel like a S.W.A.T squad storming into a house full of terrorists. Very similar to what I'd feel playing [Rainbow Six Siege (2015)](http://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/){:target="_blank"}, but in a very different kind of game.
 
 The main difference between these games is the **level of abstraction**.
 
@@ -81,7 +81,7 @@ You shoot an enemy, it dies. You throw the ball, it may go in or it may not. You
 
 **There is rarely a long term meaning to your actions.**
 
-An exception to this would be a game like [Civilization](https://civilization.com/). In a typical game of Civilization you make a ton of choices every turn that will define the later parts of the game.
+An exception to this would be a game like [Civilization](https://civilization.com/){:target="_blank"}. In a typical game of Civilization you make a ton of choices every turn that will define the later parts of the game.
 
 You may invade a civilization's city in the beginning of the game, and 300 turns later the civilization may attack you in retaliation from your past deeds.
 

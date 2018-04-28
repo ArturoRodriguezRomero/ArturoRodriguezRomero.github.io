@@ -13,7 +13,7 @@ image-sm: /assets/images/world.jpg
 
 My name is Arturo and I'm a 20 year old dude from Madrid! That's the one in Spain, not the one in Kentucky, mind you.
 
-I've been thinking about writting lately, so I've set up this blog with the help of [Jekyll](https://jekyllrb.com/) and [Github Pages](https://pages.github.com/).It was a pretty cool process, so I'm definitely going to write a post about it (EDIT: [here]({{site.baseurl}}{% post_url 2018-04-21-jekyll-blog-tutorial %})'s the post 😊)
+I've been thinking about writting lately, so I've set up this blog with the help of [Jekyll](https://jekyllrb.com/){:target="_blank"} and [Github Pages](https://pages.github.com/){:target="_blank"}.It was a pretty cool process, so I'm definitely going to write a post about it (EDIT: [here]({{site.baseurl}}{% post_url 2018-04-21-jekyll-blog-tutorial %})'s the post 😊)
 
 I'll be writting about Web Development, Game Design, Programming and all the other good things in life.
 
