@@ -167,3 +167,26 @@ ol, ul {
   background-color: $color-alpha;
   text-shadow: none;
 }
+
+table{
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 1em;
+
+  & thead{
+    border-bottom: 2px solid $color-alpha;
+    font-size: 1.5em;
+    color: $color-alpha;
+  }
+
+  & tr td{
+    padding: .2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+
+    &:not(:last-child){
+    }
+  }
+}

@@ -5,9 +5,84 @@
     <description>Technology Internet Blog</description>
     <link>https://github.com/ArturoRodriguezRomero/</link>
     <atom:link href="https://github.com/ArturoRodriguezRomero/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 28 Apr 2018 10:52:15 +0200</pubDate>
-    <lastBuildDate>Sat, 28 Apr 2018 10:52:15 +0200</lastBuildDate>
+    <pubDate>Thu, 03 May 2018 20:38:45 +0200</pubDate>
+    <lastBuildDate>Thu, 03 May 2018 20:38:45 +0200</lastBuildDate>
     <generator>Jekyll v3.8.0</generator>
+    
+      <item>
+        <title>Stories in Games.</title>
+        <description>&lt;p&gt;Nowadays most games come with a story. No matter how small the game is, it comes with a story for the player to experience. We used to see story in games as something extra, now it’s an intrinsical part of it.&lt;/p&gt;
+
+&lt;h2 id=&quot;stories-in-games&quot;&gt;Stories in Games.&lt;/h2&gt;
+
+&lt;p&gt;When it comes to story, developers usually take one out of these two routes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Game before Story&lt;/strong&gt;:
+You are focused on making a fun game, but you still want to have some story to tell. You put the story between the gameplay moments or make it not interrupt the gameplay itself.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Story before Game&lt;/strong&gt;:
+You are focused on delivering a great story to the player, but you still need to have the appereance of a game. You take away control from the player in order to make them experience what you have designed or you give the player little control to begin with.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Neither of these routes are wrong, but they should be &lt;strong&gt;deliberate design choices&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The problem is, most people don’t play games for the story. Even if they think they do, and it may even be the reason why the start playing a game, &lt;strong&gt;players keep &lt;em&gt;playing&lt;/em&gt; a game because they like the &lt;em&gt;game&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Stories in games are usually a reward for the player.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You have been playing for 30 minutes, here’s a little drop of story, you &lt;strong&gt;narrative yunkie&lt;/strong&gt;!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A story can be a great complement for your game, it can heighten the experience to new levels and it can make the player different emotions that they would feel just playing a game.&lt;/p&gt;
+
+&lt;p&gt;That’s the thing, a &lt;strong&gt;story doesn’t provide the same as a game&lt;/strong&gt;, it doesn’s make the player feel the same emotions, it’s critically different.&lt;/p&gt;
+
+&lt;p&gt;Let’s see a comparision between regular stories and games:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Games&lt;/th&gt;
+      &lt;th&gt;Stories&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Teach through experience&lt;/td&gt;
+      &lt;td&gt;Teach in an indirect way&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Good at objectification (Good vs Evil)&lt;/td&gt;
+      &lt;td&gt;Good at empathy&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tend to simplify and classify&lt;/td&gt;
+      &lt;td&gt;Tend to be subtle and blur the lines&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Show people’s actions&lt;/td&gt;
+      &lt;td&gt;Show people’s emotions&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Help generate player narratives&lt;/td&gt;
+      &lt;td&gt;Provide a set narrative&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Where and what you use the story in your game for is up to you, just make sure that this decision is &lt;strong&gt;deliberate&lt;/strong&gt; and that your game and your story both benefit from having each other.&lt;/p&gt;
+
+&lt;p&gt;A good blend between game and story can be a delicious thing.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 May 2018 00:00:00 +0200</pubDate>
+        <link>https://github.com/ArturoRodriguezRomero/2018/05/03/stories-in-games/</link>
+        <guid isPermaLink="true">https://github.com/ArturoRodriguezRomero/2018/05/03/stories-in-games/</guid>
+        
+        
+        <category>Game-Design</category>
+        
+      </item>
     
       <item>
         <title>Dressing your Game.</title>
