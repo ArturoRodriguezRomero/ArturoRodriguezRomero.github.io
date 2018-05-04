@@ -68,4 +68,8 @@ Players are really smart about optimizing, if you don't give them a reward, a re
 
 I made a little printable document to help you find flaws in your game's design. Check it out!
 
-<a href="{{site.baseUrl}}/assets/images/game-checklist.pdf" target="_blank"><img src="{{site.baseUrl}}/assets/images/game-checklist.PNG" alt="Game design checklist"/></a>
+
+<figure>
+  <a href="{{site.baseUrl}}/assets/images/game-checklist.pdf" target="_blank"><img src="{{site.baseUrl}}/assets/images/game-checklist.PNG" alt="Game design checklist"/></a>
+  <figcaption>Click on the image!</figcaption>
+</figure>

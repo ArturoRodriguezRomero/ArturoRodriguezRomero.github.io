@@ -5,8 +5,8 @@ date: 2018-04-21
 categories:
   - Web-Design
 description: Simple Jekyll Blog with Github Pages.
-image: http://www.dq995.com/data/out/39/916258.png
-image-sm: http://www.dq995.com/data/out/39/916258.png
+image: https://www.bookstr.com/sites/default/files/2018-04/book%20art.jpg
+image-sm: https://www.bookstr.com/sites/default/files/2018-04/book%20art.jpg
 ---
 ## Simple Jekyll Blog with Github Pages.
 
