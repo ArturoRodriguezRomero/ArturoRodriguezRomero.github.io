@@ -32,6 +32,8 @@ Now let's apply this to games.
 
 If we understand that fun comes from the process of **learning new skills and tackling challenges**, we should divide the types of fun by the type of intelligence they are seeking to fulfill.
 
+#### Types of Intelligence.
+
 The most common division of intelligence is the one by Howard Gardner ([here's the Wikipedia article](https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences)) who separates intelligence into:
 
 * **Musical-Rhythmic**: discerning sounds, pitch, tone, rhythm and timbre.
@@ -44,6 +46,8 @@ The most common division of intelligence is the one by Howard Gardner ([here's t
 * **Naturalistic**: understanding living things and nature.
 
 Don't think of this list as the be-all-end-all, this is what Gardner has been able to identify, but he, and lots of other people, are always looking for new types of intelligence (Read the Wikipedia article).
+
+#### Intelligence in Games.
 
 Most games are appealing to these types of intelligence:
 

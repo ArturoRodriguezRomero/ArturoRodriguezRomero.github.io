@@ -4,8 +4,9 @@ layout: default
 <section class="previews">
   <div>
     {% for post in paginator.posts %}
-      <figure class="absolute-bg preview__img" style="background-image: url('{{ post.image }}');"></figure>
+      
     {% endfor %}
+    <figure class="absolute-bg preview__img" style="background-image: url('{{ paginator.posts.last.image }}');"></figure>
     <div class="previews__container">
       <div class="previews__card">
           <figure>

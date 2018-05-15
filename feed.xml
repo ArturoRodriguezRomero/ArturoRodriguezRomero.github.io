@@ -5,9 +5,215 @@
     <description>Technology Internet Blog</description>
     <link>https://github.com/ArturoRodriguezRomero/</link>
     <atom:link href="https://github.com/ArturoRodriguezRomero/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 May 2018 11:03:33 +0200</pubDate>
-    <lastBuildDate>Tue, 15 May 2018 11:03:33 +0200</lastBuildDate>
+    <pubDate>Tue, 15 May 2018 16:52:12 +0200</pubDate>
+    <lastBuildDate>Tue, 15 May 2018 16:52:12 +0200</lastBuildDate>
     <generator>Jekyll v3.8.0</generator>
+    
+      <item>
+        <title>Practical Guide to Progressive Web Apps.</title>
+        <description>&lt;p&gt;A new way to deliver amazing user experiences on the web.&lt;/p&gt;
+
+&lt;p&gt;That’s what Google calls Progressive Web Apps, but &lt;strong&gt;what are they really&lt;/strong&gt;?&lt;/p&gt;
+
+&lt;h2 id=&quot;practical-guide-to-progressive-web-apps&quot;&gt;Practical Guide to Progressive Web Apps.&lt;/h2&gt;
+
+&lt;p&gt;Well, it’s fairly simple, Progressive Web Apps, or PWA, are typical web application (HTML, CSS, JS) that meet a number of requirements set by the web browser developers (Google, Mozilla, Apple, etc).&lt;/p&gt;
+
+&lt;p&gt;By meeting these requirements, when a user enters the web through their browser, they will be prompted to add the app to their homescreen. If they accept, a new app will &lt;em&gt;install&lt;/em&gt; in their menu. This app is opened in fullscreen just like any other &lt;em&gt;native&lt;/em&gt; app.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-pwa-are-not&quot;&gt;What PWA are not:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PWA are &lt;strong&gt;not&lt;/strong&gt; &lt;em&gt;native&lt;/em&gt; applications.&lt;/li&gt;
+  &lt;li&gt;PWA &lt;strong&gt;don’t&lt;/strong&gt; &lt;em&gt;install&lt;/em&gt; like native applications.&lt;/li&gt;
+  &lt;li&gt;PWA run in the browser &lt;strong&gt;environment&lt;/strong&gt; just like any other web app.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;what-pwa-are&quot;&gt;What PWA are:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PWA can be used even when the device is &lt;strong&gt;not connected&lt;/strong&gt; to the Internet.&lt;/li&gt;
+  &lt;li&gt;PWA are &lt;strong&gt;fast&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;PWA provide a better &lt;strong&gt;user experience&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I won’t go into details defining PWA, Google has already done it better than anyone else could! &lt;a href=&quot;https://developers.google.com/web/progressive-web-apps/&quot;&gt;Check it out!&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;lets-go-directly-to-the-practical-guide&quot;&gt;Let’s go directly to the practical guide:&lt;/h3&gt;
+
+&lt;p&gt;Okay, first off, you need a typical web app to turn into a PWA. Anything will work really. But if you don’t have some old proyect laying around, you can use one of mine’s.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ArturoRodriguezRomero/Responsive-Single-Page-Application-OMDB&quot;&gt;SPA-OMDB&lt;/a&gt; is a simple single page application made with vanilla JS, HTML and CSS. Download or fork it.&lt;/p&gt;
+
+&lt;h4 id=&quot;1--perform-an-audit&quot;&gt;1- Perform an Audit.&lt;/h4&gt;
+
+&lt;p&gt;Audits check that your website meets some requirements. I’m using Chrome’s built in Lighthouse audit system.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Press &lt;code class=&quot;highlighter-rouge&quot;&gt;F12&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Go to Audits.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/assets/images/audit-1.PNG&quot; alt=&quot;audit-1&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hit &lt;code class=&quot;highlighter-rouge&quot;&gt;Perform an audit&lt;/code&gt;. You only need to check the PWA option.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/assets/images/audit-3.PNG&quot; alt=&quot;audit-3&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Well, this is a bit embarrasing. But don’t worry! We will get there, we just need to meet all the &lt;a href=&quot;https://developers.google.com/web/progressive-web-apps/checklist&quot;&gt;PWA Checklist&lt;/a&gt; requirements.&lt;/p&gt;
+
+&lt;p&gt;Most of them are pretty self explanatory, here we go.&lt;/p&gt;
+
+&lt;h4 id=&quot;2--adding-a-service-worker&quot;&gt;2- Adding a Service Worker.&lt;/h4&gt;
+
+&lt;p&gt;A service worker is a &lt;strong&gt;client-side proxy&lt;/strong&gt;. Think of it like a little program that runs underneath the web application and can send or receive data.&lt;/p&gt;
+
+&lt;p&gt;This worker sits in a JavaScript file in your website (usually in the root folder and named sw.js).&lt;/p&gt;
+
+&lt;p&gt;This is the simplest possible service worker you can have:&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cm&quot;&gt;/*
+Copyright 2016 Google Inc. All Rights Reserved.
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Names of the two caches used in this version of the service worker.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Change to v2, etc. when you update any of the local resources, which will&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// in turn trigger the install event again.&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PRECACHE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;precache-v1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;RUNTIME&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;runtime&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// A list of local resources we always want to be cached.&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PRECACHE_URLS&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[];&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// The install handler takes care of precaching the resources we always need.&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;install&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;waitUntil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;caches&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;PRECACHE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cache&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cache&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;PRECACHE_URLS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;skipWaiting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// The activate handler takes care of cleaning up old caches.&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;activate&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentCaches&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;PRECACHE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;RUNTIME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;waitUntil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;caches&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cacheNames&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cacheNames&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+          &lt;span class=&quot;nx&quot;&gt;cacheName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;currentCaches&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;includes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cacheName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cachesToDelete&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Promise&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+          &lt;span class=&quot;nx&quot;&gt;cachesToDelete&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cacheToDelete&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;caches&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;delete&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cacheToDelete&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;clients&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;claim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// The fetch handler serves responses for same-origin resources from a cache.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// If no response is found, it populates the runtime cache with the response&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// from the network before returning it to the page.&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;fetch&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// Skip cross-origin requests, like those for Google Analytics.&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;startsWith&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;origin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;respondWith&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;caches&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;match&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cachedResponse&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cachedResponse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cachedResponse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;caches&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;RUNTIME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cache&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// Put a copy of the response in the runtime cache.&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cache&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;clone&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+              &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Add this block of &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt;&lt;/code&gt; right under your &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; tag:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'serviceWorker'&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;navigator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;navigator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;serviceWorker&lt;/span&gt;
+               &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;register&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/sw.js'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+               &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Service Worker Registered&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;3--adding-a-manifest&quot;&gt;3- Adding a Manifest.&lt;/h4&gt;
+
+&lt;p&gt;The manifest is a file that tells the browser some information it needs to properly display the web.&lt;/p&gt;
+
+&lt;p&gt;The simplest way to make a manifest is with &lt;a href=&quot;https://app-manifest.firebaseapp.com/&quot;&gt;Firebase’s App Manifest Generator&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Fill the form with your app’s information (including the logo!), download it and simply add the manifest to the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; block with:&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;manifest&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;manifest.json&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you perform a new audit, you will see that a few more requirements have been met!&lt;/p&gt;
+
+&lt;h4 id=&quot;4--adding-a-theme-color&quot;&gt;4- Adding a Theme Color.&lt;/h4&gt;
+
+&lt;p&gt;Simply add this to the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; block:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;theme-color&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#db5945&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Easily enough.&lt;/p&gt;
+
+&lt;h4 id=&quot;5--serving-over-https&quot;&gt;5- Serving over HTTPS.&lt;/h4&gt;
+
+&lt;p&gt;When loading external files, either JavaScript libraries or images, you must make sure all of these are served over a HTTPS connection. This can be hard if your app uses a lot of pictures, but it’s the price we must do it for &lt;em&gt;progress&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This also applies to yourself! &lt;strong&gt;The browser won’t prompt the user to install your app if it’s not served over HTTPS.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You may discard this requirement when using localhost.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’ve met all the requirement your next audit should look something like this!&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/assets/images/audit-4.PNG&quot; alt=&quot;audit-4&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;How progressive is that.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 May 2018 00:00:00 +0200</pubDate>
+        <link>https://github.com/ArturoRodriguezRomero/2018/05/15/making-a-progressive-web-app/</link>
+        <guid isPermaLink="true">https://github.com/ArturoRodriguezRomero/2018/05/15/making-a-progressive-web-app/</guid>
+        
+        
+        <category>Web-Design</category>
+        
+      </item>
     
       <item>
         <title>Types of Fun.</title>
@@ -36,6 +242,8 @@
 
 &lt;p&gt;If we understand that fun comes from the process of &lt;strong&gt;learning new skills and tackling challenges&lt;/strong&gt;, we should divide the types of fun by the type of intelligence they are seeking to fulfill.&lt;/p&gt;
 
+&lt;h4 id=&quot;types-of-intelligence&quot;&gt;Types of Intelligence.&lt;/h4&gt;
+
 &lt;p&gt;The most common division of intelligence is the one by Howard Gardner (&lt;a href=&quot;https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences&quot;&gt;here’s the Wikipedia article&lt;/a&gt;) who separates intelligence into:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -50,6 +258,8 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Don’t think of this list as the be-all-end-all, this is what Gardner has been able to identify, but he, and lots of other people, are always looking for new types of intelligence (Read the Wikipedia article).&lt;/p&gt;
+
+&lt;h4 id=&quot;intelligence-in-games&quot;&gt;Intelligence in Games.&lt;/h4&gt;
 
 &lt;p&gt;Most games are appealing to these types of intelligence:&lt;/p&gt;
 
@@ -351,11 +561,11 @@ You are focused on delivering a great story to the player, but you still need to
 &lt;p&gt;Players are really smart about optimizing, if you don’t give them a reward, a reason to do something, they will just consider it irrelevant.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;https://reliveandplay.com/wp-content/uploads/Dragon.jpg&quot; alt=&quot;Dark Souls&quot; /&gt;
+  &lt;img src=&quot;http://reliveandplay.com/wp-content/uploads/Dragon.jpg&quot; alt=&quot;Dark Souls&quot; /&gt;
   &lt;figcaption&gt;&lt;a href=&quot;https://store.steampowered.com/app/211420/DARK_SOULS_Prepare_To_Die_Edition/&quot; target=&quot;_blank&quot;&gt;Dark Souls&lt;/a&gt; difficulty is part of the game's core.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;I made a little printable document to help you find flaws in your game’s design. Check it out!&lt;/p&gt;
+&lt;p&gt;I made a little printable document to help you find flaws in your game’s design. &lt;a href=&quot;/assets/images/game-checklist.pdf&quot;&gt;Check it out!&lt;/a&gt;&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;a href=&quot;/assets/images/game-checklist.pdf&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/assets/images/game-checklist.PNG&quot; alt=&quot;Game design checklist&quot; /&gt;&lt;/a&gt;
@@ -638,56 +848,6 @@ You shoot an enemy, it dies. You throw the ball, it may go in or it may not. You
         <pubDate>Sun, 22 Apr 2018 00:00:00 +0200</pubDate>
         <link>https://github.com/ArturoRodriguezRomero/2018/04/22/what-is-a-game/</link>
         <guid isPermaLink="true">https://github.com/ArturoRodriguezRomero/2018/04/22/what-is-a-game/</guid>
-        
-        
-        <category>Game-Design</category>
-        
-      </item>
-    
-      <item>
-        <title>Why Is our Brain Lazy?</title>
-        <description>&lt;p&gt;The other day I finished &lt;strong&gt;A Theory of Fun for Game Design&lt;/strong&gt; by &lt;a href=&quot;https://twitter.com/raphkoster&quot; target=&quot;_blank&quot;&gt;Raph Koster&lt;/a&gt; and I found it very interesting. It articulates what most player feel when we’ve been playing games for a long time.&lt;/p&gt;
-
-&lt;p&gt;I liked it so much that I’m going to give you my thoughts on it. Not a review nor a critique, but I’ll be giving you my take on it while sharing my point of view.&lt;/p&gt;
-
-&lt;p&gt;I will try to be broad and talk about general game design, but this series will be centered in &lt;strong&gt;videogame design&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Before we start, you can get the book on &lt;a href=&quot;https://www.amazon.com/Theory-Game-Design-Raph-Koster/dp/1449316034&quot; target=&quot;_blank&quot;&gt;Amazon&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-is-our-brain-lazy&quot;&gt;Why Is our Brain Lazy?&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Our brain is &lt;strong&gt;lazy&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;But why? Well it’s pretty simple, our brain doesn’t want to spend processing time in things we already know or in things that are not important to us.&lt;/p&gt;
-
-&lt;p&gt;Our brain &lt;strong&gt;assumes&lt;/strong&gt; tons of things every day. It assumes how the pavement on the street you walk every day going to work is. It assumes where the trees are in your favorite park. Even though you don’t really know. This is your brain being &lt;strong&gt;energy efficient&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;We apply &lt;strong&gt;patterns&lt;/strong&gt; we already know to things we see for the first time. And if we don’t know any pattern to apply in the situation, we create it for future use. You don’t have to learn something new if you already know a similar pattern.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;https://mangroveexplorer.files.wordpress.com/2013/02/scary-tree-face.jpg&quot; alt=&quot;A scary looking tree, looks like it has a face on it.&quot; /&gt;
-  &lt;figcaption&gt;We see scary faces where there are none.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We uncunsciously abstract things to make them more easily recognizable. We don’t need to store a realistic memory of most things, we just keep a &lt;strong&gt;symbolic idea&lt;/strong&gt; of it. You could thing of it as if our brain lowers the resolution of things we already know or that we don’t see as important.&lt;/p&gt;
-
-&lt;p&gt;This is a picture of a street I’ve walked a thousand times. I think I know it pretty well. But if you asked me what color is a particular building, I couldn’t tell you, my brain has tagged that information as not useful. But if it changed overnight, I would notice, or more like, my subconscious would notice.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/street.PNG&quot; alt=&quot;A town street.&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is how my subconscious sees this street.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/blur-street.png&quot; alt=&quot;A town street, seen by the subconscious. Blurry.&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This also applies to games. We sometimes call it &lt;strong&gt;muscle memory&lt;/strong&gt;, even though muscles don’t have memory (that we know of). This really is your brain having internalized a movement, a reaction to an action. This is a very long term kind of memory.&lt;/p&gt;
-
-&lt;p&gt;Let’s say you played &lt;a href=&quot;https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Counter Strike&lt;/em&gt;&lt;/a&gt; many years ago and you were pretty good but you stopped playing a long time ago, it would be faster for you to become a good player again than if you had never played before.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 22 Apr 2018 00:00:00 +0200</pubDate>
-        <link>https://github.com/ArturoRodriguezRomero/2018/04/22/our-brain-is-lazy/</link>
-        <guid isPermaLink="true">https://github.com/ArturoRodriguezRomero/2018/04/22/our-brain-is-lazy/</guid>
         
         
         <category>Game-Design</category>
