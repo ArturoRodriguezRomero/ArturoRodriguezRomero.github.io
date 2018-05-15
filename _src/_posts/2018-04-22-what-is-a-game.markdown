@@ -5,8 +5,8 @@ date: 2018-04-22
 categories:
   - Game-Design
 description: Psychology for Game Designers
-image: http://i43.tinypic.com/znsydh.jpg
-image-sm: http://i43.tinypic.com/znsydh.jpg
+image: https://i.pinimg.com/originals/21/e2/de/21e2deafff45ff995ca88688fefc0896.jpg
+image-sm: https://i.pinimg.com/originals/21/e2/de/21e2deafff45ff995ca88688fefc0896.jpg
 ---
 
 ## What is a Game?
@@ -48,18 +48,18 @@ Let's go back to the "Games are real life" quote and let's be a little more accu
 
 It would be imposible to represent real life in a game, that's why games are full of simple objects with simple abilities that follow simple rules. It's easier for the player to know what to do and what's happening.
 
-Lately, I've been playing [Doorkickers (2014)](http://store.steampowered.com/app/248610/Door_Kickers){:target="_blank"}, and I find very interesting the feeling that such a simple looking game can give you. You really feel like a S.W.A.T squad storming into a house full of terrorists. Very similar to what I'd feel playing [Rainbow Six Siege (2015)](http://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/){:target="_blank"}, but in a very different kind of game.
+Lately, I've been playing [Doorkickers (2014)](https://store.steampowered.com/app/248610/Door_Kickers){:target="_blank"}, and I find very interesting the feeling that such a simple looking game can give you. You really feel like a S.W.A.T squad storming into a house full of terrorists. Very similar to what I'd feel playing [Rainbow Six Siege (2015)](https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/){:target="_blank"}, but in a very different kind of game.
 
 The main difference between these games is the **level of abstraction**.
 
 
 <figure>
-  <img src="https://www.pcgamesn.com/sites/default/files/door%20kickers%20alpha%208%20alsdn.png" alt="Doorkickers (2014) by [KillHouse Games](http://inthekillhouse.com/)"/>
+  <img src="https://www.pcgamesn.com/sites/default/files/door%20kickers%20alpha%208%20alsdn.png" alt="Doorkickers (2014) by [KillHouse Games](https://inthekillhouse.com/)"/>
   <figcaption>Doorkickers (2014) by KillHouse Games.</figcaption>
 </figure>
 
 <figure>
-  <img src="https://www.instant-gaming.com/images/products/406/screenshot/406-4.jpg" alt="Rainbow Six Siege (2015) by [Ubisoft Montreal](http://montreal.ubisoft.com)"/>
+  <img src="https://www.instant-gaming.com/images/products/406/screenshot/406-4.jpg" alt="Rainbow Six Siege (2015) by [Ubisoft Montreal](https://montreal.ubisoft.com)"/>
   <figcaption>Rainbow Six Siege (2015) by Ubisoft Montreal.</figcaption>
 </figure>
 

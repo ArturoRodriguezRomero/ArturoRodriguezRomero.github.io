@@ -62,7 +62,7 @@ The game's challenges should require the player to use their skills to overcome 
 Players are really smart about optimizing, if you don't give them a reward, a reason to do something, they will just consider it irrelevant.
 
 <figure>
-  <img src="http://reliveandplay.com/wp-content/uploads/Dragon.jpg" alt="Dark Souls"/>
+  <img src="https://reliveandplay.com/wp-content/uploads/Dragon.jpg" alt="Dark Souls"/>
   <figcaption><a href="https://store.steampowered.com/app/211420/DARK_SOULS_Prepare_To_Die_Edition/" target="_blank">Dark Souls</a> difficulty is part of the game's core.</figcaption>
 </figure>
 

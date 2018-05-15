@@ -34,6 +34,9 @@
   <link rel="alternate" type="application/rss+xml" title="Arturo Rodríguez Romero" href="https://github.com/ArturoRodriguezRomero/feed.xml">
   <link rel="canonical" href="https://github.com/ArturoRodriguezRomero/2018/04/21/jekyll-blog-tutorial/">
 
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f5a503"/>
+
   
 </head>
 
@@ -41,7 +44,7 @@
   <body>
 
     <main>
-      <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+      <article itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
 
   <header class="section-padding--lg mast rellax" data-rellax-speed="-4">
     <a class="nav nav--white" href="/">
@@ -90,7 +93,7 @@ Jekyll will stitch your post’s contents with all the templates and components,
 <div class="language-shell_session highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">gem install jekyll bundler
 </span></code></pre></div></div>
 
-<p>This should take a little while. Click <a href="http://bundler.io/" target="_blank">here</a> to learn a little bit more about Bundler.</p>
+<p>This should take a little while. Click <a href="https://bundler.io/" target="_blank">here</a> to learn a little bit more about Bundler.</p>
 
 <p>Type this to check if Jekyll has installed properly:</p>
 
@@ -105,7 +108,7 @@ jekyll new jekyll-test
 // Go to the new directory
 cd jekyll-test
 
-// Serves the new Jekyll project on http://localhost:4000
+// Serves the new Jekyll project on https://localhost:4000
 jekyll serve
 </span></code></pre></div></div>
 
@@ -113,7 +116,7 @@ jekyll serve
 
 <p><strong>Cool</strong>. You have a Jekyll project running. But let’s go a little further. You could build the entire website on your own (and, if you have the time, DO IT!), but there are a ton of Jekyll themes made by the good people of Github.</p>
 
-<p><a href="http://themes.jekyllrc.org/" target="_blank">themes.jekyllrc.org</a> has a great number of themes from Github, find one you like and fork it or download it.</p>
+<p><a href="https://themes.jekyllrc.org/" target="_blank">themes.jekyllrc.org</a> has a great number of themes from Github, find one you like and fork it or download it.</p>
 
 <p>I’ve chosen <a href="https://github.com/SalGnt/Travelogue" target="_blank">Travelogue</a> for this demonstration, but feel free to use the one you like the most.</p>
 
@@ -186,7 +189,7 @@ jekyll serve
 
 <p>So what’s with all these <strong>curly brackets</strong>??</p>
 
-<p>These are attributes used by the <a href="http://shopify.github.io/liquid/" target="_blank">Liquid Template Engine</a>, an open source template language written in (you guessed it) Ruby.</p>
+<p>These are attributes used by the <a href="https://shopify.github.io/liquid/" target="_blank">Liquid Template Engine</a>, an open source template language written in (you guessed it) Ruby.</p>
 
 <p>This engine allows you to reference configuration, variables and data from anywhere on the website. And even add <strong>logic</strong> to your code.
 Let’s take a look a the previous code block and add a few comments.</p>
@@ -305,5 +308,11 @@ Let’s take a look a the previous code block and add a few comments.</p>
 
 
   </body>
-
+  <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('/sw.js')
+               .then(function() { console.log("Service Worker Registered"); });
+    }
+    </script>
 </html>

@@ -34,6 +34,9 @@
   <link rel="alternate" type="application/rss+xml" title="Arturo Rodríguez Romero" href="https://github.com/ArturoRodriguezRomero/feed.xml">
   <link rel="canonical" href="https://github.com/ArturoRodriguezRomero/">
 
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f5a503"/>
+
   
 </head>
 
@@ -46,7 +49,7 @@
     
       <figure class="absolute-bg preview__img" style="background-image: url('https://blog.vandalog.com/wp-content/uploads/2013/06/youth-waste.jpg');"></figure>
     
-      <figure class="absolute-bg preview__img" style="background-image: url('http://1.bp.blogspot.com/-i5pNVEV-2ZM/UkzzvL7JWLI/AAAAAAAAS8E/BZIIMc6OLQA/s1600/Benton+1.jpg');"></figure>
+      <figure class="absolute-bg preview__img" style="background-image: url('https://1.bp.blogspot.com/-i5pNVEV-2ZM/UkzzvL7JWLI/AAAAAAAAS8E/BZIIMc6OLQA/s1600/Benton+1.jpg');"></figure>
     
       <figure class="absolute-bg preview__img" style="background-image: url('https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2017/10/carr-vanquished_-_h_2017.jpg');"></figure>
     
@@ -60,7 +63,7 @@
     
       <figure class="absolute-bg preview__img" style="background-image: url('https://s3.amazonaws.com/wbstaticfiles/users/555/357236_blue-grey-city-sky.jpg');"></figure>
     
-      <figure class="absolute-bg preview__img" style="background-image: url('http://i43.tinypic.com/znsydh.jpg');"></figure>
+      <figure class="absolute-bg preview__img" style="background-image: url('https://i.pinimg.com/originals/21/e2/de/21e2deafff45ff995ca88688fefc0896.jpg');"></figure>
     
       <figure class="absolute-bg preview__img" style="background-image: url('https://img.etsystatic.com/il/4abc3e/1131215348/il_fullxfull.1131215348_lihr.jpg?version=0');"></figure>
     
@@ -299,5 +302,11 @@
 
 
   </body>
-
+  <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('/sw.js')
+               .then(function() { console.log("Service Worker Registered"); });
+    }
+    </script>
 </html>

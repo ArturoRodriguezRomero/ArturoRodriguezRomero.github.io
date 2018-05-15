@@ -22,7 +22,7 @@ That's why we are always learning new stuff. We get bored of what we already kno
 Boredom is defined as a psychological state experienced when a person doesn't have anything to do, is not interested in things in their surrounding or feels that time is dull or tedious.
 
 <figure>
-  <img src="http://wp.production.patheos.com/blogs/betweentheshadows/files/2014/11/boring.jpg" alt="A cheap stock photo of a bored kid."/>
+  <img src="https://wp.production.patheos.com/blogs/betweentheshadows/files/2014/11/boring.jpg" alt="A cheap stock photo of a bored kid."/>
   <figcaption>A cheap stock photo of a bored kid.</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ You wouldn't give someone who doesn't know anything about math a calculus book. 
 This means that you should **introduce complexity over time**, leaving the player time to learn new skills properly.
 
 <figure>
-  <img src="http://www.mobygames.com/images/shots/l/762577-warframe-windows-screenshot-the-modding-menu-you-can-transmute.png" alt="Warframe modding menu."/>
+  <img src="https://www.mobygames.com/images/shots/l/762577-warframe-windows-screenshot-the-modding-menu-you-can-transmute.png" alt="Warframe modding menu."/>
   <figcaption><a href="https://www.warframe.com" target="_blank">Warframe</a>’s modding tree throws offs many new players, even though its one of the games stronger points.</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ Leave **breathing time between learning new skills** for the player to completel
 
 <figure>
   <img src="https://i.ytimg.com/vi/U8cB8B_jCX8/maxresdefault.jpg" alt="S.T.A.L.K.E.R.: Call of Pripyat"/>
-  <figcaption><a href="http://store.steampowered.com/app/41700/STALKER_Call_of_Pripyat/" target="_blank">S.T.A.L.K.E.R.: Call of Pripyat</a> throws you into a huge world with little to no explanation of the game's systems.</figcaption>
+  <figcaption><a href="https://store.steampowered.com/app/41700/STALKER_Call_of_Pripyat/" target="_blank">S.T.A.L.K.E.R.: Call of Pripyat</a> throws you into a huge world with little to no explanation of the game's systems.</figcaption>
 </figure>
 
 #### "I KNOW IT ALL."

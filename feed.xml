@@ -5,8 +5,8 @@
     <description>Technology Internet Blog</description>
     <link>https://github.com/ArturoRodriguezRomero/</link>
     <atom:link href="https://github.com/ArturoRodriguezRomero/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 04 May 2018 17:54:33 +0200</pubDate>
-    <lastBuildDate>Fri, 04 May 2018 17:54:33 +0200</lastBuildDate>
+    <pubDate>Tue, 15 May 2018 09:52:41 +0200</pubDate>
+    <lastBuildDate>Tue, 15 May 2018 09:52:41 +0200</lastBuildDate>
     <generator>Jekyll v3.8.0</generator>
     
       <item>
@@ -351,7 +351,7 @@ You are focused on delivering a great story to the player, but you still need to
 &lt;p&gt;Players are really smart about optimizing, if you don’t give them a reward, a reason to do something, they will just consider it irrelevant.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://reliveandplay.com/wp-content/uploads/Dragon.jpg&quot; alt=&quot;Dark Souls&quot; /&gt;
+  &lt;img src=&quot;https://reliveandplay.com/wp-content/uploads/Dragon.jpg&quot; alt=&quot;Dark Souls&quot; /&gt;
   &lt;figcaption&gt;&lt;a href=&quot;https://store.steampowered.com/app/211420/DARK_SOULS_Prepare_To_Die_Edition/&quot; target=&quot;_blank&quot;&gt;Dark Souls&lt;/a&gt; difficulty is part of the game's core.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -402,7 +402,7 @@ You are focused on delivering a great story to the player, but you still need to
 &lt;p&gt;This is a bit of a weird one. Because games can have two very different types of stories:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Stories crafted by the developers. Think &lt;a href=&quot;http://store.steampowered.com/app/7670/BioShock/&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Bioshock&lt;/em&gt;&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Stories crafted by the developers. Think &lt;a href=&quot;https://store.steampowered.com/app/7670/BioShock/&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Bioshock&lt;/em&gt;&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;Stories created by the players with opportunities given by the developers. Think &lt;a href=&quot;https://minecraft.net&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Minecraft&lt;/em&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -451,7 +451,7 @@ You are focused on delivering a great story to the player, but you still need to
 &lt;p&gt;Boredom is defined as a psychological state experienced when a person doesn’t have anything to do, is not interested in things in their surrounding or feels that time is dull or tedious.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://wp.production.patheos.com/blogs/betweentheshadows/files/2014/11/boring.jpg&quot; alt=&quot;A cheap stock photo of a bored kid.&quot; /&gt;
+  &lt;img src=&quot;https://wp.production.patheos.com/blogs/betweentheshadows/files/2014/11/boring.jpg&quot; alt=&quot;A cheap stock photo of a bored kid.&quot; /&gt;
   &lt;figcaption&gt;A cheap stock photo of a bored kid.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -478,7 +478,7 @@ You wouldn’t give someone who doesn’t know anything about math a calculus bo
 &lt;p&gt;This means that you should &lt;strong&gt;introduce complexity over time&lt;/strong&gt;, leaving the player time to learn new skills properly.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;http://www.mobygames.com/images/shots/l/762577-warframe-windows-screenshot-the-modding-menu-you-can-transmute.png&quot; alt=&quot;Warframe modding menu.&quot; /&gt;
+  &lt;img src=&quot;https://www.mobygames.com/images/shots/l/762577-warframe-windows-screenshot-the-modding-menu-you-can-transmute.png&quot; alt=&quot;Warframe modding menu.&quot; /&gt;
   &lt;figcaption&gt;&lt;a href=&quot;https://www.warframe.com&quot; target=&quot;_blank&quot;&gt;Warframe&lt;/a&gt;’s modding tree throws offs many new players, even though its one of the games stronger points.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -512,7 +512,7 @@ This doesn’t mean that you should remove things from your game. It means that 
 
 &lt;figure&gt;
   &lt;img src=&quot;https://i.ytimg.com/vi/U8cB8B_jCX8/maxresdefault.jpg&quot; alt=&quot;S.T.A.L.K.E.R.: Call of Pripyat&quot; /&gt;
-  &lt;figcaption&gt;&lt;a href=&quot;http://store.steampowered.com/app/41700/STALKER_Call_of_Pripyat/&quot; target=&quot;_blank&quot;&gt;S.T.A.L.K.E.R.: Call of Pripyat&lt;/a&gt; throws you into a huge world with little to no explanation of the game's systems.&lt;/figcaption&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;https://store.steampowered.com/app/41700/STALKER_Call_of_Pripyat/&quot; target=&quot;_blank&quot;&gt;S.T.A.L.K.E.R.: Call of Pripyat&lt;/a&gt; throws you into a huge world with little to no explanation of the game's systems.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&quot;i-know-it-all&quot;&gt;“I KNOW IT ALL.”&lt;/h4&gt;
@@ -591,17 +591,17 @@ This doesn’t mean that you should remove things from your game. It means that 
 
 &lt;p&gt;It would be imposible to represent real life in a game, that’s why games are full of simple objects with simple abilities that follow simple rules. It’s easier for the player to know what to do and what’s happening.&lt;/p&gt;
 
-&lt;p&gt;Lately, I’ve been playing &lt;a href=&quot;http://store.steampowered.com/app/248610/Door_Kickers&quot; target=&quot;_blank&quot;&gt;Doorkickers (2014)&lt;/a&gt;, and I find very interesting the feeling that such a simple looking game can give you. You really feel like a S.W.A.T squad storming into a house full of terrorists. Very similar to what I’d feel playing &lt;a href=&quot;http://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/&quot; target=&quot;_blank&quot;&gt;Rainbow Six Siege (2015)&lt;/a&gt;, but in a very different kind of game.&lt;/p&gt;
+&lt;p&gt;Lately, I’ve been playing &lt;a href=&quot;https://store.steampowered.com/app/248610/Door_Kickers&quot; target=&quot;_blank&quot;&gt;Doorkickers (2014)&lt;/a&gt;, and I find very interesting the feeling that such a simple looking game can give you. You really feel like a S.W.A.T squad storming into a house full of terrorists. Very similar to what I’d feel playing &lt;a href=&quot;https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/&quot; target=&quot;_blank&quot;&gt;Rainbow Six Siege (2015)&lt;/a&gt;, but in a very different kind of game.&lt;/p&gt;
 
 &lt;p&gt;The main difference between these games is the &lt;strong&gt;level of abstraction&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;https://www.pcgamesn.com/sites/default/files/door%20kickers%20alpha%208%20alsdn.png&quot; alt=&quot;Doorkickers (2014) by [KillHouse Games](http://inthekillhouse.com/)&quot; /&gt;
+  &lt;img src=&quot;https://www.pcgamesn.com/sites/default/files/door%20kickers%20alpha%208%20alsdn.png&quot; alt=&quot;Doorkickers (2014) by [KillHouse Games](https://inthekillhouse.com/)&quot; /&gt;
   &lt;figcaption&gt;Doorkickers (2014) by KillHouse Games.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;https://www.instant-gaming.com/images/products/406/screenshot/406-4.jpg&quot; alt=&quot;Rainbow Six Siege (2015) by [Ubisoft Montreal](http://montreal.ubisoft.com)&quot; /&gt;
+  &lt;img src=&quot;https://www.instant-gaming.com/images/products/406/screenshot/406-4.jpg&quot; alt=&quot;Rainbow Six Siege (2015) by [Ubisoft Montreal](https://montreal.ubisoft.com)&quot; /&gt;
   &lt;figcaption&gt;Rainbow Six Siege (2015) by Ubisoft Montreal.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -683,7 +683,7 @@ You shoot an enemy, it dies. You throw the ball, it may go in or it may not. You
 
 &lt;p&gt;This also applies to games. We sometimes call it &lt;strong&gt;muscle memory&lt;/strong&gt;, even though muscles don’t have memory (that we know of). This really is your brain having internalized a movement, a reaction to an action. This is a very long term kind of memory.&lt;/p&gt;
 
-&lt;p&gt;Let’s say you played &lt;a href=&quot;http://store.steampowered.com/app/730/CounterStrike_Global_Offensive/&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Counter Strike&lt;/em&gt;&lt;/a&gt; many years ago and you were pretty good but you stopped playing a long time ago, it would be faster for you to become a good player again than if you had never played before.&lt;/p&gt;
+&lt;p&gt;Let’s say you played &lt;a href=&quot;https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Counter Strike&lt;/em&gt;&lt;/a&gt; many years ago and you were pretty good but you stopped playing a long time ago, it would be faster for you to become a good player again than if you had never played before.&lt;/p&gt;
 </description>
         <pubDate>Sun, 22 Apr 2018 00:00:00 +0200</pubDate>
         <link>https://github.com/ArturoRodriguezRomero/2018/04/22/our-brain-is-lazy/</link>

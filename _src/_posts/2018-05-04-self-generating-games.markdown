@@ -5,8 +5,8 @@ date: 2018-05-04
 categories:
   - Game-Design
 description: Self Generating Games.
-image: http://1.bp.blogspot.com/-i5pNVEV-2ZM/UkzzvL7JWLI/AAAAAAAAS8E/BZIIMc6OLQA/s1600/Benton+1.jpg
-image-sm: http://1.bp.blogspot.com/-i5pNVEV-2ZM/UkzzvL7JWLI/AAAAAAAAS8E/BZIIMc6OLQA/s1600/Benton+1.jpg
+image: https://1.bp.blogspot.com/-i5pNVEV-2ZM/UkzzvL7JWLI/AAAAAAAAS8E/BZIIMc6OLQA/s1600/Benton+1.jpg
+image-sm: https://1.bp.blogspot.com/-i5pNVEV-2ZM/UkzzvL7JWLI/AAAAAAAAS8E/BZIIMc6OLQA/s1600/Benton+1.jpg
 ---
 
 Making games is **hard** and it takes a ton of **time**.

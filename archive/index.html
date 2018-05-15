@@ -34,6 +34,9 @@
   <link rel="alternate" type="application/rss+xml" title="Arturo Rodríguez Romero" href="https://github.com/ArturoRodriguezRomero/feed.xml">
   <link rel="canonical" href="https://github.com/ArturoRodriguezRomero/archive/">
 
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f5a503"/>
+
   
 </head>
 
@@ -75,7 +78,7 @@
         <a class="card__link" href="/2018/05/04/self-generating-games/" itemprop="url">
           <div class="card__img">
             
-              <figure class="absolute-bg wow" style="background-image: url('http://1.bp.blogspot.com/-i5pNVEV-2ZM/UkzzvL7JWLI/AAAAAAAAS8E/BZIIMc6OLQA/s1600/Benton+1.jpg');"></figure>
+              <figure class="absolute-bg wow" style="background-image: url('https://1.bp.blogspot.com/-i5pNVEV-2ZM/UkzzvL7JWLI/AAAAAAAAS8E/BZIIMc6OLQA/s1600/Benton+1.jpg');"></figure>
             
           </div>
           <div class="card__container">
@@ -215,7 +218,7 @@
         <a class="card__link" href="/2018/04/22/what-is-a-game/" itemprop="url">
           <div class="card__img">
             
-              <figure class="absolute-bg wow" style="background-image: url('http://i43.tinypic.com/znsydh.jpg');"></figure>
+              <figure class="absolute-bg wow" style="background-image: url('https://i.pinimg.com/originals/21/e2/de/21e2deafff45ff995ca88688fefc0896.jpg');"></figure>
             
           </div>
           <div class="card__container">
@@ -302,5 +305,11 @@
 
 
   </body>
-
+  <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('/sw.js')
+               .then(function() { console.log("Service Worker Registered"); });
+    }
+    </script>
 </html>

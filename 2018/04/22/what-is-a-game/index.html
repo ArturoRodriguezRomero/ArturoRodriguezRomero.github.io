@@ -13,7 +13,7 @@
   <meta property="og:url" content="https://github.com/ArturoRodriguezRomero/2018/04/22/what-is-a-game/">
   <meta property="og:site_name" content="Arturo Rodríguez Romero">
   <meta property="og:description" content="Psychology for Game Designers">
-  <meta property="og:image" content="http://i43.tinypic.com/znsydh.jpg">
+  <meta property="og:image" content="https://i.pinimg.com/originals/21/e2/de/21e2deafff45ff995ca88688fefc0896.jpg">
   <meta property="og:type" content="blog">
 
   <meta name="twitter:card" content="summary">
@@ -23,7 +23,7 @@
   <meta name="twitter:site" content="Arturo Rodríguez Romero">
   <meta name="twitter:creator" content="@">
   <meta name="twitter:domain" content="https://github.com/ArturoRodriguezRomero">
-  <meta property="twitter:image" content="http://i43.tinypic.com/znsydh.jpg">
+  <meta property="twitter:image" content="https://i.pinimg.com/originals/21/e2/de/21e2deafff45ff995ca88688fefc0896.jpg">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Lora|Space+Mono:700">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -34,6 +34,9 @@
   <link rel="alternate" type="application/rss+xml" title="Arturo Rodríguez Romero" href="https://github.com/ArturoRodriguezRomero/feed.xml">
   <link rel="canonical" href="https://github.com/ArturoRodriguezRomero/2018/04/22/what-is-a-game/">
 
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f5a503"/>
+
   
 </head>
 
@@ -41,14 +44,14 @@
   <body>
 
     <main>
-      <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+      <article itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
 
   <header class="section-padding--lg mast rellax" data-rellax-speed="-4">
     <a class="nav nav--white" href="/">
       <i class="fa fa-lg fa-arrow-left"></i>
       <span>Back to Posts</span>
     </a>
-    <figure class="absolute-bg mast__img" style="background-image: url('http://i43.tinypic.com/znsydh.jpg');"></figure>
+    <figure class="absolute-bg mast__img" style="background-image: url('https://i.pinimg.com/originals/21/e2/de/21e2deafff45ff995ca88688fefc0896.jpg');"></figure>
     <div class="mast__container">
       <span>
         <time datetime="2018-04-22T00:00:00+02:00" itemprop="datePublished">Apr 22, 2018</time>
@@ -110,17 +113,17 @@
 
 <p>It would be imposible to represent real life in a game, that’s why games are full of simple objects with simple abilities that follow simple rules. It’s easier for the player to know what to do and what’s happening.</p>
 
-<p>Lately, I’ve been playing <a href="http://store.steampowered.com/app/248610/Door_Kickers" target="_blank">Doorkickers (2014)</a>, and I find very interesting the feeling that such a simple looking game can give you. You really feel like a S.W.A.T squad storming into a house full of terrorists. Very similar to what I’d feel playing <a href="http://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/" target="_blank">Rainbow Six Siege (2015)</a>, but in a very different kind of game.</p>
+<p>Lately, I’ve been playing <a href="https://store.steampowered.com/app/248610/Door_Kickers" target="_blank">Doorkickers (2014)</a>, and I find very interesting the feeling that such a simple looking game can give you. You really feel like a S.W.A.T squad storming into a house full of terrorists. Very similar to what I’d feel playing <a href="https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/" target="_blank">Rainbow Six Siege (2015)</a>, but in a very different kind of game.</p>
 
 <p>The main difference between these games is the <strong>level of abstraction</strong>.</p>
 
 <figure>
-  <img src="https://www.pcgamesn.com/sites/default/files/door%20kickers%20alpha%208%20alsdn.png" alt="Doorkickers (2014) by [KillHouse Games](http://inthekillhouse.com/)" />
+  <img src="https://www.pcgamesn.com/sites/default/files/door%20kickers%20alpha%208%20alsdn.png" alt="Doorkickers (2014) by [KillHouse Games](https://inthekillhouse.com/)" />
   <figcaption>Doorkickers (2014) by KillHouse Games.</figcaption>
 </figure>
 
 <figure>
-  <img src="https://www.instant-gaming.com/images/products/406/screenshot/406-4.jpg" alt="Rainbow Six Siege (2015) by [Ubisoft Montreal](http://montreal.ubisoft.com)" />
+  <img src="https://www.instant-gaming.com/images/products/406/screenshot/406-4.jpg" alt="Rainbow Six Siege (2015) by [Ubisoft Montreal](https://montreal.ubisoft.com)" />
   <figcaption>Rainbow Six Siege (2015) by Ubisoft Montreal.</figcaption>
 </figure>
 
@@ -208,5 +211,11 @@ You shoot an enemy, it dies. You throw the ball, it may go in or it may not. You
 
 
   </body>
-
+  <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('/sw.js')
+               .then(function() { console.log("Service Worker Registered"); });
+    }
+    </script>
 </html>

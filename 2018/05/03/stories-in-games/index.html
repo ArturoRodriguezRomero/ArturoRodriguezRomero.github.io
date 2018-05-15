@@ -34,6 +34,9 @@
   <link rel="alternate" type="application/rss+xml" title="Arturo Rodríguez Romero" href="https://github.com/ArturoRodriguezRomero/feed.xml">
   <link rel="canonical" href="https://github.com/ArturoRodriguezRomero/2018/05/03/stories-in-games/">
 
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f5a503"/>
+
   
 </head>
 
@@ -41,7 +44,7 @@
   <body>
 
     <main>
-      <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+      <article itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
 
   <header class="section-padding--lg mast rellax" data-rellax-speed="-4">
     <a class="nav nav--white" href="/">
@@ -166,7 +169,7 @@ You are focused on delivering a great story to the player, but you still need to
     </a>
   
   
-  <a class="item__link" href="/2018/05/04/self-generating-games/" style="background-image: url('http://1.bp.blogspot.com/-i5pNVEV-2ZM/UkzzvL7JWLI/AAAAAAAAS8E/BZIIMc6OLQA/s1600/Benton+1.jpg');">
+  <a class="item__link" href="/2018/05/04/self-generating-games/" style="background-image: url('https://1.bp.blogspot.com/-i5pNVEV-2ZM/UkzzvL7JWLI/AAAAAAAAS8E/BZIIMc6OLQA/s1600/Benton+1.jpg');">
     <div class="item__container">
       <span>Read Next</span>
       <h2>Self Generating Games.</h2>
@@ -183,5 +186,11 @@ You are focused on delivering a great story to the player, but you still need to
 
 
   </body>
-
+  <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('/sw.js')
+               .then(function() { console.log("Service Worker Registered"); });
+    }
+    </script>
 </html>

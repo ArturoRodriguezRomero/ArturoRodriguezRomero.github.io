@@ -34,6 +34,9 @@
   <link rel="alternate" type="application/rss+xml" title="Arturo Rodríguez Romero" href="https://github.com/ArturoRodriguezRomero/feed.xml">
   <link rel="canonical" href="https://github.com/ArturoRodriguezRomero/category/personal/">
 
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f5a503"/>
+
   
 </head>
 
@@ -65,9 +68,9 @@
     </header>
 
     <div class="tab">
-      <ul itemscope itemtype="http://schema.org/Blog">
+      <ul itemscope itemtype="https://schema.org/Blog">
         
-          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          <li class="preview" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
             <a class="preview__link" href="/2018/04/20/hello-world/" itemprop="url">
               <span class="preview__date" itemprop="datePublished" datetime="2018-04-20T00:00:00+02:00">Apr 20, 2018</span>
               <h2 class="preview__header" itemprop="name">Hello World!!!!</h2>
@@ -176,5 +179,11 @@
 
 
   </body>
-
+  <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('/sw.js')
+               .then(function() { console.log("Service Worker Registered"); });
+    }
+    </script>
 </html>

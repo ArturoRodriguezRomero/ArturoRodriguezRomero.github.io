@@ -34,6 +34,9 @@
   <link rel="alternate" type="application/rss+xml" title="Arturo Rodríguez Romero" href="https://github.com/ArturoRodriguezRomero/feed.xml">
   <link rel="canonical" href="https://github.com/ArturoRodriguezRomero/2018/04/23/why-people-play-games/">
 
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f5a503"/>
+
   
 </head>
 
@@ -41,7 +44,7 @@
   <body>
 
     <main>
-      <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+      <article itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
 
   <header class="section-padding--lg mast rellax" data-rellax-speed="-4">
     <a class="nav nav--white" href="/">
@@ -94,7 +97,7 @@
 <p>This is a bit of a weird one. Because games can have two very different types of stories:</p>
 
 <ul>
-  <li>Stories crafted by the developers. Think <a href="http://store.steampowered.com/app/7670/BioShock/" target="_blank"><em>Bioshock</em></a>.</li>
+  <li>Stories crafted by the developers. Think <a href="https://store.steampowered.com/app/7670/BioShock/" target="_blank"><em>Bioshock</em></a>.</li>
   <li>Stories created by the players with opportunities given by the developers. Think <a href="https://minecraft.net" target="_blank"><em>Minecraft</em></a>.</li>
 </ul>
 
@@ -171,5 +174,11 @@
 
 
   </body>
-
+  <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('/sw.js')
+               .then(function() { console.log("Service Worker Registered"); });
+    }
+    </script>
 </html>

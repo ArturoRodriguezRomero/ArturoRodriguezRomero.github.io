@@ -35,7 +35,7 @@ This usually results in a **grind**. It's very hard work to keep playing a game 
 
 This is a bit of a weird one. Because games can have two very different types of stories:
 
-* Stories crafted by the developers. Think [*Bioshock*](http://store.steampowered.com/app/7670/BioShock/){:target="_blank"}.
+* Stories crafted by the developers. Think [*Bioshock*](https://store.steampowered.com/app/7670/BioShock/){:target="_blank"}.
 * Stories created by the players with opportunities given by the developers. Think [*Minecraft*](https://minecraft.net){:target="_blank"}.
 
 The typical *story game* comes with a **perfectly crafted story** by the developers, which will hopefully make the player feel a certain way. *Bioshock* wants you to experience Rapture's story and its characters through the eyes of your avatar. It's very manufactured, and it works very well.

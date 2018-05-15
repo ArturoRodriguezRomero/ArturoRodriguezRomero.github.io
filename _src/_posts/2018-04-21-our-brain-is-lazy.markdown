@@ -44,4 +44,4 @@ This is how my subconscious sees this street.
 
 This also applies to games. We sometimes call it **muscle memory**, even though muscles don't have memory (that we know of). This really is your brain having internalized a movement, a reaction to an action. This is a very long term kind of memory.
 
-Let's say you played [*Counter Strike*](http://store.steampowered.com/app/730/CounterStrike_Global_Offensive/){:target="_blank"} many years ago and you were pretty good but you stopped playing a long time ago, it would be faster for you to become a good player again than if you had never played before.
+Let's say you played [*Counter Strike*](https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/){:target="_blank"} many years ago and you were pretty good but you stopped playing a long time ago, it would be faster for you to become a good player again than if you had never played before.

@@ -34,7 +34,7 @@ I'm using **Windows**, which makes the installation a little harder than on Linu
 gem install jekyll bundler
 ```
 
-This should take a little while. Click [here](http://bundler.io/){:target="_blank"} to learn a little bit more about Bundler.
+This should take a little while. Click [here](https://bundler.io/){:target="_blank"} to learn a little bit more about Bundler.
 
 Type this to check if Jekyll has installed properly:
 
@@ -51,7 +51,7 @@ jekyll new jekyll-test
 // Go to the new directory
 cd jekyll-test
 
-// Serves the new Jekyll project on http://localhost:4000
+// Serves the new Jekyll project on https://localhost:4000
 jekyll serve
 ```
 
@@ -59,7 +59,7 @@ jekyll serve
 
 **Cool**. You have a Jekyll project running. But let's go a little further. You could build the entire website on your own (and, if you have the time, DO IT!), but there are a ton of Jekyll themes made by the good people of Github.
 
-[themes.jekyllrc.org](http://themes.jekyllrc.org/){:target="_blank"} has a great number of themes from Github, find one you like and fork it or download it.
+[themes.jekyllrc.org](https://themes.jekyllrc.org/){:target="_blank"} has a great number of themes from Github, find one you like and fork it or download it.
 
 I've chosen [Travelogue](https://github.com/SalGnt/Travelogue){:target="_blank"} for this demonstration, but feel free to use the one you like the most.
 
@@ -137,7 +137,7 @@ If you go and take a look at any file in the **_layouts** folder you will see co
 
 So what's with all these **curly brackets**??
 
-These are attributes used by the [Liquid Template Engine](http://shopify.github.io/liquid/){:target="_blank"}, an open source template language written in (you guessed it) Ruby.
+These are attributes used by the [Liquid Template Engine](https://shopify.github.io/liquid/){:target="_blank"}, an open source template language written in (you guessed it) Ruby.
 
 This engine allows you to reference configuration, variables and data from anywhere on the website. And even add **logic** to your code.
 Let's take a look a the previous code block and add a few comments.
