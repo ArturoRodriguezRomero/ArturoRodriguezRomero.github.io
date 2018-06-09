@@ -7,6 +7,7 @@ categories:
 description: Dressing your Game
 image: https://ak5.picdn.net/shutterstock/videos/22616425/thumb/1.jpg
 image-sm: https://ak5.picdn.net/shutterstock/videos/22616425/thumb/1.jpg
+extract: A clear perspective to have while decorating your game.
 ---
 
 Dressing is all the things in your game that aren't the *game itself*.

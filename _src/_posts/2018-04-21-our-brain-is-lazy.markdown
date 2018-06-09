@@ -7,6 +7,7 @@ categories:
 description: Psychology for Game Designers
 image: https://img.etsystatic.com/il/4abc3e/1131215348/il_fullxfull.1131215348_lihr.jpg?version=0
 image-sm: https://img.etsystatic.com/il/4abc3e/1131215348/il_fullxfull.1131215348_lihr.jpg?version=0
+extract: How and why our brain deals with laziness.
 ---
 
 The other day I finished **A Theory of Fun for Game Design** by [Raph Koster](https://twitter.com/raphkoster){:target="_blank"} and I found it very interesting. It articulates what most player feel when we've been playing games for a long time.
@@ -34,7 +35,7 @@ We apply **patterns** we already know to things we see for the first time. And i
 
 We uncunsciously abstract things to make them more easily recognizable. We don't need to store a realistic memory of most things, we just keep a **symbolic idea** of it. You could thing of it as if our brain lowers the resolution of things we already know or that we don't see as important.
 
-This is a picture of a street I've walked a thousand times. I think I know it pretty well. But if you asked me what color is a particular building, I couldn't tell you, my brain has tagged that information as not useful. But if it changed overnight, I would notice, or more like, my subconscious would notice.
+This is a picture of a street I've walked a thousand times. I think I know it pretty well. But if you asked me what color a particular building is, I couldn't tell you, my brain has tagged that information as not useful. But if it changed overnight, I would notice, or more like, my subconscious would notice.
 
 <img src="{{site.baseUrl}}/assets/images/street.PNG" alt="A town street."/>
 

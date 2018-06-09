@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<section class="previews">
+<!--section class="previews">
   <div>
     {% for post in paginator.posts %}
       
@@ -31,6 +31,7 @@ layout: default
             <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
               <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
               <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
+              <img class="preview__thumbnail" src="{{ post.image }}" alt="">
               <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
               <span class="preview__more">Read More</span>
             </a>
@@ -50,11 +51,53 @@ layout: default
         </div>
       {% endif %}
 
-      {% include archive-link.html %}
+       # include archive-link.html 
     </div>
 
-    {% include categories-tab.html %}
+     # include categories-tab.html 
 
   </div>
 
+</section-->
+
+<section class="splash">
+  <header class="header">
+    <section class="about">
+      <img class="about__image" src="{{ site.profile_img }}"></img>
+      <div class="about__name">{{ site.name }}</div>
+      <div class="about__description">{{ site.profile }}</div>
+      <div class="about__contact">
+        <a class="fa fa-lg fa-{{ site.social[0] }}" href="{{ site.social[1] }}" target="_blank"></a>
+      </div>
+      <!--div class="about__down-arrow"></div-->
+    </section>
 </section>
+</header>
+
+<section class="blog">
+  <!--nav class="blog__filter-list">
+      {% capture cats %}
+      {% for cat in site.categories %}
+        {{ cat | first }}
+      {% endfor %}
+    {% endcapture %}
+    {% assign sortedCats = cats | split: ' ' | sort %}
+    {% for category in sortedCats %}
+        <div class="blog__filter-list__item">{{ category }}</div>
+    {% endfor %}
+  </nav-->
+  <section class="blog__post-list">
+    {% for post in paginator.posts %}
+    <a class="blog__post-list__item" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+      <img class="blog__post-list__item__image" src="{{ post.image }}"></img>
+      <div class="blog__post-list__item__body">
+        <div class="blog__post-list__item__body__category" href="{{ site.baseurl }}/{{ site.category_dir | default: 'category' }}/{{ post.categories }}/{{ category | downcase | slugify }}">{{ post.categories }}</div>
+        <div class="blog__post-list__item__body__title">{{ post.title }}</div>
+        <div class="blog__post-list__item__body__date">{{ post.date | date: "%b %-d, %Y" }}</div>
+        <div class="blog__post-list__item__body__extract">{{ post.extract }}</div>
+      </div>
+    </a>
+    {% endfor %}
+  </section>
+</section>
+<footer class="footer"></footer>

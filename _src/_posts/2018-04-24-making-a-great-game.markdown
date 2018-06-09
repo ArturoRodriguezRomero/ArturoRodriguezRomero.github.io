@@ -7,6 +7,7 @@ categories:
 description: Psychology for Game Designers
 image: https://images.huffingtonpost.com/2013-10-02-NormanLewisUntitled.jpg
 image-sm: https://images.huffingtonpost.com/2013-10-02-NormanLewisUntitled.jpg
+extract: A short bullet point to have in mind while making your game.
 ---
 
 Here's a list of things that you game should have if you want it to be *pretty good*.
@@ -71,5 +72,4 @@ I made a little printable document to help you find flaws in your game's design.
 
 <figure>
   <a href="{{site.baseUrl}}/assets/images/game-checklist.pdf" target="_blank"><img src="{{site.baseUrl}}/assets/images/game-checklist.PNG" alt="Game design checklist"/></a>
-  <figcaption>Click on the image!</figcaption>
 </figure>

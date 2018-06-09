@@ -7,6 +7,7 @@ categories:
 description: Stories in Games
 image: https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2017/10/carr-vanquished_-_h_2017.jpg
 image-sm: https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2017/10/carr-vanquished_-_h_2017.jpg
+extract: Theory to know while adding story to your game or game to your story.
 ---
 
 Nowadays most games come with a story. No matter how small the game is, it comes with a story for the player to experience. We used to see story in games as something extra, now it's an intrinsical part of it.

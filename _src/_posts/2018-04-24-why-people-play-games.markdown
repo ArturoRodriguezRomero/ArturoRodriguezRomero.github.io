@@ -7,6 +7,7 @@ categories:
 description: Psychology for Game Designers
 image: https://static1.squarespace.com/static/5511fc7ce4b0a3782aa9418b/t/55369463e4b07d491f6be91b/1429640302372/colorful-abstract-3.jpg
 image-sm: https://static1.squarespace.com/static/5511fc7ce4b0a3782aa9418b/t/55369463e4b07d491f6be91b/1429640302372/colorful-abstract-3.jpg
+extract: Reasons for people to play games and why you should know them.
 ---
 
 ## Why people play games.

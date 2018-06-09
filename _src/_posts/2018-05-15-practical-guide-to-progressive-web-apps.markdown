@@ -5,8 +5,9 @@ date: 2018-05-15
 categories:
   - Web-Design
 description: Practical Guide to Progressive Web Apps.
-image: https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/03/1490120495Progressive_Web_App_C-01.png
-image-sm: https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/03/1490120495Progressive_Web_App_C-01.png
+image: http://www.hollysmithartist.com/uploads/5/0/5/8/50582325/2052375_orig.jpg
+image-sm: http://www.hollysmithartist.com/uploads/5/0/5/8/50582325/2052375_orig.jpg
+extract: What are they and how to turn an old project into one.
 ---
 
 A new way to deliver amazing user experiences on the web.
@@ -45,14 +46,16 @@ Audits check that your website meets some requirements. I'm using Chrome's built
 
 * Press `F12`.
 * Go to Audits.
+
 <figure>
-  <img src="{{site.baseurl}}/assets/images/audit-1.PNG" alt="audit-1"/>
+  <img class="small" src="{{site.baseurl}}/assets/images/audit-1.PNG" alt="audit-1"/>
 </figure>
+
 
 * Hit `Perform an audit`. You only need to check the PWA option.
 
 <figure>
-  <img src="{{site.baseurl}}/assets/images/audit-3.PNG" alt="audit-3"/>
+  <img class="small" src="{{site.baseurl}}/assets/images/audit-3.PNG" alt="audit-3"/>
 </figure>
 
 Well, this is a bit embarrasing. But don't worry! We will get there, we just need to meet all the [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) requirements. 

@@ -1,0 +1,468 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+$main-font: "Source Sans Pro", sans-serif;
+$title-font: 'Patua One', cursive;
+
+$header-height: 45vh;
+
+$about__image-width: 150px;
+$about__image-height: 150px;
+
+
+$main-text-color: #2c2c2c;
+$brand-color: orangered;
+
+$mq-xs: 20em;
+$mq-sm: 30em;
+$mq-md: 54em;
+$mq-lg: 64em;
+$mq-xl: 76.5em;
+$mq-xxl: 114em;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $main-text-color;
+}
+
+body {
+  height: 100vh;
+  background-color: #f4f8fb;
+  font-family: $main-font;
+  color: $main-text-color;
+  
+  @media (min-width: $mq-xs) {
+    font-size: 102.5%;
+  }
+
+  @media (min-width: $mq-sm) {
+    font-size: 105%;
+  }
+
+  @media (min-width: $mq-md) {
+    font-size: 107.5%;
+  }
+
+  @media (min-width: $mq-lg) {
+    font-size: 110%;
+  }
+
+  @media (min-width: $mq-xl) {
+    font-size: 115%;
+  }
+
+  @media (min-width: $mq-xxl) {
+    font-size: 125%;
+  }
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.splash {
+  //min-height: 100vh; // mobile
+  //margin-bottom: 100px; // desktop
+  width: 100%;
+
+  .header {
+    background-image: url(https://images.wallpaperscraft.com/image/space_planet_surface_102201_2560x1600.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    //box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.3);
+
+    .about {
+      position: relative;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: -75px;
+      padding-bottom: 75px;
+      padding-top:  75px;
+  
+      &__image {
+        position: relative;
+        width: $about__image-width;
+        height: $about__image-height;
+        border-radius: 100%;
+        object-fit: cover;
+        background-color: $brand-color;
+  
+        box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.3);
+      }
+  
+      &__name {
+        font-size: 2em;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+      }
+  
+      &__description {
+        margin-bottom: 1em;
+        text-align: center;
+        max-width: 20em;
+        color: white;
+      }
+  
+      &__contact {
+        //background-color: slateblue;
+        height: 25px;
+        width: 25px;
+        margin-bottom: 10px;
+      }
+  
+      &__down-arrow {
+        position: relative;
+        bottom: 0px;
+        background-color: slateblue;
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1000px;
+
+  &__filter-list {
+    //position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    // flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+    overflow-x: auto;
+    z-index: 2;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #f4f8fb;
+
+    &__item {
+      min-width: 100px;
+      height: 35px;
+      background-color: red;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+  }
+
+  &__post-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    &__item {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      //width: 100%; //mobile
+      flex: 1 1 250px;
+      margin: 0px 20px 40px;
+      padding-bottom: 30px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      background-color: white;
+      border-radius: 5px;
+      overflow: hidden;
+      text-decoration: none;
+
+      transition: 0.1s ease;
+
+      &:hover {
+        //  transform: scale(1.02);
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+          0 10px 10px rgba(0, 0, 0, 0.22);
+      }
+
+      &__image {
+        width: 100%;
+
+        height: 250px;
+        object-fit: cover;
+        object-position: center center;
+      }
+
+      &__body {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+
+        &__category {
+          padding: 10px;
+          padding-bottom: 0px;
+          text-transform: uppercase;
+          color: orangered;
+          font-weight: bold;
+          text-decoration: none;
+        }
+
+        &__title {
+          font-family: $title-font;
+          position: relative;
+          font-size: 1.5em;
+          padding: 10px;
+          //font-weight: bold;
+        }
+
+        &__date {
+          padding: 10px;
+          display: none;
+        }
+
+        &__extract {
+          padding: 10px;
+          line-height: 1.5em;
+        }
+      }
+    }
+  }
+}
+
+.post{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 50px; // desktop
+  margin-bottom: 50px;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+  @media (max-width: $mq-md) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  &__header{
+    position: relative;
+    width: 100%;
+    text-align: center;
+
+    &__back-button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 0px;
+      left: 0px;
+      height: 50px;
+      width: 50px;
+      font-size: 3em;
+      margin: 10px;
+      text-decoration: none;
+      opacity: .3;
+    }
+
+    &__title{
+      font-size: 3em;
+      //font-weight: bold;
+      margin: 50px;
+      font-family: $title-font;
+    }
+
+    &__categories{
+      font-size: 1.5em;
+      margin: 50px;
+      color: $brand-color;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+
+  &__splash-image{
+    height: 45vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  &__progress-bar{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+  }
+
+  &__content{
+    padding: 50px;
+    font-size: 1.2em;
+
+    @media (max-width: $mq-md) {
+      padding: 10px;
+    }
+
+    h1{
+      font-size: 2em;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      font-family: $title-font;
+    }
+
+    h2{
+      font-size: 1.6em;
+      margin-top: 1.6em;
+      margin-bottom: 1.6em;
+      font-family: $title-font;
+    }
+
+    h3{
+      font-size: 1.3em;
+      margin-top: 1.3em;
+      margin-bottom: 1.3em;
+      font-family: $title-font;
+    }
+
+    h4{
+      font-size: 1.2em;
+      margin-top: 1.2em;
+      margin-bottom: 1.2em;
+      color: $brand-color;
+      font-family: $title-font;
+      font-weight: lighter;
+    }
+
+    p{
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+
+    figure{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0px;
+      margin: 0px;
+
+      figcaption{
+        font-style: italic;
+        text-align: center;
+      }
+    }
+
+    img{
+      width: 100%;
+      height: auto;
+      align-self: center;
+
+      &.small{
+        width: 50%;
+
+        @media (max-width: $mq-md) {
+          width: 100%;
+        }
+      }
+    }
+
+    a{
+      color: $brand-color;
+    }
+
+    ol, li{
+      list-style-position: inside;
+    }
+
+  }
+
+  &__thank-you{
+    font-size: 2em;
+    text-align: center;
+    color: $brand-color;
+    margin: 2em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: $title-font;
+  }
+
+  &__relevant-posts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &__item {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      //width: 100%; //mobile
+      flex: 1 1 250px;
+      margin: 0px 20px 40px;
+      padding-bottom: 30px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      background-color: white;
+      border-radius: 5px;
+      overflow: hidden;
+      text-decoration: none;
+
+      transition: 0.1s ease;
+
+      &:hover {
+        //  transform: scale(1.02);
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+          0 10px 10px rgba(0, 0, 0, 0.22);
+      }
+
+      &__image {
+        width: 100%;
+
+        height: 250px;
+        object-fit: cover;
+        object-position: center center;
+      }
+
+      &__body {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+
+        &__category {
+          padding: 10px;
+          padding-bottom: 0px;
+          text-transform: uppercase;
+          color: orangered;
+          font-weight: bold;
+          text-decoration: none;
+        }
+
+        &__title {
+          font-family: $title-font;
+          position: relative;
+          font-size: 1.5em;
+          padding: 10px;
+          //font-weight: bold;
+        }
+
+        &__date {
+          padding: 10px;
+          display: none;
+        }
+
+        &__extract {
+          padding: 10px;
+          line-height: 1.5em;
+        }
+      }
+    }
+  }
+}
+
+.footer{
+  height: 45vh;
+  width: 100%;
+  background-image: url(https://images.wallpaperscraft.com/image/switzerland_alps_mountains_night_beautiful_landscape_99817_3840x2160.jpg);
+  background-size: cover;
+  background-position: center center;
+}

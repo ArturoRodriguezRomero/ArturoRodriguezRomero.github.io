@@ -1,7 +1,7 @@
 ---
 ---
 
-@import
+/*@import
   'base',
   'mixins',
   'extends',
@@ -10,4 +10,6 @@
   'animations',
   'helpers',
   'native'
-;
+;*/
+
+@import 'v2/native', 'v2/style';

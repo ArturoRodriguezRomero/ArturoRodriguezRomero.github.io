@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,10 +42,10 @@
 </head>
 
 
-  <body>
+<body>
 
-    <main>
-      <section class="archives" itemscope itemtype="http://schema.org/Blog">
+  <main id="app" class="root">
+    <section class="archives" itemscope itemtype="http://schema.org/Blog">
   <a class="nav nav--black" href="/">
     <i class="fa fa-lg fa-arrow-left"></i>
     <span>Back to Posts</span>
@@ -56,10 +56,30 @@
   <div class="section-padding archives__container">
     
       <article class="card" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-        <a class="card__link" href="/2018/05/15/making-a-progressive-web-app/" itemprop="url">
+        <a class="card__link" href="/2018/06/09/new-blog-style/" itemprop="url">
           <div class="card__img">
             
-              <figure class="absolute-bg wow" style="background-image: url('https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/03/1490120495Progressive_Web_App_C-01.png');"></figure>
+              <figure class="absolute-bg wow" style="background-image: url('https://static1.squarespace.com/static/5511fc7ce4b0a3782aa9418b/t/5531dec4e4b0dd67d8b0439b/1429331653973/abstract-art-style-by-thaneeya.jpg');"></figure>
+            
+          </div>
+          <div class="card__container">
+            <h2 class="card__header" itemprop="name">New Blog Style!</h2>
+            <p class="card__count" itemprop="datePublished" datetime="2018-06-09T00:00:00+02:00">
+              Jun 9, 2018
+              
+                in Web-Design
+              
+            </p>
+            <span class="card__more">Read Post</span>
+          </div>
+        </a>
+      </article>
+    
+      <article class="card" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+        <a class="card__link" href="/2018/05/15/practical-guide-to-progressive-web-apps/" itemprop="url">
+          <div class="card__img">
+            
+              <figure class="absolute-bg wow" style="background-image: url('http://www.hollysmithartist.com/uploads/5/0/5/8/50582325/2052375_orig.jpg');"></figure>
             
           </div>
           <div class="card__container">
@@ -318,19 +338,20 @@
   </div>
 </section>
 
-    </main>
+  </main>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
+  <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script type="text/javascript" src="/assets/js/app.js"></script>
+-->
 
-
-  </body>
-  <script>
+</body>
+<!--script>
     if('serviceWorker' in navigator) {
       navigator.serviceWorker
                .register('/sw.js')
                .then(function() { console.log("Service Worker Registered"); });
     }
-    </script>
+    </script-->
+
 </html>

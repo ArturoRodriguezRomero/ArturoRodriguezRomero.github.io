@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,20 +10,20 @@
   <meta name="author" content="Arturo Rodríguez Romero">
   <meta name="description" content="Technology Internet Blog">
   <meta property="og:title" content="Practical Guide to Progressive Web Apps. | Arturo Rodríguez Romero">
-  <meta property="og:url" content="https://github.com/ArturoRodriguezRomero/2018/05/15/making-a-progressive-web-app/">
+  <meta property="og:url" content="https://github.com/ArturoRodriguezRomero/2018/05/15/practical-guide-to-progressive-web-apps/">
   <meta property="og:site_name" content="Arturo Rodríguez Romero">
   <meta property="og:description" content="Practical Guide to Progressive Web Apps.">
-  <meta property="og:image" content="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/03/1490120495Progressive_Web_App_C-01.png">
+  <meta property="og:image" content="http://www.hollysmithartist.com/uploads/5/0/5/8/50582325/2052375_orig.jpg">
   <meta property="og:type" content="blog">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:description" content="Practical Guide to Progressive Web Apps.">
   <meta name="twitter:title" content="Practical Guide to Progressive Web Apps. | Arturo Rodríguez Romero">
-  <meta name="twitter:url" content="https://github.com/ArturoRodriguezRomero/2018/05/15/making-a-progressive-web-app/">
+  <meta name="twitter:url" content="https://github.com/ArturoRodriguezRomero/2018/05/15/practical-guide-to-progressive-web-apps/">
   <meta name="twitter:site" content="Arturo Rodríguez Romero">
   <meta name="twitter:creator" content="@">
   <meta name="twitter:domain" content="https://github.com/ArturoRodriguezRomero">
-  <meta property="twitter:image" content="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/03/1490120495Progressive_Web_App_C-01.png">
+  <meta property="twitter:image" content="http://www.hollysmithartist.com/uploads/5/0/5/8/50582325/2052375_orig.jpg">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Lora|Space+Mono:700">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="/assets/css/main.css">
 
   <link rel="alternate" type="application/rss+xml" title="Arturo Rodríguez Romero" href="https://github.com/ArturoRodriguezRomero/feed.xml">
-  <link rel="canonical" href="https://github.com/ArturoRodriguezRomero/2018/05/15/making-a-progressive-web-app/">
+  <link rel="canonical" href="https://github.com/ArturoRodriguezRomero/2018/05/15/practical-guide-to-progressive-web-apps/">
 
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#f5a503"/>
@@ -42,34 +42,19 @@
 </head>
 
 
-  <body>
+<body>
 
-    <main>
-      <article itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-
-  <header class="section-padding--lg mast rellax" data-rellax-speed="-4">
-    <a class="nav nav--white" href="/">
-      <i class="fa fa-lg fa-arrow-left"></i>
-      <span>Back to Posts</span>
-    </a>
-    <figure class="absolute-bg mast__img" style="background-image: url('https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/03/1490120495Progressive_Web_App_C-01.png');"></figure>
-    <div class="mast__container">
-      <span>
-        <time datetime="2018-05-15T00:00:00+02:00" itemprop="datePublished">May 15, 2018</time>
-      </span>
-      <h1 itemprop="name headline">Practical Guide to Progressive Web Apps.</h1>
-      
-      <span>Posted in 
-        <a class="nav--white category" href="/category/web-design">Web-Design</a> 
-      </span>
-      
-      <span></span>
+  <main id="app" class="root">
+    <article class="post">
+    <div class="post__header">
+        <a class="post__header__back-button fa fa-arrow-left" aria-hidden="true" href="/"></a>
+        <div class="post__header__title">Practical Guide to Progressive Web Apps.</div>
+        <div class="post__header__categories">Web-Design</div>
     </div>
-  </header>
-
-  <section class="section-padding bg-grey" itemprop="articleBody">
-    <div class="post">
-      <p>A new way to deliver amazing user experiences on the web.</p>
+    <div class="post__splash-image" style="background-image: url(http://www.hollysmithartist.com/uploads/5/0/5/8/50582325/2052375_orig.jpg)"></div>
+    <div class="post__content__progress-bar"></div>
+    <section class="post__content">
+        <p>A new way to deliver amazing user experiences on the web.</p>
 
 <p>That’s what Google calls Progressive Web Apps, but <strong>what are they really</strong>?</p>
 
@@ -111,8 +96,9 @@
   <li>Press <code class="highlighter-rouge">F12</code>.</li>
   <li>Go to Audits.</li>
 </ul>
+
 <figure>
-  <img src="/assets/images/audit-1.PNG" alt="audit-1" />
+  <img class="small" src="/assets/images/audit-1.PNG" alt="audit-1" />
 </figure>
 
 <ul>
@@ -120,7 +106,7 @@
 </ul>
 
 <figure>
-  <img src="/assets/images/audit-3.PNG" alt="audit-3" />
+  <img class="small" src="/assets/images/audit-3.PNG" alt="audit-3" />
 </figure>
 
 <p>Well, this is a bit embarrasing. But don’t worry! We will get there, we just need to meet all the <a href="https://developers.google.com/web/progressive-web-apps/checklist">PWA Checklist</a> requirements.</p>
@@ -264,58 +250,47 @@ limitations under the License.
 
 <p>How progressive is that.</p>
 
-    </div>
-  </section>
-
-  <section class="profile">
-    <div class="profile__card">
-      <div class="profile__img">
-        <figure class="absolute-bg" style="background-image: url('/assets/images/kevin.png');"></figure>
-      </div>
-      <div class="profile__container">
-        <h4>Arturo Rodríguez Romero</h4>
-        <p>I'm a 20 year old Internet dude fascinated by a lot of things. Sometimes I like to write about things. I hope you like it. Attached image is accurate.</p>
+    </section>
+    <div class="post__thank-you">Thank you for reading!</div>
+    <div class="post__relevant-posts">
         
-        <ul class="profile__social">
-           
-          <li>
-            <a class="fa fa-lg fa-github" href="https://github.com/ArturoRodriguezRomero" target="_blank"></a>
-          </li>
-          
-        </ul>
+        <a class="post__relevant-posts__item" href="/2018/05/04/types-of-fun/" itemprop="url">
+            <img class="post__relevant-posts__item__image" src="https://blog.vandalog.com/wp-content/uploads/2013/06/youth-waste.jpg"></img>
+            <div class="post__relevant-posts__item__body">
+                <div class="post__relevant-posts__item__body__category" href="/category/Game-Design/">Game-Design</div>
+                <div class="post__relevant-posts__item__body__title">Types of Fun.</div>
+                <div class="post__relevant-posts__item__body__date">May 4, 2018</div>
+                <div class="post__relevant-posts__item__body__extract">Types of fun to have in mind while making your game.</div>
+            </div>
+        </a>
         
-      </div>
+        
+        <a class="post__relevant-posts__item" href="/2018/06/09/new-blog-style/" itemprop="url">
+            <img class="post__relevant-posts__item__image" src="https://static1.squarespace.com/static/5511fc7ce4b0a3782aa9418b/t/5531dec4e4b0dd67d8b0439b/1429331653973/abstract-art-style-by-thaneeya.jpg"></img>
+            <div class="post__relevant-posts__item__body">
+                <div class="post__relevant-posts__item__body__category" href="/category/Web-Design/">Web-Design</div>
+                <div class="post__relevant-posts__item__body__title">New Blog Style!</div>
+                <div class="post__relevant-posts__item__body__date">Jun 9, 2018</div>
+                <div class="post__relevant-posts__item__body__extract">I made a new style for the blog! Enjoy.</div>
+            </div>
+        </a>
+        
     </div>
-  </section>
-
 </article>
+  </main>
 
-
-<section class="post-footer">
-  
-    <a class="item__link" href="/2018/05/04/types-of-fun/" style="background-image: url('https://blog.vandalog.com/wp-content/uploads/2013/06/youth-waste.jpg');">
-      <div class="item__container">
-        <span>Read Previous</span>
-        <h2>Types of Fun.</h2>
-      </div>
-    </a>
-  
-  
-</section>
-
-    </main>
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
+  <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script type="text/javascript" src="/assets/js/app.js"></script>
+-->
 
-
-  </body>
-  <script>
+</body>
+<!--script>
     if('serviceWorker' in navigator) {
       navigator.serviceWorker
                .register('/sw.js')
                .then(function() { console.log("Service Worker Registered"); });
     }
-    </script>
+    </script-->
+
 </html>

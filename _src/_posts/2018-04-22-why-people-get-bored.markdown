@@ -7,6 +7,7 @@ categories:
 description: Psychology for Game Designers.
 image: https://s3.amazonaws.com/wbstaticfiles/users/555/357236_blue-grey-city-sky.jpg
 image-sm: https://s3.amazonaws.com/wbstaticfiles/users/555/357236_blue-grey-city-sky.jpg
+extract: How can people get bored of something inherently fun.
 ---
 
 Learning is **awesome**. It gives you a hit of **endorphins**, it gives you **goosebumps** all over your body, it makes your brain go **wild**.
@@ -41,7 +42,7 @@ This is **not necessarily bad**, but you should make sure your players are still
 
 #### "The game is TOO IN-DEPTH."
 
-This happens then the **game's systems are either too large or too obscure to understand** in a reasonable period of time.
+This happens when the **game's systems are either too large or too obscure to understand** in a reasonable period of time.
 
 This isn't the game's fault. A large amount of in-depth systems provide the player with tons of stuff to learn. The problem comes from the player. Our brains love to learn, but at a reasonable pace.
 You wouldn't give someone who doesn't know anything about math a calculus book. You should start from the base up. First you teach them to add and substract, then multiply and divide, then fractions and algebra, and so on.
@@ -57,7 +58,7 @@ This means that you should **introduce complexity over time**, leaving the playe
 
 #### "The game is TOO HARD."
 
-This occurs when the **player's skill is bellow the game's challenge**.
+This occurs when the **player's skill is below the game's challenge**.
 
 Love for difficulty comes with age and skill. It teaches pacience and discipline, and rewards you for keep playing failure after failure. It's a very valuable thing to teach. But there is a fine line between difficulty by design and difficulty for the sake of difficulty.
 

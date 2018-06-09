@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,34 +42,19 @@
 </head>
 
 
-  <body>
+<body>
 
-    <main>
-      <article itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-
-  <header class="section-padding--lg mast rellax" data-rellax-speed="-4">
-    <a class="nav nav--white" href="/">
-      <i class="fa fa-lg fa-arrow-left"></i>
-      <span>Back to Posts</span>
-    </a>
-    <figure class="absolute-bg mast__img" style="background-image: url('https://s3.amazonaws.com/wbstaticfiles/users/555/357236_blue-grey-city-sky.jpg');"></figure>
-    <div class="mast__container">
-      <span>
-        <time datetime="2018-04-23T00:00:00+02:00" itemprop="datePublished">Apr 23, 2018</time>
-      </span>
-      <h1 itemprop="name headline">Why People get Bored?</h1>
-      
-      <span>Posted in 
-        <a class="nav--white category" href="/category/game-design">Game-Design</a> 
-      </span>
-      
-      <span></span>
+  <main id="app" class="root">
+    <article class="post">
+    <div class="post__header">
+        <a class="post__header__back-button fa fa-arrow-left" aria-hidden="true" href="/"></a>
+        <div class="post__header__title">Why People get Bored?</div>
+        <div class="post__header__categories">Game-Design</div>
     </div>
-  </header>
-
-  <section class="section-padding bg-grey" itemprop="articleBody">
-    <div class="post">
-      <p>Learning is <strong>awesome</strong>. It gives you a hit of <strong>endorphins</strong>, it gives you <strong>goosebumps</strong> all over your body, it makes your brain go <strong>wild</strong>.</p>
+    <div class="post__splash-image" style="background-image: url(https://s3.amazonaws.com/wbstaticfiles/users/555/357236_blue-grey-city-sky.jpg)"></div>
+    <div class="post__content__progress-bar"></div>
+    <section class="post__content">
+        <p>Learning is <strong>awesome</strong>. It gives you a hit of <strong>endorphins</strong>, it gives you <strong>goosebumps</strong> all over your body, it makes your brain go <strong>wild</strong>.</p>
 
 <blockquote>
   <p>The problem with learning is that once you’ve learnt something, <strong>that’s it</strong>.</p>
@@ -103,7 +88,7 @@ This is why <em>children games</em> (a poor term in my opinion) rarely appeal to
 
 <h4 id="the-game-is-too-in-depth">“The game is TOO IN-DEPTH.”</h4>
 
-<p>This happens then the <strong>game’s systems are either too large or too obscure to understand</strong> in a reasonable period of time.</p>
+<p>This happens when the <strong>game’s systems are either too large or too obscure to understand</strong> in a reasonable period of time.</p>
 
 <p>This isn’t the game’s fault. A large amount of in-depth systems provide the player with tons of stuff to learn. The problem comes from the player. Our brains love to learn, but at a reasonable pace.
 You wouldn’t give someone who doesn’t know anything about math a calculus book. You should start from the base up. First you teach them to add and substract, then multiply and divide, then fractions and algebra, and so on.</p>
@@ -119,7 +104,7 @@ You wouldn’t give someone who doesn’t know anything about math a calculus bo
 
 <h4 id="the-game-is-too-hard">“The game is TOO HARD.”</h4>
 
-<p>This occurs when the <strong>player’s skill is bellow the game’s challenge</strong>.</p>
+<p>This occurs when the <strong>player’s skill is below the game’s challenge</strong>.</p>
 
 <p>Love for difficulty comes with age and skill. It teaches pacience and discipline, and rewards you for keep playing failure after failure. It’s a very valuable thing to teach. But there is a fine line between difficulty by design and difficulty for the sake of difficulty.</p>
 
@@ -168,65 +153,47 @@ This doesn’t mean that you should remove things from your game. It means that 
   <p>All games are destined to become boring and tedious, this means the player has learned from the game. And that’s a good thing.</p>
 </blockquote>
 
-    </div>
-  </section>
-
-  <section class="profile">
-    <div class="profile__card">
-      <div class="profile__img">
-        <figure class="absolute-bg" style="background-image: url('/assets/images/kevin.png');"></figure>
-      </div>
-      <div class="profile__container">
-        <h4>Arturo Rodríguez Romero</h4>
-        <p>I'm a 20 year old Internet dude fascinated by a lot of things. Sometimes I like to write about things. I hope you like it. Attached image is accurate.</p>
+    </section>
+    <div class="post__thank-you">Thank you for reading!</div>
+    <div class="post__relevant-posts">
         
-        <ul class="profile__social">
-           
-          <li>
-            <a class="fa fa-lg fa-github" href="https://github.com/ArturoRodriguezRomero" target="_blank"></a>
-          </li>
-          
-        </ul>
+        <a class="post__relevant-posts__item" href="/2018/04/22/what-is-a-game/" itemprop="url">
+            <img class="post__relevant-posts__item__image" src="https://i.pinimg.com/originals/21/e2/de/21e2deafff45ff995ca88688fefc0896.jpg"></img>
+            <div class="post__relevant-posts__item__body">
+                <div class="post__relevant-posts__item__body__category" href="/category/Game-Design/">Game-Design</div>
+                <div class="post__relevant-posts__item__body__title">What is a Game?</div>
+                <div class="post__relevant-posts__item__body__date">Apr 22, 2018</div>
+                <div class="post__relevant-posts__item__body__extract">What are games and why do we call them games.</div>
+            </div>
+        </a>
         
-      </div>
+        
+        <a class="post__relevant-posts__item" href="/2018/04/23/why-people-play-games/" itemprop="url">
+            <img class="post__relevant-posts__item__image" src="https://static1.squarespace.com/static/5511fc7ce4b0a3782aa9418b/t/55369463e4b07d491f6be91b/1429640302372/colorful-abstract-3.jpg"></img>
+            <div class="post__relevant-posts__item__body">
+                <div class="post__relevant-posts__item__body__category" href="/category/Game-Design/">Game-Design</div>
+                <div class="post__relevant-posts__item__body__title">Why People Play Games?</div>
+                <div class="post__relevant-posts__item__body__date">Apr 23, 2018</div>
+                <div class="post__relevant-posts__item__body__extract">Reasons for people to play games and why you should know them.</div>
+            </div>
+        </a>
+        
     </div>
-  </section>
-
 </article>
+  </main>
 
-
-<section class="post-footer">
-  
-    <a class="item__link" href="/2018/04/22/what-is-a-game/" style="background-image: url('https://i.pinimg.com/originals/21/e2/de/21e2deafff45ff995ca88688fefc0896.jpg');">
-      <div class="item__container">
-        <span>Read Previous</span>
-        <h2>What is a Game?</h2>
-      </div>
-    </a>
-  
-  
-  <a class="item__link" href="/2018/04/23/why-people-play-games/" style="background-image: url('https://static1.squarespace.com/static/5511fc7ce4b0a3782aa9418b/t/55369463e4b07d491f6be91b/1429640302372/colorful-abstract-3.jpg');">
-    <div class="item__container">
-      <span>Read Next</span>
-      <h2>Why People Play Games?</h2>
-    </div>
-  </a>
-  
-</section>
-
-    </main>
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
+  <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script type="text/javascript" src="/assets/js/app.js"></script>
+-->
 
-
-  </body>
-  <script>
+</body>
+<!--script>
     if('serviceWorker' in navigator) {
       navigator.serviceWorker
                .register('/sw.js')
                .then(function() { console.log("Service Worker Registered"); });
     }
-    </script>
+    </script-->
+
 </html>

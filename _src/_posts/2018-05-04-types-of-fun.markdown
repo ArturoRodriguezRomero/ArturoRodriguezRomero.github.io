@@ -7,6 +7,7 @@ categories:
 description: Types of Fun.
 image: https://blog.vandalog.com/wp-content/uploads/2013/06/youth-waste.jpg
 image-sm: https://blog.vandalog.com/wp-content/uploads/2013/06/youth-waste.jpg
+extract: Types of fun to have in mind while making your game.
 ---
 
 ## Types of Fun.

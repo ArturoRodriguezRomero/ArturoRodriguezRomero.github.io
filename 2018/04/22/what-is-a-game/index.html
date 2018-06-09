@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,34 +42,19 @@
 </head>
 
 
-  <body>
+<body>
 
-    <main>
-      <article itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-
-  <header class="section-padding--lg mast rellax" data-rellax-speed="-4">
-    <a class="nav nav--white" href="/">
-      <i class="fa fa-lg fa-arrow-left"></i>
-      <span>Back to Posts</span>
-    </a>
-    <figure class="absolute-bg mast__img" style="background-image: url('https://i.pinimg.com/originals/21/e2/de/21e2deafff45ff995ca88688fefc0896.jpg');"></figure>
-    <div class="mast__container">
-      <span>
-        <time datetime="2018-04-22T00:00:00+02:00" itemprop="datePublished">Apr 22, 2018</time>
-      </span>
-      <h1 itemprop="name headline">What is a Game?</h1>
-      
-      <span>Posted in 
-        <a class="nav--white category" href="/category/game-design">Game-Design</a> 
-      </span>
-      
-      <span></span>
+  <main id="app" class="root">
+    <article class="post">
+    <div class="post__header">
+        <a class="post__header__back-button fa fa-arrow-left" aria-hidden="true" href="/"></a>
+        <div class="post__header__title">What is a Game?</div>
+        <div class="post__header__categories">Game-Design</div>
     </div>
-  </header>
-
-  <section class="section-padding bg-grey" itemprop="articleBody">
-    <div class="post">
-      <h2 id="what-is-a-game">What is a Game?</h2>
+    <div class="post__splash-image" style="background-image: url(https://i.pinimg.com/originals/21/e2/de/21e2deafff45ff995ca88688fefc0896.jpg)"></div>
+    <div class="post__content__progress-bar"></div>
+    <section class="post__content">
+        <h2 id="what-is-a-game">What is a Game?</h2>
 
 <blockquote>
   <p>Games are real life.</p>
@@ -158,65 +143,47 @@ You shoot an enemy, it dies. You throw the ball, it may go in or it may not. You
 
 <p>In the <a href="/2018/04/23/why-people-get-bored/">next post</a> I’ll be covering the subject of <strong>Boredom on Games</strong>.</p>
 
-    </div>
-  </section>
-
-  <section class="profile">
-    <div class="profile__card">
-      <div class="profile__img">
-        <figure class="absolute-bg" style="background-image: url('/assets/images/kevin.png');"></figure>
-      </div>
-      <div class="profile__container">
-        <h4>Arturo Rodríguez Romero</h4>
-        <p>I'm a 20 year old Internet dude fascinated by a lot of things. Sometimes I like to write about things. I hope you like it. Attached image is accurate.</p>
+    </section>
+    <div class="post__thank-you">Thank you for reading!</div>
+    <div class="post__relevant-posts">
         
-        <ul class="profile__social">
-           
-          <li>
-            <a class="fa fa-lg fa-github" href="https://github.com/ArturoRodriguezRomero" target="_blank"></a>
-          </li>
-          
-        </ul>
+        <a class="post__relevant-posts__item" href="/2018/04/22/our-brain-is-lazy/" itemprop="url">
+            <img class="post__relevant-posts__item__image" src="https://img.etsystatic.com/il/4abc3e/1131215348/il_fullxfull.1131215348_lihr.jpg?version=0"></img>
+            <div class="post__relevant-posts__item__body">
+                <div class="post__relevant-posts__item__body__category" href="/category/Game-Design/">Game-Design</div>
+                <div class="post__relevant-posts__item__body__title">Why Is our Brain Lazy?</div>
+                <div class="post__relevant-posts__item__body__date">Apr 22, 2018</div>
+                <div class="post__relevant-posts__item__body__extract">How and why our brain deals with laziness.</div>
+            </div>
+        </a>
         
-      </div>
+        
+        <a class="post__relevant-posts__item" href="/2018/04/23/why-people-get-bored/" itemprop="url">
+            <img class="post__relevant-posts__item__image" src="https://s3.amazonaws.com/wbstaticfiles/users/555/357236_blue-grey-city-sky.jpg"></img>
+            <div class="post__relevant-posts__item__body">
+                <div class="post__relevant-posts__item__body__category" href="/category/Game-Design/">Game-Design</div>
+                <div class="post__relevant-posts__item__body__title">Why People get Bored?</div>
+                <div class="post__relevant-posts__item__body__date">Apr 23, 2018</div>
+                <div class="post__relevant-posts__item__body__extract">How can people get bored of something inherently fun.</div>
+            </div>
+        </a>
+        
     </div>
-  </section>
-
 </article>
+  </main>
 
-
-<section class="post-footer">
-  
-    <a class="item__link" href="/2018/04/22/our-brain-is-lazy/" style="background-image: url('https://img.etsystatic.com/il/4abc3e/1131215348/il_fullxfull.1131215348_lihr.jpg?version=0');">
-      <div class="item__container">
-        <span>Read Previous</span>
-        <h2>Why Is our Brain Lazy?</h2>
-      </div>
-    </a>
-  
-  
-  <a class="item__link" href="/2018/04/23/why-people-get-bored/" style="background-image: url('https://s3.amazonaws.com/wbstaticfiles/users/555/357236_blue-grey-city-sky.jpg');">
-    <div class="item__container">
-      <span>Read Next</span>
-      <h2>Why People get Bored?</h2>
-    </div>
-  </a>
-  
-</section>
-
-    </main>
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
+  <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script type="text/javascript" src="/assets/js/app.js"></script>
+-->
 
-
-  </body>
-  <script>
+</body>
+<!--script>
     if('serviceWorker' in navigator) {
       navigator.serviceWorker
                .register('/sw.js')
                .then(function() { console.log("Service Worker Registered"); });
     }
-    </script>
+    </script-->
+
 </html>

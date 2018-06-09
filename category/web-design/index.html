@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,17 +42,19 @@
 </head>
 
 
-  <body>
+<body>
 
-    <main>
-      <section class="previews">
+  <main id="app" class="root">
+    <section class="previews">
   <div>
     <a class="nav nav--white" href="/">
       <i class="fa fa-lg fa-arrow-left"></i>
       <span>Back to Posts</span>
     </a>
     
-      <figure class="absolute-bg preview__img" style="background-image: url('https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/03/1490120495Progressive_Web_App_C-01.png');"></figure>
+      <figure class="absolute-bg preview__img" style="background-image: url('https://static1.squarespace.com/static/5511fc7ce4b0a3782aa9418b/t/5531dec4e4b0dd67d8b0439b/1429331653973/abstract-art-style-by-thaneeya.jpg');"></figure>
+    
+      <figure class="absolute-bg preview__img" style="background-image: url('http://www.hollysmithartist.com/uploads/5/0/5/8/50582325/2052375_orig.jpg');"></figure>
     
       <figure class="absolute-bg preview__img" style="background-image: url('https://www.bookstr.com/sites/default/files/2018-04/book%20art.jpg');"></figure>
     
@@ -74,7 +76,16 @@
       <ul itemscope itemtype="https://schema.org/Blog">
         
           <li class="preview" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-            <a class="preview__link" href="/2018/05/15/making-a-progressive-web-app/" itemprop="url">
+            <a class="preview__link" href="/2018/06/09/new-blog-style/" itemprop="url">
+              <span class="preview__date" itemprop="datePublished" datetime="2018-06-09T00:00:00+02:00">Jun 9, 2018</span>
+              <h2 class="preview__header" itemprop="name">New Blog Style!</h2>
+              <p class="preview__excerpt" itemprop="description">First off, sorry for not posting lately. I’ve been very busy and haven’t had the time. Now, I made a brand new style for the blog. I wasn’t liking the...</p>
+              <span class="preview__more">Read More</span>
+            </a>
+          </li>
+        
+          <li class="preview" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+            <a class="preview__link" href="/2018/05/15/practical-guide-to-progressive-web-apps/" itemprop="url">
               <span class="preview__date" itemprop="datePublished" datetime="2018-05-15T00:00:00+02:00">May 15, 2018</span>
               <h2 class="preview__header" itemprop="name">Practical Guide to Progressive Web Apps.</h2>
               <p class="preview__excerpt" itemprop="description">A new way to deliver amazing user experiences on the web. That’s what Google calls Progressive Web Apps, but what are they really? Practical Guide to Progressive Web Apps. Well,...</p>
@@ -153,13 +164,13 @@
           
             <div class="card__img">
               
-                <figure class="absolute-bg" style="background-image: url('https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/03/1490120495Progressive_Web_App_C-01.png');"></figure>
+                <figure class="absolute-bg" style="background-image: url('https://static1.squarespace.com/static/5511fc7ce4b0a3782aa9418b/t/5531dec4e4b0dd67d8b0439b/1429331653973/abstract-art-style-by-thaneeya.jpg');"></figure>
               
             </div>
           
           <div class="card__container">
             <h2 class="card__header">Web-Design</h2>
-            <p class="card__count">2 Posts</p>
+            <p class="card__count">3 Posts</p>
             <span class="card__more">View All</span>
           </div>
         </a>
@@ -183,19 +194,20 @@
   </div>
 </section>
 
-    </main>
+  </main>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
+  <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script type="text/javascript" src="/assets/js/app.js"></script>
+-->
 
-
-  </body>
-  <script>
+</body>
+<!--script>
     if('serviceWorker' in navigator) {
       navigator.serviceWorker
                .register('/sw.js')
                .then(function() { console.log("Service Worker Registered"); });
     }
-    </script>
+    </script-->
+
 </html>

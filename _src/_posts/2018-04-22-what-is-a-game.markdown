@@ -7,6 +7,7 @@ categories:
 description: Psychology for Game Designers
 image: https://i.pinimg.com/originals/21/e2/de/21e2deafff45ff995ca88688fefc0896.jpg
 image-sm: https://i.pinimg.com/originals/21/e2/de/21e2deafff45ff995ca88688fefc0896.jpg
+extract: What are games and why do we call them games.
 ---
 
 ## What is a Game?

@@ -7,6 +7,8 @@ categories:
 description: Simple Jekyll Blog with Github Pages.
 image: https://www.bookstr.com/sites/default/files/2018-04/book%20art.jpg
 image-sm: https://www.bookstr.com/sites/default/files/2018-04/book%20art.jpg
+
+extract: How to create a personal blog with Jekull and Github Pages.
 ---
 ## Simple Jekyll Blog with Github Pages.
 

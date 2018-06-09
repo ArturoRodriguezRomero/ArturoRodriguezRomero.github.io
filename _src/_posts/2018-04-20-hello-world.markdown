@@ -7,6 +7,7 @@ categories:
 description: Welcome to the first ever Internet Blog™
 image: /assets/images/world.jpg
 image-sm: /assets/images/world.jpg
+extract: A little something to celebrate my first blog post.
 ---
 
 ### Welcome to the first ever Internet Blog™.

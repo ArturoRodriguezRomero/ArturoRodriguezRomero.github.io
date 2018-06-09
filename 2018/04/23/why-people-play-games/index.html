@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,34 +42,19 @@
 </head>
 
 
-  <body>
+<body>
 
-    <main>
-      <article itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-
-  <header class="section-padding--lg mast rellax" data-rellax-speed="-4">
-    <a class="nav nav--white" href="/">
-      <i class="fa fa-lg fa-arrow-left"></i>
-      <span>Back to Posts</span>
-    </a>
-    <figure class="absolute-bg mast__img" style="background-image: url('https://static1.squarespace.com/static/5511fc7ce4b0a3782aa9418b/t/55369463e4b07d491f6be91b/1429640302372/colorful-abstract-3.jpg');"></figure>
-    <div class="mast__container">
-      <span>
-        <time datetime="2018-04-23T00:00:00+02:00" itemprop="datePublished">Apr 23, 2018</time>
-      </span>
-      <h1 itemprop="name headline">Why People Play Games?</h1>
-      
-      <span>Posted in 
-        <a class="nav--white category" href="/category/game-design">Game-Design</a> 
-      </span>
-      
-      <span></span>
+  <main id="app" class="root">
+    <article class="post">
+    <div class="post__header">
+        <a class="post__header__back-button fa fa-arrow-left" aria-hidden="true" href="/"></a>
+        <div class="post__header__title">Why People Play Games?</div>
+        <div class="post__header__categories">Game-Design</div>
     </div>
-  </header>
-
-  <section class="section-padding bg-grey" itemprop="articleBody">
-    <div class="post">
-      <h2 id="why-people-play-games">Why people play games.</h2>
+    <div class="post__splash-image" style="background-image: url(https://static1.squarespace.com/static/5511fc7ce4b0a3782aa9418b/t/55369463e4b07d491f6be91b/1429640302372/colorful-abstract-3.jpg)"></div>
+    <div class="post__content__progress-bar"></div>
+    <section class="post__content">
+        <h2 id="why-people-play-games">Why people play games.</h2>
 
 <p>There are many reason why people may play games, here are a few of them:</p>
 
@@ -121,65 +106,47 @@
 
 <p>There is no “right” way to play a game. Games should be able to have a story, be competitive or be infinitely replayable. But a game should always prioritize <strong>fun</strong> over everything else. Or have the story, the competitive aspect and the replayability support the systems that make the game fun.</p>
 
-    </div>
-  </section>
-
-  <section class="profile">
-    <div class="profile__card">
-      <div class="profile__img">
-        <figure class="absolute-bg" style="background-image: url('/assets/images/kevin.png');"></figure>
-      </div>
-      <div class="profile__container">
-        <h4>Arturo Rodríguez Romero</h4>
-        <p>I'm a 20 year old Internet dude fascinated by a lot of things. Sometimes I like to write about things. I hope you like it. Attached image is accurate.</p>
+    </section>
+    <div class="post__thank-you">Thank you for reading!</div>
+    <div class="post__relevant-posts">
         
-        <ul class="profile__social">
-           
-          <li>
-            <a class="fa fa-lg fa-github" href="https://github.com/ArturoRodriguezRomero" target="_blank"></a>
-          </li>
-          
-        </ul>
+        <a class="post__relevant-posts__item" href="/2018/04/23/why-people-get-bored/" itemprop="url">
+            <img class="post__relevant-posts__item__image" src="https://s3.amazonaws.com/wbstaticfiles/users/555/357236_blue-grey-city-sky.jpg"></img>
+            <div class="post__relevant-posts__item__body">
+                <div class="post__relevant-posts__item__body__category" href="/category/Game-Design/">Game-Design</div>
+                <div class="post__relevant-posts__item__body__title">Why People get Bored?</div>
+                <div class="post__relevant-posts__item__body__date">Apr 23, 2018</div>
+                <div class="post__relevant-posts__item__body__extract">How can people get bored of something inherently fun.</div>
+            </div>
+        </a>
         
-      </div>
+        
+        <a class="post__relevant-posts__item" href="/2018/04/24/making-a-great-game/" itemprop="url">
+            <img class="post__relevant-posts__item__image" src="https://images.huffingtonpost.com/2013-10-02-NormanLewisUntitled.jpg"></img>
+            <div class="post__relevant-posts__item__body">
+                <div class="post__relevant-posts__item__body__category" href="/category/Game-Design/">Game-Design</div>
+                <div class="post__relevant-posts__item__body__title">Making a Great Game.</div>
+                <div class="post__relevant-posts__item__body__date">Apr 24, 2018</div>
+                <div class="post__relevant-posts__item__body__extract">A short bullet point to have in mind while making your game.</div>
+            </div>
+        </a>
+        
     </div>
-  </section>
-
 </article>
+  </main>
 
-
-<section class="post-footer">
-  
-    <a class="item__link" href="/2018/04/23/why-people-get-bored/" style="background-image: url('https://s3.amazonaws.com/wbstaticfiles/users/555/357236_blue-grey-city-sky.jpg');">
-      <div class="item__container">
-        <span>Read Previous</span>
-        <h2>Why People get Bored?</h2>
-      </div>
-    </a>
-  
-  
-  <a class="item__link" href="/2018/04/24/making-a-great-game/" style="background-image: url('https://images.huffingtonpost.com/2013-10-02-NormanLewisUntitled.jpg');">
-    <div class="item__container">
-      <span>Read Next</span>
-      <h2>Making a Great Game.</h2>
-    </div>
-  </a>
-  
-</section>
-
-    </main>
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
+  <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script type="text/javascript" src="/assets/js/app.js"></script>
+-->
 
-
-  </body>
-  <script>
+</body>
+<!--script>
     if('serviceWorker' in navigator) {
       navigator.serviceWorker
                .register('/sw.js')
                .then(function() { console.log("Service Worker Registered"); });
     }
-    </script>
+    </script-->
+
 </html>

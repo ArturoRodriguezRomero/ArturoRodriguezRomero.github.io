@@ -7,6 +7,7 @@ categories:
 description: Psychology for Game Designers
 image: https://img.etsystatic.com/il/4abc3e/1131215348/il_fullxfull.1131215348_lihr.jpg?version=0
 image-sm: https://img.etsystatic.com/il/4abc3e/1131215348/il_fullxfull.1131215348_lihr.jpg?version=0
+extract: Three things you should add to your game to make it more interesting.
 ---
 
 All games are about learning. You objective a as developer should be the same as the that of a teacher, **help people learn new things and develop new skills**. There are a few things that can help to increase your *student*'s learning and overall interest in your *subject*.
